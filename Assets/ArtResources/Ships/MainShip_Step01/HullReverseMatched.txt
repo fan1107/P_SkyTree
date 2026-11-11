@@ -1,0 +1,3 @@
+Built-in image_gen edit. Input 1: supplied reverse-view ship; input 2: HullOriginalCutout.png as palette/style reference.
+Prompt: Preserve reverse-view structure, match muted aged honey/russet wood, umber hull and antique brass of existing ship. Clean edge clarity, remove blue background to transparent alpha. No added props.
+Saved as companion asset only; current lobby hull reference unchanged.

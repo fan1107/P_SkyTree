@@ -1,0 +1,22 @@
+Two-crew deployment, 2026-11-11
+
+Saved prefabs:
+Assets/Prefabs/MainShip/BattleShip.prefab: Long at the upper cannon, navigator at lower cannon.
+Assets/SkyTree/Prefabs/LobbyView.prefab: two independently configured LobbyCaptainWander components.
+
+BattleShipView instantiates both prefabs as CanvasCrewRig projections, including inactive
+attack arms, with world SpriteRenderers disabled. The controller's fire event is the
+authoritative shot cue. BattleCannonSequence begins an Attack, then waits for its event
+before spawning flash/projectile/recoil. Crew alternate, with 2.7 seconds per crew cycle.
+Cannon artwork is limited to +/-12 degrees to keep it upright and within arm reach.
+
+The navigator patrols the front deck on a separate route with a different start delay
+and pace. Both paths respect their deck boundary and tree/cannon clearance checks.
+The female controller's Speed parameter is used for locomotion, while Long retains
+direct state crossfades. Per-part Canvas visibility follows the skeleton's active state.
+
+Verification: actual Play mode integration audit in Assets/Tests/CrewDeployment/CrewDeploymentVerify.cs.
+Results in results.txt. Capture files Attack-0.png / Attack-1.png show actual fire frames;
+Lobby-final.png shows both crew on deck. The audit also checks pause and repeated page entry.
+An earlier screenshot-plugin capture caused an editor PlayerLoop recursion error; screenshots
+were switched to normal end-of-frame ScreenCapture. Final gameplay audit has no console errors.

@@ -1,0 +1,4147 @@
+fileFormatVersion: 2
+guid: 4644f47eb61e02f43a546bf413fc9a2d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6061225435279967365
+    second: FemaleNavigatorPartsAtlas_0
+  - first:
+      213: -9217451458614413995
+    second: FemaleNavigatorPartsAtlas_1
+  - first:
+      213: -2808955105707974542
+    second: FemaleNavigatorPartsAtlas_2
+  - first:
+      213: -6919360278384653949
+    second: FemaleNavigatorPartsAtlas_3
+  - first:
+      213: -8806925768134855813
+    second: FemaleNavigatorPartsAtlas_4
+  - first:
+      213: 8053813284887831343
+    second: FemaleNavigatorPartsAtlas_5
+  - first:
+      213: 2003169047433591368
+    second: FemaleNavigatorPartsAtlas_6
+  - first:
+      213: 2233300741033164227
+    second: FemaleNavigatorPartsAtlas_7
+  - first:
+      213: 4895094870742293987
+    second: FemaleNavigatorPartsAtlas_8
+  - first:
+      213: -6936383934409141987
+    second: FemaleNavigatorPartsAtlas_9
+  - first:
+      213: 6427560028592233571
+    second: FemaleNavigatorPartsAtlas_10
+  - first:
+      213: 7130456257258861161
+    second: FemaleNavigatorPartsAtlas_11
+  - first:
+      213: -5165029765147839756
+    second: FemaleNavigatorPartsAtlas_12
+  - first:
+      213: -5409047407284230808
+    second: FemaleNavigatorPartsAtlas_13
+  - first:
+      213: -6802051156780362677
+    second: FemaleNavigatorPartsAtlas_14
+  - first:
+      213: 8292667382747561260
+    second: FemaleNavigatorPartsAtlas_15
+  - first:
+      213: -4017558109301125843
+    second: FemaleNavigatorPartsAtlas_16
+  - first:
+      213: -8562828337183630829
+    second: FemaleNavigatorPartsAtlas_17
+  - first:
+      213: 1731167731251875765
+    second: FemaleNavigatorPartsAtlas_18
+  - first:
+      213: -2804745763111503253
+    second: FemaleNavigatorPartsAtlas_19
+  - first:
+      213: 1805426344747012680
+    second: FemaleNavigatorPartsAtlas_20
+  - first:
+      213: 7479614850427458799
+    second: FemaleNavigatorPartsAtlas_21
+  - first:
+      213: 7453358693129248624
+    second: FemaleNavigatorPartsAtlas_22
+  - first:
+      213: -4775332869382284906
+    second: FemaleNavigatorPartsAtlas_23
+  - first:
+      213: -5245916888505316176
+    second: FemaleNavigatorPartsAtlas_24
+  - first:
+      213: -8674671234694791643
+    second: FemaleNavigatorPartsAtlas_25
+  - first:
+      213: -858640524084455899
+    second: FemaleNavigatorPartsAtlas_26
+  - first:
+      213: 4044071795245305213
+    second: FemaleNavigatorPartsAtlas_27
+  - first:
+      213: -253178045354108266
+    second: FemaleNavigatorPartsAtlas_28
+  - first:
+      213: -4500625751064603480
+    second: FemaleNavigatorPartsAtlas_29
+  - first:
+      213: 2695716576565494086
+    second: FemaleNavigatorPartsAtlas_30
+  - first:
+      213: 8323667468008988963
+    second: FemaleNavigatorPartsAtlas_31
+  - first:
+      213: 3582253104192379436
+    second: FemaleNavigatorPartsAtlas_32
+  - first:
+      213: -3154882971495982915
+    second: FemaleNavigatorPartsAtlas_33
+  - first:
+      213: 1566438475416436971
+    second: FemaleNavigatorPartsAtlas_34
+  - first:
+      213: 8418202058314528840
+    second: FemaleNavigatorPartsAtlas_35
+  - first:
+      213: -6964396163852137273
+    second: FemaleNavigatorPartsAtlas_36
+  - first:
+      213: -3886184778354571771
+    second: FemaleNavigatorPartsAtlas_37
+  - first:
+      213: 7608413504208365808
+    second: FemaleNavigatorPartsAtlas_38
+  - first:
+      213: -5536687128211664215
+    second: FemaleNavigatorPartsAtlas_39
+  - first:
+      213: 4463186010089081642
+    second: FemaleNavigatorPartsAtlas_40
+  - first:
+      213: 8155444202990642921
+    second: FemaleNavigatorPartsAtlas_41
+  - first:
+      213: -404328867720655456
+    second: FemaleNavigatorPartsAtlas_42
+  - first:
+      213: 7767964834877564347
+    second: FemaleNavigatorPartsAtlas_43
+  - first:
+      213: -511293040190975695
+    second: FemaleNavigatorPartsAtlas_44
+  - first:
+      213: 8298804565357511902
+    second: FemaleNavigatorPartsAtlas_45
+  - first:
+      213: -3396634919603041541
+    second: FemaleNavigatorPartsAtlas_46
+  - first:
+      213: -6091082641355705466
+    second: FemaleNavigatorPartsAtlas_47
+  - first:
+      213: -3739051216536663499
+    second: FemaleNavigatorPartsAtlas_48
+  - first:
+      213: -1269276243456081824
+    second: FemaleNavigatorPartsAtlas_49
+  - first:
+      213: -8628939305238231316
+    second: FemaleNavigatorPartsAtlas_50
+  - first:
+      213: -4401466970067492514
+    second: FemaleNavigatorPartsAtlas_51
+  - first:
+      213: -7135651802960630320
+    second: FemaleNavigatorPartsAtlas_52
+  - first:
+      213: 4490375030417389128
+    second: FemaleNavigatorPartsAtlas_53
+  - first:
+      213: 3986208158462126851
+    second: FemaleNavigatorPartsAtlas_54
+  - first:
+      213: 8235984247543154753
+    second: FemaleNavigatorPartsAtlas_55
+  - first:
+      213: -5308333390484415560
+    second: FemaleNavigatorPartsAtlas_56
+  - first:
+      213: 2587751998452430576
+    second: FemaleNavigatorPartsAtlas_57
+  - first:
+      213: 3842176330907368972
+    second: FemaleNavigatorPartsAtlas_58
+  - first:
+      213: -6623176495961041262
+    second: FemaleNavigatorPartsAtlas_59
+  - first:
+      213: 5170631298792371739
+    second: FemaleNavigatorPartsAtlas_60
+  - first:
+      213: -3354282563315148205
+    second: FemaleNavigatorPartsAtlas_61
+  - first:
+      213: -4367665660869267776
+    second: FemaleNavigatorPartsAtlas_62
+  - first:
+      213: 726985083785213974
+    second: FemaleNavigatorPartsAtlas_63
+  - first:
+      213: -8130685065896821666
+    second: FemaleNavigatorPartsAtlas_64
+  - first:
+      213: 7980215052956880120
+    second: FemaleNavigatorPartsAtlas_65
+  - first:
+      213: 7451363917257225374
+    second: FemaleNavigatorPartsAtlas_66
+  - first:
+      213: -8850394067400633318
+    second: FemaleNavigatorPartsAtlas_67
+  - first:
+      213: 6772390383780607567
+    second: FemaleNavigatorPartsAtlas_68
+  - first:
+      213: -8978692562262389175
+    second: FemaleNavigatorPartsAtlas_69
+  - first:
+      213: 854242745269086974
+    second: FemaleNavigatorPartsAtlas_70
+  - first:
+      213: -5784502787194243994
+    second: FemaleNavigatorPartsAtlas_71
+  - first:
+      213: 2920757290774978569
+    second: FemaleNavigatorPartsAtlas_72
+  - first:
+      213: -9072808576913950966
+    second: FemaleNavigatorPartsAtlas_73
+  - first:
+      213: -344963669374094993
+    second: FemaleNavigatorPartsAtlas_74
+  - first:
+      213: -1476121042350377993
+    second: FemaleNavigatorPartsAtlas_75
+  - first:
+      213: -5128896956490005445
+    second: FemaleNavigatorPartsAtlas_76
+  - first:
+      213: -7525937556000898191
+    second: FemaleNavigatorPartsAtlas_77
+  - first:
+      213: -5618930354833057883
+    second: FemaleNavigatorPartsAtlas_78
+  - first:
+      213: -7839154724361793633
+    second: FemaleNavigatorPartsAtlas_79
+  - first:
+      213: -3985635259886139870
+    second: FemaleNavigatorPartsAtlas_80
+  - first:
+      213: 7707984927305553674
+    second: FemaleNavigatorPartsAtlas_81
+  - first:
+      213: 1939359260471748556
+    second: FemaleNavigatorPartsAtlas_82
+  - first:
+      213: 7481098950972895180
+    second: FemaleNavigatorPartsAtlas_83
+  - first:
+      213: 2647179236444784948
+    second: FemaleNavigatorPartsAtlas_84
+  - first:
+      213: 8326826122883028105
+    second: FemaleNavigatorPartsAtlas_85
+  - first:
+      213: 7081546640960160647
+    second: FemaleNavigatorPartsAtlas_86
+  - first:
+      213: -8879438588626148301
+    second: FemaleNavigatorPartsAtlas_87
+  - first:
+      213: 2991033734731588302
+    second: FemaleNavigatorPartsAtlas_88
+  - first:
+      213: -3215111591387457872
+    second: FemaleNavigatorPartsAtlas_89
+  - first:
+      213: -4346576939727686847
+    second: FemaleNavigatorPartsAtlas_90
+  - first:
+      213: 6780425963541928896
+    second: FemaleNavigatorPartsAtlas_91
+  - first:
+      213: -8830548291552219523
+    second: FemaleNavigatorPartsAtlas_92
+  - first:
+      213: -5351536004030803559
+    second: FemaleNavigatorPartsAtlas_93
+  - first:
+      213: 6080516790906609793
+    second: FemaleNavigatorPartsAtlas_94
+  - first:
+      213: 2719879432473808857
+    second: FemaleNavigatorPartsAtlas_95
+  - first:
+      213: -1687139536828635001
+    second: FemaleNavigatorPartsAtlas_96
+  - first:
+      213: -3695653467649764917
+    second: FemaleNavigatorPartsAtlas_97
+  - first:
+      213: -2153370095935067205
+    second: FemaleNavigatorPartsAtlas_98
+  - first:
+      213: -5602097679843056148
+    second: FemaleNavigatorPartsAtlas_99
+  - first:
+      213: 1101025094054939662
+    second: FemaleNavigatorPartsAtlas_100
+  - first:
+      213: 2935676068250033939
+    second: FemaleNavigatorPartsAtlas_101
+  - first:
+      213: 2096279295780995476
+    second: FemaleNavigatorPartsAtlas_102
+  - first:
+      213: -5451989286138127366
+    second: FemaleNavigatorPartsAtlas_103
+  - first:
+      213: 3184953100684122106
+    second: FemaleNavigatorPartsAtlas_104
+  - first:
+      213: 4291167280231450084
+    second: FemaleNavigatorPartsAtlas_105
+  - first:
+      213: -2576318068888836655
+    second: FemaleNavigatorPartsAtlas_106
+  - first:
+      213: -2951218413589761380
+    second: FemaleNavigatorPartsAtlas_107
+  - first:
+      213: 7747383203551757764
+    second: FemaleNavigatorPartsAtlas_108
+  - first:
+      213: 2603322725041564842
+    second: FemaleNavigatorPartsAtlas_109
+  - first:
+      213: 4823786098429746819
+    second: FemaleNavigatorPartsAtlas_110
+  - first:
+      213: -4763394368147419139
+    second: FemaleNavigatorPartsAtlas_111
+  - first:
+      213: -4953619975187496675
+    second: FemaleNavigatorPartsAtlas_112
+  - first:
+      213: 2530648505026692011
+    second: FemaleNavigatorPartsAtlas_113
+  - first:
+      213: -6678907370331747531
+    second: FemaleNavigatorPartsAtlas_114
+  - first:
+      213: -7124773047490322251
+    second: FemaleNavigatorPartsAtlas_115
+  - first:
+      213: -884413784952611109
+    second: FemaleNavigatorPartsAtlas_116
+  - first:
+      213: 8586518231792023225
+    second: FemaleNavigatorPartsAtlas_117
+  - first:
+      213: 6862615690551695051
+    second: FemaleNavigatorPartsAtlas_118
+  - first:
+      213: -5184020375941637199
+    second: FemaleNavigatorPartsAtlas_119
+  - first:
+      213: -2726766885738483017
+    second: FemaleNavigatorPartsAtlas_120
+  - first:
+      213: -218468726344785496
+    second: FemaleNavigatorPartsAtlas_121
+  - first:
+      213: 8665042821966009140
+    second: FemaleNavigatorPartsAtlas_122
+  - first:
+      213: -3338923865596957670
+    second: FemaleNavigatorPartsAtlas_123
+  - first:
+      213: -5153597666074311988
+    second: FemaleNavigatorPartsAtlas_124
+  - first:
+      213: 3508605894977416184
+    second: FemaleNavigatorPartsAtlas_125
+  - first:
+      213: -7567931407579346861
+    second: FemaleNavigatorPartsAtlas_126
+  - first:
+      213: 3091994442726764106
+    second: FemaleNavigatorPartsAtlas_127
+  - first:
+      213: 5253280698071753619
+    second: FemaleNavigatorPartsAtlas_128
+  - first:
+      213: -2072698134543088242
+    second: FemaleNavigatorPartsAtlas_129
+  - first:
+      213: 2930925269418580348
+    second: FemaleNavigatorPartsAtlas_130
+  - first:
+      213: -2948905427594454674
+    second: FemaleNavigatorPartsAtlas_131
+  - first:
+      213: -5991495372513679414
+    second: FemaleNavigatorPartsAtlas_132
+  - first:
+      213: -7271004392341749633
+    second: FemaleNavigatorPartsAtlas_133
+  - first:
+      213: -4601955284461430693
+    second: FemaleNavigatorPartsAtlas_134
+  - first:
+      213: -1128478675925148420
+    second: FemaleNavigatorPartsAtlas_135
+  - first:
+      213: 2508449526243898971
+    second: FemaleNavigatorPartsAtlas_136
+  - first:
+      213: 5875059296829423226
+    second: FemaleNavigatorPartsAtlas_137
+  - first:
+      213: 5100144779397181714
+    second: FemaleNavigatorPartsAtlas_138
+  - first:
+      213: -7803717132954269721
+    second: FemaleNavigatorPartsAtlas_139
+  - first:
+      213: -3646203473763392250
+    second: FemaleNavigatorPartsAtlas_140
+  - first:
+      213: 4441803442617273622
+    second: FemaleNavigatorPartsAtlas_141
+  - first:
+      213: -2788731743429347320
+    second: FemaleNavigatorPartsAtlas_142
+  - first:
+      213: -4122224239730162929
+    second: FemaleNavigatorPartsAtlas_143
+  - first:
+      213: 4617372976906179233
+    second: FemaleNavigatorPartsAtlas_144
+  - first:
+      213: 4666268545814987970
+    second: FemaleNavigatorPartsAtlas_145
+  - first:
+      213: 1759081285437975754
+    second: FemaleNavigatorPartsAtlas_146
+  - first:
+      213: 4160297841018929606
+    second: FemaleNavigatorPartsAtlas_147
+  - first:
+      213: 3350287184551144232
+    second: FemaleNavigatorPartsAtlas_148
+  - first:
+      213: 8910559646148051680
+    second: FemaleNavigatorPartsAtlas_149
+  - first:
+      213: 42455036337585534
+    second: FemaleNavigatorPartsAtlas_150
+  - first:
+      213: 1377591717679610479
+    second: FemaleNavigatorPartsAtlas_151
+  - first:
+      213: -590896418619632410
+    second: FemaleNavigatorPartsAtlas_152
+  - first:
+      213: -513330496978813844
+    second: FemaleNavigatorPartsAtlas_153
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 185
+        width: 1057
+        height: 899
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584cc6d6b6ccd1450800000000000000
+      internalID: 6061225435279967365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 637
+        width: 470
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555b1ea0cb8051080800000000000000
+      internalID: -9217451458614413995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1059
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270a14eb6369409d0800000000000000
+      internalID: -2808955105707974542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 988
+        width: 5
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3894fe5bc7e79ff90800000000000000
+      internalID: -6919360278384653949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 368
+        width: 248
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73761bcca387c580800000000000000
+      internalID: -8806925768134855813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 701
+        width: 122
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23af0df284e4cf60800000000000000
+      internalID: 8053813284887831343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 704
+        width: 96
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a3659a2afaccb10800000000000000
+      internalID: 2003169047433591368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 736
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cdf5e101374efe10800000000000000
+      internalID: 2233300741033164227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 558
+        width: 178
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed5e6089dedee340800000000000000
+      internalID: 4895094870742293987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 736
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1111dbef830dbf90800000000000000
+      internalID: -6936383934409141987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 315
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c5db49ac7433950800000000000000
+      internalID: 6427560028592233571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 720
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962306cef2874f260800000000000000
+      internalID: 7130456257258861161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 696
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f23b0a4bc02258b0800000000000000
+      internalID: -5165029765147839756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 548
+        width: 100
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865639b9a043fe4b0800000000000000
+      internalID: -5409047407284230808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_14
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 649
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44521003824a91a0800000000000000
+      internalID: -6802051156780362677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_15
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 630
+        width: 78
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2df2255c09751370800000000000000
+      internalID: 8292667382747561260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_16
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 483
+        width: 211
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2dcd9e7f24ce38c0800000000000000
+      internalID: -4017558109301125843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_17
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 639
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a5581cef8ba2980800000000000000
+      internalID: -8562828337183630829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_18
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 591
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf03e321e7560810800000000000000
+      internalID: 1731167731251875765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_19
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 572
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6af470b69a8319d0800000000000000
+      internalID: -2804745763111503253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_20
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 429
+        width: 327
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84217cae1b92e0910800000000000000
+      internalID: 1805426344747012680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_21
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 619
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe41778e31eecc760800000000000000
+      internalID: 7479614850427458799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_22
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 584
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07fd987ed36af6760800000000000000
+      internalID: 7453358693129248624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_23
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 597
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699d83c5e0c9abdb0800000000000000
+      internalID: -4775332869382284906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_24
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 548
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc0b6b4262c237b0800000000000000
+      internalID: -5245916888505316176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_25
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 548
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52eb7b0f8706d9780800000000000000
+      internalID: -8674671234694791643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_26
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 554
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526d03c1efe7514f0800000000000000
+      internalID: -858640524084455899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_27
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 557
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7dc5c11fdd6f1830800000000000000
+      internalID: 4044071795245305213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_28
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 555
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a9dbdb8e78c7cf0800000000000000
+      internalID: -253178045354108266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_29
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 556
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a491d889b09a81c0800000000000000
+      internalID: -4500625751064603480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_30
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 532
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6418151a1fb196520800000000000000
+      internalID: 2695716576565494086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_31
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 550
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321a623267b938370800000000000000
+      internalID: 8323667468008988963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_32
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 425
+        width: 118
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a5deaf738b6b130800000000000000
+      internalID: 3582253104192379436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_33
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 507
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db89d0817aa9734d0800000000000000
+      internalID: -3154882971495982915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_34
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 518
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be083b97e7b1db510800000000000000
+      internalID: 1566438475416436971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_35
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 260
+        width: 140
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848bc45ab2673d470800000000000000
+      internalID: 8418202058314528840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_36
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 479
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc0082869e795f90800000000000000
+      internalID: -6964396163852137273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_37
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 422
+        width: 59
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50645a2b88f711ac0800000000000000
+      internalID: -3886184778354571771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_38
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 487
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8ef9e55c3869960800000000000000
+      internalID: 7608413504208365808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_39
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 487
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2577a346cb923b0800000000000000
+      internalID: -5536687128211664215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_40
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 493
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b4ad9770c60fd30800000000000000
+      internalID: 4463186010089081642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_41
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 483
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6a6c01b45fd2170800000000000000
+      internalID: 8155444202990642921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_42
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 499
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad031b7909836af0800000000000000
+      internalID: -404328867720655456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_43
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 463
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb56a926cda5dcb60800000000000000
+      internalID: 7767964834877564347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_44
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 442
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131994b50b587e8f0800000000000000
+      internalID: -511293040190975695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_45
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 471
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4468288c64b2370800000000000000
+      internalID: 8298804565357511902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_46
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 409
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa8f59698abcd0d0800000000000000
+      internalID: -3396634919603041541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_47
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 437
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683f1701c90287ba0800000000000000
+      internalID: -6091082641355705466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_48
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 443
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a07599ab83c1cc0800000000000000
+      internalID: -3739051216536663499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_49
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 400
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06045f24bff926ee0800000000000000
+      internalID: -1269276243456081824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_50
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 443
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce68ed28b69df3880800000000000000
+      internalID: -8628939305238231316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_51
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 449
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5123865c19dae2c0800000000000000
+      internalID: -4401466970067492514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_52
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 429
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dde7a3dd7219fc90800000000000000
+      internalID: -7135651802960630320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_53
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 445
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846ff449c44015e30800000000000000
+      internalID: 4490375030417389128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_54
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 400
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b26e5433bd15730800000000000000
+      internalID: 3986208158462126851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_55
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 426
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148c58a79081c4270800000000000000
+      internalID: 8235984247543154753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_56
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 437
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbd4d6f7e20556b0800000000000000
+      internalID: -5308333390484415560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_57
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 256
+        width: 135
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6709a6bba89e320800000000000000
+      internalID: 2587751998452430576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_58
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 442
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0eb5282407225530800000000000000
+      internalID: 3842176330907368972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_59
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 434
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29696896110c514a0800000000000000
+      internalID: -6623176495961041262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_60
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 429
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16390565c5c1c740800000000000000
+      internalID: 5170631298792371739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_61
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 418
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a5059c7c13371d0800000000000000
+      internalID: -3354282563315148205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_62
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 428
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce273ae83fe263c0800000000000000
+      internalID: -4367665660869267776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_63
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 424
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618760cf415c61a00800000000000000
+      internalID: 726985083785213974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_64
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 0
+        width: 757
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c75a2c2010a2f80800000000000000
+      internalID: -8130685065896821666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_65
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 428
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc48b64f4b6fbe60800000000000000
+      internalID: 7980215052956880120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_66
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 432
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94b744f000986760800000000000000
+      internalID: 7451363917257225374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_67
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 429
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a145c52bc751d2580800000000000000
+      internalID: -8850394067400633318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_68
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 424
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46b3812c2d5cfd50800000000000000
+      internalID: 6772390383780607567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_69
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 404
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e88ee8fa6456380800000000000000
+      internalID: -8978692562262389175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_70
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 360
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efae7b73041eadb00800000000000000
+      internalID: 854242745269086974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_71
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 345
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664b707dc5159bfa0800000000000000
+      internalID: -5784502787194243994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_72
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 364
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90066c7f74d988820800000000000000
+      internalID: 2920757290774978569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_73
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 0
+        width: 241
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a073de94ba8e61280800000000000000
+      internalID: -9072808576913950966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_74
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 343
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61ba82de51763bf0800000000000000
+      internalID: -344963669374094993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_75
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 345
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3f9399bb3c38be0800000000000000
+      internalID: -1476121042350377993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_76
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 341
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34c4d2646f72d8b0800000000000000
+      internalID: -5128896956490005445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_77
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 342
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1738bccbaaf7e8790800000000000000
+      internalID: -7525937556000898191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_78
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 321
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a71486dc9c8502b0800000000000000
+      internalID: -5618930354833057883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_79
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 295
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f0713df4ab53390800000000000000
+      internalID: -7839154724361793633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_80
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 297
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226073219dd20b8c0800000000000000
+      internalID: -3985635259886139870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_81
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 291
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07dc16e37348fa60800000000000000
+      internalID: 7707984927305553674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_82
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 275
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc76844e8fcf9ea10800000000000000
+      internalID: 1939359260471748556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_83
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 281
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf694efbd332d760800000000000000
+      internalID: 7481098950972895180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_84
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 274
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439c41d7d7bacb420800000000000000
+      internalID: 2647179236444784948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_85
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 288
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984d2e8cd34de8370800000000000000
+      internalID: 8326826122883028105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_86
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7838aca7625b64260800000000000000
+      internalID: 7081546640960160647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_87
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 258
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334ea0026a5e5c480800000000000000
+      internalID: -8879438588626148301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_88
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 248
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2e2e5a559428920800000000000000
+      internalID: 2991033734731588302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_89
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 266
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b61c12ca01a163d0800000000000000
+      internalID: -3215111591387457872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_90
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 266
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14370ae6d4bdda3c0800000000000000
+      internalID: -4346576939727686847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_91
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 268
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb90c65d79e81e50800000000000000
+      internalID: 6780425963541928896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_92
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 248
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ee8167d17937580800000000000000
+      internalID: -8830548291552219523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_93
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 272
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991d705ab568bb5b0800000000000000
+      internalID: -5351536004030803559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_94
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 261
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18069cc2ec5526450800000000000000
+      internalID: 6080516790906609793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_95
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 262
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df0e7ceee3feb520800000000000000
+      internalID: 2719879432473808857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_96
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 254
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788efc4b7831698e0800000000000000
+      internalID: -1687139536828635001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_97
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 250
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc19bc760c666bcc0800000000000000
+      internalID: -3695653467649764917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_98
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 129
+        width: 92
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb67d98e41bd12e0800000000000000
+      internalID: -2153370095935067205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_99
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 248
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce52ae367d95142b0800000000000000
+      internalID: -5602097679843056148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_100
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 216
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c8fe35d70a74f00800000000000000
+      internalID: 1101025094054939662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_101
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 175
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f98a784dd9db820800000000000000
+      internalID: 2935676068250033939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_102
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 196
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4914807b9ea771d10800000000000000
+      internalID: 2096279295780995476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_103
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 226
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb508051a4a654b0800000000000000
+      internalID: -5451989286138127366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_104
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 185
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af75e8078f9333c20800000000000000
+      internalID: 3184953100684122106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_105
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 67
+        width: 57
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e589f1e7e94d8b30800000000000000
+      internalID: 4291167280231450084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_106
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 193
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5e573cd541f3cd0800000000000000
+      internalID: -2576318068888836655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_107
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 187
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92f3633d7a2b07d0800000000000000
+      internalID: -2951218413589761380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_108
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 129
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5c78ae9fb348b60800000000000000
+      internalID: 7747383203551757764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_109
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 151
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aacedc5b93cd02420800000000000000
+      internalID: 2603322725041564842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_110
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 161
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e5f5526e781f240800000000000000
+      internalID: 4823786098429746819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_111
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 175
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff0a794f0605edb0800000000000000
+      internalID: -4763394368147419139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_112
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 171
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d118ba2c0e4314bb0800000000000000
+      internalID: -4953619975187496675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_113
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 167
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba34d79486bae1320800000000000000
+      internalID: 2530648505026692011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_114
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 145
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b43af0221cf43a0800000000000000
+      internalID: -6678907370331747531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_115
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 163
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0ef0779a8bf1d90800000000000000
+      internalID: -7124773047490322251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_116
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 149
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bded071395ee9b3f0800000000000000
+      internalID: -884413784952611109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_117
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 144
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6f067a6d0792770800000000000000
+      internalID: 8586518231792023225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_118
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 147
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc61b516c98ec3f50800000000000000
+      internalID: 6862615690551695051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_119
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 118
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb9c972fe8ae08b0800000000000000
+      internalID: -5184020375941637199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 100
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b27246e6f3982ad0800000000000000
+      internalID: -2726766885738483017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_121
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 96
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1efa3d9d7d7fcf0800000000000000
+      internalID: -218468726344785496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_122
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 125
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43315d6898a604870800000000000000
+      internalID: 8665042821966009140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_123
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 104
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ce4034f62c9a1d0800000000000000
+      internalID: -3338923865596957670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_124
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 100
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2cb564a3eba78b0800000000000000
+      internalID: -5153597666074311988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_125
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 125
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb68fad87211b030800000000000000
+      internalID: 3508605894977416184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_126
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 123
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35806be3b7e49f690800000000000000
+      internalID: -7567931407579346861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_127
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 84
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ee5364098f8ea20800000000000000
+      internalID: 3091994442726764106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_128
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 71
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393abf936f667e840800000000000000
+      internalID: 5253280698071753619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_129
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 72
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85c1fb370c4c33e0800000000000000
+      internalID: -2072698134543088242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_130
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 13
+        width: 112
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7919eaf00dbca820800000000000000
+      internalID: 2930925269418580348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_131
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 84
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69d20833226317d0800000000000000
+      internalID: -2948905427594454674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_132
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 25
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7ece7f3bee9dca0800000000000000
+      internalID: -5991495372513679414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_133
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 86
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f704a225704381b90800000000000000
+      internalID: -7271004392341749633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_134
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 56
+        width: 71
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58d17d0d029220c0800000000000000
+      internalID: -4601955284461430693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_135
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 31
+        width: 80
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfcd0e88f96d650f0800000000000000
+      internalID: -1128478675925148420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_136
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 82
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56b3c4cd8dcfc220800000000000000
+      internalID: 2508449526243898971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_137
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 84
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ebfd59d47688150800000000000000
+      internalID: 5875059296829423226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_138
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 86
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2113807b7aa57c640800000000000000
+      internalID: 5100144779397181714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_139
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 63
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e781aa0d90a3b390800000000000000
+      internalID: -7803717132954269721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_140
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 64
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605a98f4245166dc0800000000000000
+      internalID: -3646203473763392250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_141
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 64
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d4f4782b474ad30800000000000000
+      internalID: 4441803442617273622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_142
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 60
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808b903314f6c49d0800000000000000
+      internalID: -2788731743429347320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_143
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 61
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03016af4eaeac6c0800000000000000
+      internalID: -4122224239730162929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_144
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 27
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a21bf33244341040800000000000000
+      internalID: 4617372976906179233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_145
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 43
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c481ebf48ae1c040800000000000000
+      internalID: 4666268545814987970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_146
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 58
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc619deb13896810800000000000000
+      internalID: 1759081285437975754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_147
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 25
+        width: 112
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c102cd18d85cb930800000000000000
+      internalID: 4160297841018929606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_148
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 48
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82be6ba917c9e7e20800000000000000
+      internalID: 3350287184551144232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_149
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 27
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2c59ab9caa8ab70800000000000000
+      internalID: 8910559646148051680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_150
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7df3df61a4d69000800000000000000
+      internalID: 42455036337585534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_151
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 11
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a30d15e503e1310800000000000000
+      internalID: 1377591717679610479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_152
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 17
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4502586d6bcc7f0800000000000000
+      internalID: -590896418619632410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FemaleNavigatorPartsAtlas_153
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 15
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6cf33bf1a840e8f0800000000000000
+      internalID: -513330496978813844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FemaleNavigatorPartsAtlas_0: 6061225435279967365
+      FemaleNavigatorPartsAtlas_1: -9217451458614413995
+      FemaleNavigatorPartsAtlas_10: 6427560028592233571
+      FemaleNavigatorPartsAtlas_100: 1101025094054939662
+      FemaleNavigatorPartsAtlas_101: 2935676068250033939
+      FemaleNavigatorPartsAtlas_102: 2096279295780995476
+      FemaleNavigatorPartsAtlas_103: -5451989286138127366
+      FemaleNavigatorPartsAtlas_104: 3184953100684122106
+      FemaleNavigatorPartsAtlas_105: 4291167280231450084
+      FemaleNavigatorPartsAtlas_106: -2576318068888836655
+      FemaleNavigatorPartsAtlas_107: -2951218413589761380
+      FemaleNavigatorPartsAtlas_108: 7747383203551757764
+      FemaleNavigatorPartsAtlas_109: 2603322725041564842
+      FemaleNavigatorPartsAtlas_11: 7130456257258861161
+      FemaleNavigatorPartsAtlas_110: 4823786098429746819
+      FemaleNavigatorPartsAtlas_111: -4763394368147419139
+      FemaleNavigatorPartsAtlas_112: -4953619975187496675
+      FemaleNavigatorPartsAtlas_113: 2530648505026692011
+      FemaleNavigatorPartsAtlas_114: -6678907370331747531
+      FemaleNavigatorPartsAtlas_115: -7124773047490322251
+      FemaleNavigatorPartsAtlas_116: -884413784952611109
+      FemaleNavigatorPartsAtlas_117: 8586518231792023225
+      FemaleNavigatorPartsAtlas_118: 6862615690551695051
+      FemaleNavigatorPartsAtlas_119: -5184020375941637199
+      FemaleNavigatorPartsAtlas_12: -5165029765147839756
+      FemaleNavigatorPartsAtlas_120: -2726766885738483017
+      FemaleNavigatorPartsAtlas_121: -218468726344785496
+      FemaleNavigatorPartsAtlas_122: 8665042821966009140
+      FemaleNavigatorPartsAtlas_123: -3338923865596957670
+      FemaleNavigatorPartsAtlas_124: -5153597666074311988
+      FemaleNavigatorPartsAtlas_125: 3508605894977416184
+      FemaleNavigatorPartsAtlas_126: -7567931407579346861
+      FemaleNavigatorPartsAtlas_127: 3091994442726764106
+      FemaleNavigatorPartsAtlas_128: 5253280698071753619
+      FemaleNavigatorPartsAtlas_129: -2072698134543088242
+      FemaleNavigatorPartsAtlas_13: -5409047407284230808
+      FemaleNavigatorPartsAtlas_130: 2930925269418580348
+      FemaleNavigatorPartsAtlas_131: -2948905427594454674
+      FemaleNavigatorPartsAtlas_132: -5991495372513679414
+      FemaleNavigatorPartsAtlas_133: -7271004392341749633
+      FemaleNavigatorPartsAtlas_134: -4601955284461430693
+      FemaleNavigatorPartsAtlas_135: -1128478675925148420
+      FemaleNavigatorPartsAtlas_136: 2508449526243898971
+      FemaleNavigatorPartsAtlas_137: 5875059296829423226
+      FemaleNavigatorPartsAtlas_138: 5100144779397181714
+      FemaleNavigatorPartsAtlas_139: -7803717132954269721
+      FemaleNavigatorPartsAtlas_14: -6802051156780362677
+      FemaleNavigatorPartsAtlas_140: -3646203473763392250
+      FemaleNavigatorPartsAtlas_141: 4441803442617273622
+      FemaleNavigatorPartsAtlas_142: -2788731743429347320
+      FemaleNavigatorPartsAtlas_143: -4122224239730162929
+      FemaleNavigatorPartsAtlas_144: 4617372976906179233
+      FemaleNavigatorPartsAtlas_145: 4666268545814987970
+      FemaleNavigatorPartsAtlas_146: 1759081285437975754
+      FemaleNavigatorPartsAtlas_147: 4160297841018929606
+      FemaleNavigatorPartsAtlas_148: 3350287184551144232
+      FemaleNavigatorPartsAtlas_149: 8910559646148051680
+      FemaleNavigatorPartsAtlas_15: 8292667382747561260
+      FemaleNavigatorPartsAtlas_150: 42455036337585534
+      FemaleNavigatorPartsAtlas_151: 1377591717679610479
+      FemaleNavigatorPartsAtlas_152: -590896418619632410
+      FemaleNavigatorPartsAtlas_153: -513330496978813844
+      FemaleNavigatorPartsAtlas_16: -4017558109301125843
+      FemaleNavigatorPartsAtlas_17: -8562828337183630829
+      FemaleNavigatorPartsAtlas_18: 1731167731251875765
+      FemaleNavigatorPartsAtlas_19: -2804745763111503253
+      FemaleNavigatorPartsAtlas_2: -2808955105707974542
+      FemaleNavigatorPartsAtlas_20: 1805426344747012680
+      FemaleNavigatorPartsAtlas_21: 7479614850427458799
+      FemaleNavigatorPartsAtlas_22: 7453358693129248624
+      FemaleNavigatorPartsAtlas_23: -4775332869382284906
+      FemaleNavigatorPartsAtlas_24: -5245916888505316176
+      FemaleNavigatorPartsAtlas_25: -8674671234694791643
+      FemaleNavigatorPartsAtlas_26: -858640524084455899
+      FemaleNavigatorPartsAtlas_27: 4044071795245305213
+      FemaleNavigatorPartsAtlas_28: -253178045354108266
+      FemaleNavigatorPartsAtlas_29: -4500625751064603480
+      FemaleNavigatorPartsAtlas_3: -6919360278384653949
+      FemaleNavigatorPartsAtlas_30: 2695716576565494086
+      FemaleNavigatorPartsAtlas_31: 8323667468008988963
+      FemaleNavigatorPartsAtlas_32: 3582253104192379436
+      FemaleNavigatorPartsAtlas_33: -3154882971495982915
+      FemaleNavigatorPartsAtlas_34: 1566438475416436971
+      FemaleNavigatorPartsAtlas_35: 8418202058314528840
+      FemaleNavigatorPartsAtlas_36: -6964396163852137273
+      FemaleNavigatorPartsAtlas_37: -3886184778354571771
+      FemaleNavigatorPartsAtlas_38: 7608413504208365808
+      FemaleNavigatorPartsAtlas_39: -5536687128211664215
+      FemaleNavigatorPartsAtlas_4: -8806925768134855813
+      FemaleNavigatorPartsAtlas_40: 4463186010089081642
+      FemaleNavigatorPartsAtlas_41: 8155444202990642921
+      FemaleNavigatorPartsAtlas_42: -404328867720655456
+      FemaleNavigatorPartsAtlas_43: 7767964834877564347
+      FemaleNavigatorPartsAtlas_44: -511293040190975695
+      FemaleNavigatorPartsAtlas_45: 8298804565357511902
+      FemaleNavigatorPartsAtlas_46: -3396634919603041541
+      FemaleNavigatorPartsAtlas_47: -6091082641355705466
+      FemaleNavigatorPartsAtlas_48: -3739051216536663499
+      FemaleNavigatorPartsAtlas_49: -1269276243456081824
+      FemaleNavigatorPartsAtlas_5: 8053813284887831343
+      FemaleNavigatorPartsAtlas_50: -8628939305238231316
+      FemaleNavigatorPartsAtlas_51: -4401466970067492514
+      FemaleNavigatorPartsAtlas_52: -7135651802960630320
+      FemaleNavigatorPartsAtlas_53: 4490375030417389128
+      FemaleNavigatorPartsAtlas_54: 3986208158462126851
+      FemaleNavigatorPartsAtlas_55: 8235984247543154753
+      FemaleNavigatorPartsAtlas_56: -5308333390484415560
+      FemaleNavigatorPartsAtlas_57: 2587751998452430576
+      FemaleNavigatorPartsAtlas_58: 3842176330907368972
+      FemaleNavigatorPartsAtlas_59: -6623176495961041262
+      FemaleNavigatorPartsAtlas_6: 2003169047433591368
+      FemaleNavigatorPartsAtlas_60: 5170631298792371739
+      FemaleNavigatorPartsAtlas_61: -3354282563315148205
+      FemaleNavigatorPartsAtlas_62: -4367665660869267776
+      FemaleNavigatorPartsAtlas_63: 726985083785213974
+      FemaleNavigatorPartsAtlas_64: -8130685065896821666
+      FemaleNavigatorPartsAtlas_65: 7980215052956880120
+      FemaleNavigatorPartsAtlas_66: 7451363917257225374
+      FemaleNavigatorPartsAtlas_67: -8850394067400633318
+      FemaleNavigatorPartsAtlas_68: 6772390383780607567
+      FemaleNavigatorPartsAtlas_69: -8978692562262389175
+      FemaleNavigatorPartsAtlas_7: 2233300741033164227
+      FemaleNavigatorPartsAtlas_70: 854242745269086974
+      FemaleNavigatorPartsAtlas_71: -5784502787194243994
+      FemaleNavigatorPartsAtlas_72: 2920757290774978569
+      FemaleNavigatorPartsAtlas_73: -9072808576913950966
+      FemaleNavigatorPartsAtlas_74: -344963669374094993
+      FemaleNavigatorPartsAtlas_75: -1476121042350377993
+      FemaleNavigatorPartsAtlas_76: -5128896956490005445
+      FemaleNavigatorPartsAtlas_77: -7525937556000898191
+      FemaleNavigatorPartsAtlas_78: -5618930354833057883
+      FemaleNavigatorPartsAtlas_79: -7839154724361793633
+      FemaleNavigatorPartsAtlas_8: 4895094870742293987
+      FemaleNavigatorPartsAtlas_80: -3985635259886139870
+      FemaleNavigatorPartsAtlas_81: 7707984927305553674
+      FemaleNavigatorPartsAtlas_82: 1939359260471748556
+      FemaleNavigatorPartsAtlas_83: 7481098950972895180
+      FemaleNavigatorPartsAtlas_84: 2647179236444784948
+      FemaleNavigatorPartsAtlas_85: 8326826122883028105
+      FemaleNavigatorPartsAtlas_86: 7081546640960160647
+      FemaleNavigatorPartsAtlas_87: -8879438588626148301
+      FemaleNavigatorPartsAtlas_88: 2991033734731588302
+      FemaleNavigatorPartsAtlas_89: -3215111591387457872
+      FemaleNavigatorPartsAtlas_9: -6936383934409141987
+      FemaleNavigatorPartsAtlas_90: -4346576939727686847
+      FemaleNavigatorPartsAtlas_91: 6780425963541928896
+      FemaleNavigatorPartsAtlas_92: -8830548291552219523
+      FemaleNavigatorPartsAtlas_93: -5351536004030803559
+      FemaleNavigatorPartsAtlas_94: 6080516790906609793
+      FemaleNavigatorPartsAtlas_95: 2719879432473808857
+      FemaleNavigatorPartsAtlas_96: -1687139536828635001
+      FemaleNavigatorPartsAtlas_97: -3695653467649764917
+      FemaleNavigatorPartsAtlas_98: -2153370095935067205
+      FemaleNavigatorPartsAtlas_99: -5602097679843056148
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,10 @@
+Current tree layers
+- SkyTreeTrunkBranches.png: trunk, branches, planting rim.
+- CanopyTop.png: upper foliage, transparent PNG.
+- CanopyLowerLeft.png: lower-left foliage, transparent PNG.
+- CanopyRight.png: right foliage, transparent PNG.
+
+The three canopy PNGs are exported from the existing region boundaries without repainting. Each retains the original canvas size for exact alignment. Every visible source pixel belongs to exactly one PNG.
+MainShip_Step01.prefab references these PNGs directly. CanopyRegion components were removed from the three objects; CanopySway and all existing transforms are preserved.
+SkyTreeFoliage.png and the inactive Foliage object are retained as the original backup. Earlier Canopy*.asset files are legacy and are not used by the current canopy objects.
+Verified PNG references after reloading the prefab, with all three sway components present.

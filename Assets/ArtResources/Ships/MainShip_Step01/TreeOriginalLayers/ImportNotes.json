@@ -1,0 +1,13 @@
+{
+  "source": "codex-clipboard-64fea0fb-30c7-474c-8502-6796b5adbaf8.png",
+  "method": "Original RGB pixels retained; neutral dark background alpha removed; visible wood and 3 foliage groups exported as separate PNGs. No repainting or hidden branch reconstruction.",
+  "assets": {
+    "TrunkBranches": "f58326a98f2e4b1e94b1b9a298a41f5b",
+    "CanopyTop": "0c04cccf6b6f44e1957b05db37e5a61a",
+    "CanopyLowerLeft": "0470cf5d4a0845c6802fedc6bd47483c",
+    "CanopyRight": "8b12cd7d42e04fefb1267882cafec2cb"
+  },
+  "prefab": "D:\\MyProject\\P_SkyTree\\Assets\\SkyTree\\Prefabs\\MainShip_Step01.prefab",
+  "backup": "D:\\MyProject\\P_SkyTree\\Tools\\ArtImport\\Backups\\20261111-161824",
+  "animation": "Existing CanopySway on 3 active leaves; extra old leaf duplicate retained inactive."
+}

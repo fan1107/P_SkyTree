@@ -1,0 +1,2743 @@
+fileFormatVersion: 2
+guid: 91ffd503908990741b59f6ed9d5ffb91
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4973183728511225259
+    second: CaptainPartsAtlas_0
+  - first:
+      213: -522237705488175169
+    second: CaptainPartsAtlas_1
+  - first:
+      213: 6222629748381582054
+    second: CaptainPartsAtlas_2
+  - first:
+      213: -7906681465050207406
+    second: CaptainPartsAtlas_3
+  - first:
+      213: -3319715516584873282
+    second: CaptainPartsAtlas_4
+  - first:
+      213: 828629914681683678
+    second: CaptainPartsAtlas_5
+  - first:
+      213: -4982192870478484181
+    second: CaptainPartsAtlas_6
+  - first:
+      213: 5171042053575542792
+    second: CaptainPartsAtlas_7
+  - first:
+      213: 6115899420226060878
+    second: CaptainPartsAtlas_8
+  - first:
+      213: -4807231164480835663
+    second: CaptainPartsAtlas_9
+  - first:
+      213: -604892126003698993
+    second: CaptainPartsAtlas_10
+  - first:
+      213: 5933235119169161317
+    second: CaptainPartsAtlas_11
+  - first:
+      213: 2130363821358467476
+    second: CaptainPartsAtlas_12
+  - first:
+      213: -8135789143647302582
+    second: CaptainPartsAtlas_13
+  - first:
+      213: 7465433266315179348
+    second: CaptainPartsAtlas_14
+  - first:
+      213: 249192353348853128
+    second: CaptainPartsAtlas_15
+  - first:
+      213: 3252819949125041893
+    second: CaptainPartsAtlas_16
+  - first:
+      213: 6573445869094456331
+    second: CaptainPartsAtlas_17
+  - first:
+      213: 2429928994007123398
+    second: CaptainPartsAtlas_18
+  - first:
+      213: 7143557734715111550
+    second: CaptainPartsAtlas_19
+  - first:
+      213: -3723576447715569308
+    second: CaptainPartsAtlas_20
+  - first:
+      213: 8490559380703472042
+    second: CaptainPartsAtlas_21
+  - first:
+      213: -7435690058409763905
+    second: CaptainPartsAtlas_22
+  - first:
+      213: 4352465125000758149
+    second: CaptainPartsAtlas_23
+  - first:
+      213: 1311727676084644579
+    second: CaptainPartsAtlas_24
+  - first:
+      213: -6251229111720708499
+    second: CaptainPartsAtlas_25
+  - first:
+      213: 8278448755831706759
+    second: CaptainPartsAtlas_26
+  - first:
+      213: -2892966405316131314
+    second: CaptainPartsAtlas_27
+  - first:
+      213: 6397701695484477789
+    second: CaptainPartsAtlas_28
+  - first:
+      213: -151613012358743522
+    second: CaptainPartsAtlas_29
+  - first:
+      213: 4518295783192203943
+    second: CaptainPartsAtlas_30
+  - first:
+      213: 1452700260466313868
+    second: CaptainPartsAtlas_31
+  - first:
+      213: -2686015207838596912
+    second: CaptainPartsAtlas_32
+  - first:
+      213: -3064356523864069654
+    second: CaptainPartsAtlas_33
+  - first:
+      213: 1189920090706004539
+    second: CaptainPartsAtlas_34
+  - first:
+      213: 4671049089152090872
+    second: CaptainPartsAtlas_35
+  - first:
+      213: -8635933988501483184
+    second: CaptainPartsAtlas_36
+  - first:
+      213: 8778572325160105137
+    second: CaptainPartsAtlas_37
+  - first:
+      213: 7380379675604638458
+    second: CaptainPartsAtlas_38
+  - first:
+      213: -3089287852754610420
+    second: CaptainPartsAtlas_39
+  - first:
+      213: -5238764762322812388
+    second: CaptainPartsAtlas_40
+  - first:
+      213: -6604306891186771344
+    second: CaptainPartsAtlas_41
+  - first:
+      213: -3314115738045825422
+    second: CaptainPartsAtlas_42
+  - first:
+      213: 3842609948081056315
+    second: CaptainPartsAtlas_43
+  - first:
+      213: -6486661452758087891
+    second: CaptainPartsAtlas_44
+  - first:
+      213: 7779031879784668641
+    second: CaptainPartsAtlas_45
+  - first:
+      213: -8450181600797901641
+    second: CaptainPartsAtlas_46
+  - first:
+      213: -327205323366445922
+    second: CaptainPartsAtlas_47
+  - first:
+      213: 7459214773900876429
+    second: CaptainPartsAtlas_48
+  - first:
+      213: -8596735229357671822
+    second: CaptainPartsAtlas_49
+  - first:
+      213: 3417448403731885358
+    second: CaptainPartsAtlas_50
+  - first:
+      213: 1583221763364320027
+    second: CaptainPartsAtlas_51
+  - first:
+      213: -1204895556468933140
+    second: CaptainPartsAtlas_52
+  - first:
+      213: 3600891838272536487
+    second: CaptainPartsAtlas_53
+  - first:
+      213: -2177119052036284636
+    second: CaptainPartsAtlas_54
+  - first:
+      213: -224940636898039937
+    second: CaptainPartsAtlas_55
+  - first:
+      213: 637221764771483054
+    second: CaptainPartsAtlas_56
+  - first:
+      213: -233532663097563989
+    second: CaptainPartsAtlas_57
+  - first:
+      213: 4600337767336723039
+    second: CaptainPartsAtlas_58
+  - first:
+      213: 3999580180213317317
+    second: CaptainPartsAtlas_59
+  - first:
+      213: -741353252365233894
+    second: CaptainPartsAtlas_60
+  - first:
+      213: 3870924756733884682
+    second: CaptainPartsAtlas_61
+  - first:
+      213: 4887185384261360014
+    second: CaptainPartsAtlas_62
+  - first:
+      213: 4957749441186052099
+    second: CaptainPartsAtlas_63
+  - first:
+      213: 6813658305079752489
+    second: CaptainPartsAtlas_64
+  - first:
+      213: 5392754422243843050
+    second: CaptainPartsAtlas_65
+  - first:
+      213: -522665231224857409
+    second: CaptainPartsAtlas_66
+  - first:
+      213: -7168346754220785808
+    second: CaptainPartsAtlas_67
+  - first:
+      213: -9189861933285399756
+    second: CaptainPartsAtlas_68
+  - first:
+      213: 8898144897257948909
+    second: CaptainPartsAtlas_69
+  - first:
+      213: -8106123731187977370
+    second: CaptainPartsAtlas_70
+  - first:
+      213: -4003965379709949897
+    second: CaptainPartsAtlas_71
+  - first:
+      213: 1130686147233601105
+    second: CaptainPartsAtlas_72
+  - first:
+      213: -485775041230819429
+    second: CaptainPartsAtlas_73
+  - first:
+      213: -5809224130315516785
+    second: CaptainPartsAtlas_74
+  - first:
+      213: 2068786599733068889
+    second: CaptainPartsAtlas_75
+  - first:
+      213: 6875324129984550515
+    second: CaptainPartsAtlas_76
+  - first:
+      213: 2952815812161142743
+    second: CaptainPartsAtlas_77
+  - first:
+      213: -3312126829115267135
+    second: CaptainPartsAtlas_78
+  - first:
+      213: -36150902039120215
+    second: CaptainPartsAtlas_79
+  - first:
+      213: 6738109820468315284
+    second: CaptainPartsAtlas_80
+  - first:
+      213: -7232374491069566275
+    second: CaptainPartsAtlas_81
+  - first:
+      213: -978282138393391024
+    second: CaptainPartsAtlas_82
+  - first:
+      213: -1815540696192020291
+    second: CaptainPartsAtlas_83
+  - first:
+      213: 8521536472002278998
+    second: CaptainPartsAtlas_84
+  - first:
+      213: 2643204591614831648
+    second: CaptainPartsAtlas_85
+  - first:
+      213: -745493022002407185
+    second: CaptainPartsAtlas_86
+  - first:
+      213: 2529741185978397780
+    second: CaptainPartsAtlas_87
+  - first:
+      213: 2548120592893063509
+    second: CaptainPartsAtlas_88
+  - first:
+      213: -2686749970646530637
+    second: CaptainPartsAtlas_89
+  - first:
+      213: -5873052593671521645
+    second: CaptainPartsAtlas_90
+  - first:
+      213: -2820122251303745047
+    second: CaptainPartsAtlas_91
+  - first:
+      213: 7082289976840299904
+    second: CaptainPartsAtlas_92
+  - first:
+      213: -4586552489160769076
+    second: CaptainPartsAtlas_93
+  - first:
+      213: 5559278239290161358
+    second: CaptainPartsAtlas_94
+  - first:
+      213: 7051288107301415897
+    second: CaptainPartsAtlas_95
+  - first:
+      213: 8659008467334250809
+    second: CaptainPartsAtlas_96
+  - first:
+      213: -2919520185966247054
+    second: CaptainPartsAtlas_97
+  - first:
+      213: -8793708651830317623
+    second: CaptainPartsAtlas_98
+  - first:
+      213: -5970663974910932456
+    second: CaptainPartsAtlas_99
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 650
+        width: 484
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552f55b7fb3bbfab0800000000000000
+      internalID: -4973183728511225259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 795
+        width: 320
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfef04e293a0c8f0800000000000000
+      internalID: -522237705488175169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1197
+        width: 60
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2001989c83b5650800000000000000
+      internalID: 6222629748381582054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1140
+        width: 102
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b64835913d54290800000000000000
+      internalID: -7906681465050207406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1116
+        width: 206
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb23b9683500ee1d0800000000000000
+      internalID: -3319715516584873282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1160
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede2dd26482ef7b00800000000000000
+      internalID: 828629914681683678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1159
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d65a82bf1bbdab0800000000000000
+      internalID: -4982192870478484181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 668
+        width: 435
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8080af1b95b33c740800000000000000
+      internalID: 5171042053575542792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1108
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4287988e1a00e450800000000000000
+      internalID: 6115899420226060878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1106
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfaee7c9b8494db0800000000000000
+      internalID: -4807231164480835663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1088
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc26e16f0ddfa97f0800000000000000
+      internalID: -604892126003698993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 972
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56843feb7e5175250800000000000000
+      internalID: 5933235119169161317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 917
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4994a6ebb92909d10800000000000000
+      internalID: 2130363821358467476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_13
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 907
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c4c6d01eed71f80800000000000000
+      internalID: -8135789143647302582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_14
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 838
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 455b91d800c8a9760800000000000000
+      internalID: 7465433266315179348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_15
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 803
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d1a16002f457300800000000000000
+      internalID: 249192353348853128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_16
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 819
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eef6e17286542d20800000000000000
+      internalID: 3252819949125041893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_17
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 421
+        width: 385
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c42a9b032993b50800000000000000
+      internalID: 6573445869094456331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_18
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 795
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c58735bb87d8b120800000000000000
+      internalID: 2429928994007123398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_19
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 795
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78303a59e3032360800000000000000
+      internalID: 7143557734715111550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_20
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 761
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46117ebf2f2335cc0800000000000000
+      internalID: -3723576447715569308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_21
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 793
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9e03795c684d570800000000000000
+      internalID: 8490559380703472042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_22
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 775
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb1590b94f1fc890800000000000000
+      internalID: -7435690058409763905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_23
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 758
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58342f888ff076c30800000000000000
+      internalID: 4352465125000758149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_24
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 0
+        width: 429
+        height: 791
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eae21f1f51343210800000000000000
+      internalID: 1311727676084644579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_25
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 771
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d667e4a4e3c2f39a0800000000000000
+      internalID: -6251229111720708499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_26
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 777
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7849f964845f2e270800000000000000
+      internalID: 8278448755831706759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_27
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 742
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e064ef7c16e1ad7d0800000000000000
+      internalID: -2892966405316131314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_28
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 757
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51444aabc339c850800000000000000
+      internalID: 6397701695484477789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_29
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 759
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ab70fb4cc55edf0800000000000000
+      internalID: -151613012358743522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_30
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 737
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2115b631634be30800000000000000
+      internalID: 4518295783192203943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_31
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 710
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a463ea037092410800000000000000
+      internalID: 1452700260466313868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_32
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 710
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0cb7b466b59bad0800000000000000
+      internalID: -2686015207838596912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_33
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 357
+        width: 403
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae96ee92af73975d0800000000000000
+      internalID: -3064356523864069654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_34
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 720
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ac1ad9402738010800000000000000
+      internalID: 1189920090706004539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_35
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 716
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f28257f566e2d040800000000000000
+      internalID: 4671049089152090872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_36
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 682
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05195a7eacff62880800000000000000
+      internalID: -8635933988501483184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_37
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 681
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b43e34d401c3d970800000000000000
+      internalID: 8778572325160105137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_38
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 708
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa5de746306c6660800000000000000
+      internalID: 7380379675604638458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_39
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 686
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07d1afc015a025d0800000000000000
+      internalID: -3089287852754610420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_40
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 501
+        width: 59
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c124aef643b2c47b0800000000000000
+      internalID: -5238764762322812388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_41
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 546
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ae523afd9c854a0800000000000000
+      internalID: -6604306891186771344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_42
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 524
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e3f319b45e102d0800000000000000
+      internalID: -3314115738045825422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_43
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 515
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ae0c58361b35530800000000000000
+      internalID: 3842609948081056315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_44
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 511
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27822ac6cfbaf5a0800000000000000
+      internalID: -6486661452758087891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_45
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 515
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed1103974ca4fb60800000000000000
+      internalID: 7779031879784668641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_46
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 521
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc36e4ea9ceaba80800000000000000
+      internalID: -8450181600797901641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_47
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 521
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c4024fd78857bf0800000000000000
+      internalID: -327205323366445922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_48
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 515
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a15b5f054748760800000000000000
+      internalID: 7459214773900876429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_49
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 527
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27abc0a3bd242b880800000000000000
+      internalID: -8596735229357671822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_50
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 515
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d2aae77373d6f20800000000000000
+      internalID: 3417448403731885358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_51
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 515
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b137ff53ecbb8f510800000000000000
+      internalID: 1583221763364320027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_52
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 519
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cedf83d00e9574fe0800000000000000
+      internalID: -1204895556468933140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_53
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 513
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af76de6c00f8f130800000000000000
+      internalID: 3600891838272536487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_54
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 503
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f54adc1c159c1e0800000000000000
+      internalID: -2177119052036284636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_55
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 499
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77642abea9d0ecf0800000000000000
+      internalID: -224940636898039937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_56
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 505
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead0a54a1ddd7d800800000000000000
+      internalID: 637221764771483054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_57
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 504
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba46e9cb74352ccf0800000000000000
+      internalID: -233532663097563989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_58
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 505
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f524be463dea7df30800000000000000
+      internalID: 4600337767336723039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_59
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 497
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cebe44bbfc518730800000000000000
+      internalID: 3999580180213317317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 389
+        width: 47
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1190b3152f26b5f0800000000000000
+      internalID: -741353252365233894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_61
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 467
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a097365ae8948b530800000000000000
+      internalID: 3870924756733884682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_62
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 411
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89116ca635c2d340800000000000000
+      internalID: 4887185384261360014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_63
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 469
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308394779d67dc440800000000000000
+      internalID: 4957749441186052099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_64
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 457
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9273b2fc02afe8e50800000000000000
+      internalID: 6813658305079752489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_65
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 457
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebd2c23399e6da40800000000000000
+      internalID: 5392754422243843050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_66
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 455
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc156ccdbe1fb8f0800000000000000
+      internalID: -522665231224857409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_67
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 433
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f78d74b9ae48c90800000000000000
+      internalID: -7168346754220785808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_68
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 449
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433a3abf24d077080800000000000000
+      internalID: -9189861933285399756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_69
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 449
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6c301c3af8c7b70800000000000000
+      internalID: 8898144897257948909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_70
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 440
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6633d212a63418f80800000000000000
+      internalID: -8106123731187977370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_71
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 441
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7382d6973be0f68c0800000000000000
+      internalID: -4003965379709949897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_72
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 437
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156505e6f0101bf00800000000000000
+      internalID: 1130686147233601105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_73
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 397
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9fafaa7c2e2249f0800000000000000
+      internalID: -485775041230819429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_74
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 389
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f848aeb9e6d716fa0800000000000000
+      internalID: -5809224130315516785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_75
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 419
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9548d29937ec5bc10800000000000000
+      internalID: 2068786599733068889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_76
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 419
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37696638ede0a6f50800000000000000
+      internalID: 6875324129984550515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_77
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 417
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df750326528af820800000000000000
+      internalID: 2952815812161142743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_78
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 405
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c72b838236f802d0800000000000000
+      internalID: -3312126829115267135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_79
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 349
+        width: 99
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6f5a532f09f7ff0800000000000000
+      internalID: -36150902039120215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_80
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 403
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494c5928e23928d50800000000000000
+      internalID: 6738109820468315284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_81
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 409
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2b33918b171ab90800000000000000
+      internalID: -7232374491069566275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 325
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050d3fa04917c62f0800000000000000
+      internalID: -978282138393391024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_83
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 361
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db095302b57edc6e0800000000000000
+      internalID: -1815540696192020291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_84
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 320
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6563b32b544924670800000000000000
+      internalID: 8521536472002278998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_85
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 22
+        width: 222
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c22ef529c8ea420800000000000000
+      internalID: 2643204591614831648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_86
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 340
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe89309db0a77a5f0800000000000000
+      internalID: -745493022002407185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_87
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 304
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454faeb94327b1320800000000000000
+      internalID: 2529741185978397780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_88
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 365
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551bf30cd2ebc5320800000000000000
+      internalID: 2548120592893063509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_89
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 385
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5825ff22fb6bad0800000000000000
+      internalID: -2686749970646530637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_90
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 343
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ab50768c9be7ea0800000000000000
+      internalID: -5873052593671521645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_91
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 0
+        width: 439
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e98ddb01c9ecd8d0800000000000000
+      internalID: -2820122251303745047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_92
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 367
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08520e9d539594260800000000000000
+      internalID: 7082289976840299904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_93
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 355
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc183ebcfca4950c0800000000000000
+      internalID: -4586552489160769076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_94
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 310
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8f274ba16862d40800000000000000
+      internalID: 5559278239290161358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_95
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 238
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db23ac9c253bd160800000000000000
+      internalID: 7051288107301415897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_96
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 212
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931ce8ad25afa2870800000000000000
+      internalID: 8659008467334250809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_97
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 211
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27346e0fbd7cb77d0800000000000000
+      internalID: -2919520185966247054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_98
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 120
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cdef5d729876f580800000000000000
+      internalID: -8793708651830317623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainPartsAtlas_99
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 94
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a463eafb0f32da0800000000000000
+      internalID: -5970663974910932456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CaptainPartsAtlas_0: -4973183728511225259
+      CaptainPartsAtlas_1: -522237705488175169
+      CaptainPartsAtlas_10: -604892126003698993
+      CaptainPartsAtlas_11: 5933235119169161317
+      CaptainPartsAtlas_12: 2130363821358467476
+      CaptainPartsAtlas_13: -8135789143647302582
+      CaptainPartsAtlas_14: 7465433266315179348
+      CaptainPartsAtlas_15: 249192353348853128
+      CaptainPartsAtlas_16: 3252819949125041893
+      CaptainPartsAtlas_17: 6573445869094456331
+      CaptainPartsAtlas_18: 2429928994007123398
+      CaptainPartsAtlas_19: 7143557734715111550
+      CaptainPartsAtlas_2: 6222629748381582054
+      CaptainPartsAtlas_20: -3723576447715569308
+      CaptainPartsAtlas_21: 8490559380703472042
+      CaptainPartsAtlas_22: -7435690058409763905
+      CaptainPartsAtlas_23: 4352465125000758149
+      CaptainPartsAtlas_24: 1311727676084644579
+      CaptainPartsAtlas_25: -6251229111720708499
+      CaptainPartsAtlas_26: 8278448755831706759
+      CaptainPartsAtlas_27: -2892966405316131314
+      CaptainPartsAtlas_28: 6397701695484477789
+      CaptainPartsAtlas_29: -151613012358743522
+      CaptainPartsAtlas_3: -7906681465050207406
+      CaptainPartsAtlas_30: 4518295783192203943
+      CaptainPartsAtlas_31: 1452700260466313868
+      CaptainPartsAtlas_32: -2686015207838596912
+      CaptainPartsAtlas_33: -3064356523864069654
+      CaptainPartsAtlas_34: 1189920090706004539
+      CaptainPartsAtlas_35: 4671049089152090872
+      CaptainPartsAtlas_36: -8635933988501483184
+      CaptainPartsAtlas_37: 8778572325160105137
+      CaptainPartsAtlas_38: 7380379675604638458
+      CaptainPartsAtlas_39: -3089287852754610420
+      CaptainPartsAtlas_4: -3319715516584873282
+      CaptainPartsAtlas_40: -5238764762322812388
+      CaptainPartsAtlas_41: -6604306891186771344
+      CaptainPartsAtlas_42: -3314115738045825422
+      CaptainPartsAtlas_43: 3842609948081056315
+      CaptainPartsAtlas_44: -6486661452758087891
+      CaptainPartsAtlas_45: 7779031879784668641
+      CaptainPartsAtlas_46: -8450181600797901641
+      CaptainPartsAtlas_47: -327205323366445922
+      CaptainPartsAtlas_48: 7459214773900876429
+      CaptainPartsAtlas_49: -8596735229357671822
+      CaptainPartsAtlas_5: 828629914681683678
+      CaptainPartsAtlas_50: 3417448403731885358
+      CaptainPartsAtlas_51: 1583221763364320027
+      CaptainPartsAtlas_52: -1204895556468933140
+      CaptainPartsAtlas_53: 3600891838272536487
+      CaptainPartsAtlas_54: -2177119052036284636
+      CaptainPartsAtlas_55: -224940636898039937
+      CaptainPartsAtlas_56: 637221764771483054
+      CaptainPartsAtlas_57: -233532663097563989
+      CaptainPartsAtlas_58: 4600337767336723039
+      CaptainPartsAtlas_59: 3999580180213317317
+      CaptainPartsAtlas_6: -4982192870478484181
+      CaptainPartsAtlas_60: -741353252365233894
+      CaptainPartsAtlas_61: 3870924756733884682
+      CaptainPartsAtlas_62: 4887185384261360014
+      CaptainPartsAtlas_63: 4957749441186052099
+      CaptainPartsAtlas_64: 6813658305079752489
+      CaptainPartsAtlas_65: 5392754422243843050
+      CaptainPartsAtlas_66: -522665231224857409
+      CaptainPartsAtlas_67: -7168346754220785808
+      CaptainPartsAtlas_68: -9189861933285399756
+      CaptainPartsAtlas_69: 8898144897257948909
+      CaptainPartsAtlas_7: 5171042053575542792
+      CaptainPartsAtlas_70: -8106123731187977370
+      CaptainPartsAtlas_71: -4003965379709949897
+      CaptainPartsAtlas_72: 1130686147233601105
+      CaptainPartsAtlas_73: -485775041230819429
+      CaptainPartsAtlas_74: -5809224130315516785
+      CaptainPartsAtlas_75: 2068786599733068889
+      CaptainPartsAtlas_76: 6875324129984550515
+      CaptainPartsAtlas_77: 2952815812161142743
+      CaptainPartsAtlas_78: -3312126829115267135
+      CaptainPartsAtlas_79: -36150902039120215
+      CaptainPartsAtlas_8: 6115899420226060878
+      CaptainPartsAtlas_80: 6738109820468315284
+      CaptainPartsAtlas_81: -7232374491069566275
+      CaptainPartsAtlas_82: -978282138393391024
+      CaptainPartsAtlas_83: -1815540696192020291
+      CaptainPartsAtlas_84: 8521536472002278998
+      CaptainPartsAtlas_85: 2643204591614831648
+      CaptainPartsAtlas_86: -745493022002407185
+      CaptainPartsAtlas_87: 2529741185978397780
+      CaptainPartsAtlas_88: 2548120592893063509
+      CaptainPartsAtlas_89: -2686749970646530637
+      CaptainPartsAtlas_9: -4807231164480835663
+      CaptainPartsAtlas_90: -5873052593671521645
+      CaptainPartsAtlas_91: -2820122251303745047
+      CaptainPartsAtlas_92: 7082289976840299904
+      CaptainPartsAtlas_93: -4586552489160769076
+      CaptainPartsAtlas_94: 5559278239290161358
+      CaptainPartsAtlas_95: 7051288107301415897
+      CaptainPartsAtlas_96: 8659008467334250809
+      CaptainPartsAtlas_97: -2919520185966247054
+      CaptainPartsAtlas_98: -8793708651830317623
+      CaptainPartsAtlas_99: -5970663974910932456
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1 @@
+PASS: two nested tree prefabs imported. Three growth stages synchronized. Captain below foliage after Initialize/UpdateDrawing. Active leaf sway components: 5

@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: c3106837bd564e54286a1160d166cd28
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -577209923957751823
+    second: AttackArmsAtlas_0
+  - first:
+      213: -1993100826215893264
+    second: AttackArmsAtlas_1
+  - first:
+      213: -3484275008937209959
+    second: AttackArmsAtlas_2
+  - first:
+      213: -292378204976597366
+    second: AttackArmsAtlas_3
+  - first:
+      213: -5917846459405866008
+    second: AttackArmsAtlas_4
+  - first:
+      213: -4068546263471179955
+    second: AttackArmsAtlas_5
+  - first:
+      213: 6294066034446646341
+    second: AttackArmsAtlas_6
+  - first:
+      213: 7231817478448813671
+    second: AttackArmsAtlas_7
+  - first:
+      213: 2972351689399641475
+    second: AttackArmsAtlas_8
+  - first:
+      213: -7218681706189514953
+    second: AttackArmsAtlas_9
+  - first:
+      213: 8769757467992630852
+    second: AttackArmsAtlas_10
+  - first:
+      213: 7126291220069534328
+    second: AttackArmsAtlas_11
+  - first:
+      213: -7821130759354459015
+    second: AttackArmsAtlas_12
+  - first:
+      213: 1129301294235022517
+    second: AttackArmsAtlas_13
+  - first:
+      213: 3354741125384695988
+    second: AttackArmsAtlas_14
+  - first:
+      213: 2830296961001333304
+    second: AttackArmsAtlas_15
+  - first:
+      213: -84010302722438873
+    second: AttackArmsAtlas_16
+  - first:
+      213: -7060404975974063643
+    second: AttackArmsAtlas_17
+  - first:
+      213: 2972117752360099862
+    second: AttackArmsAtlas_18
+  - first:
+      213: -8712193427196888762
+    second: AttackArmsAtlas_19
+  - first:
+      213: 4919840698069375749
+    second: AttackArmsAtlas_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AttackArmsAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 19
+        width: 971
+        height: 677
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fffaa1e1a65df7f0800000000000000
+      internalID: -577209923957751823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackArmsAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 0
+        width: 1099
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f63dd3cb551754e0800000000000000
+      internalID: -1993100826215893264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackArmsAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 685
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99fc680075e55afc0800000000000000
+      internalID: -3484275008937209959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackArmsAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 618
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86bd48529341fbf0800000000000000
+      internalID: -292378204976597366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackArmsAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 49
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb6fcfcff59fdda0800000000000000
+      internalID: -5917846459405866008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackArmsAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 488
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47be8dbabe9987c0800000000000000
+      internalID: -4068546263471179955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackArmsAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 484
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c3b0006b3095750800000000000000
+      internalID: 6294066034446646341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackArmsAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 480
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766176b4ea39c5460800000000000000
+      internalID: 7231817478448813671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackArmsAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 492
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385a2320d1aef3920800000000000000
+      internalID: 2972351689399641475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackArmsAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 484
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73796f30c3712db90800000000000000
+      internalID: -7218681706189514953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackArmsAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 488
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446a706f3ff64b970800000000000000
+      internalID: 8769757467992630852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackArmsAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 453
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87aca32ab1ca5e260800000000000000
+      internalID: 7126291220069534328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackArmsAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 441
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97cdbc23303c57390800000000000000
+      internalID: -7821130759354459015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackArmsAtlas_13
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 437
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b474473b851caf00800000000000000
+      internalID: 1129301294235022517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackArmsAtlas_14
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 433
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0f2f3874f6e8e20800000000000000
+      internalID: 3354741125384695988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackArmsAtlas_15
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 361
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8322a59271c374720800000000000000
+      internalID: 2830296961001333304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackArmsAtlas_16
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 458
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72981c4231985def0800000000000000
+      internalID: -84010302722438873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackArmsAtlas_17
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 343
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e16aacf417640e90800000000000000
+      internalID: -7060404975974063643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackArmsAtlas_18
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 391
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6106e0c49551f3920800000000000000
+      internalID: 2972117752360099862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackArmsAtlas_19
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 321
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649bf65bc32181780800000000000000
+      internalID: -8712193427196888762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackArmsAtlas_20
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 325
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b5fe76c09c64440800000000000000
+      internalID: 4919840698069375749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AttackArmsAtlas_0: -577209923957751823
+      AttackArmsAtlas_1: -1993100826215893264
+      AttackArmsAtlas_10: 8769757467992630852
+      AttackArmsAtlas_11: 7126291220069534328
+      AttackArmsAtlas_12: -7821130759354459015
+      AttackArmsAtlas_13: 1129301294235022517
+      AttackArmsAtlas_14: 3354741125384695988
+      AttackArmsAtlas_15: 2830296961001333304
+      AttackArmsAtlas_16: -84010302722438873
+      AttackArmsAtlas_17: -7060404975974063643
+      AttackArmsAtlas_18: 2972117752360099862
+      AttackArmsAtlas_19: -8712193427196888762
+      AttackArmsAtlas_2: -3484275008937209959
+      AttackArmsAtlas_20: 4919840698069375749
+      AttackArmsAtlas_3: -292378204976597366
+      AttackArmsAtlas_4: -5917846459405866008
+      AttackArmsAtlas_5: -4068546263471179955
+      AttackArmsAtlas_6: 6294066034446646341
+      AttackArmsAtlas_7: 7231817478448813671
+      AttackArmsAtlas_8: 2972351689399641475
+      AttackArmsAtlas_9: -7218681706189514953
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

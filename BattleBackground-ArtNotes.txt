@@ -1,0 +1,10 @@
+Tool: built-in image_gen, edit mode.
+Reference: Assets/SkyTree/Resources/SkyTree/LobbyOceanIslands.png
+Output: Assets/SkyTree/Resources/SkyTree/BattleOceanIslands.png
+
+Prompt:
+Edit the reference into a seamless tileable ocean-and-islands background texture for a portrait fantasy airship battle game. Preserve its rich blue sea, turquoise shallows, tiny green rocky tropical islands, painterly game illustration style and high overhead oblique view. Output a square texture, no horizon or sky, no clouds, no ships, no UI, no text. The entire square is ocean with just 5 small separated irregular islands occupying under 15 percent total area, dispersed asymmetrically across the interior with generous open blue water for foreground combat readability. Match reference water surface brush strokes and light from upper left. Make ALL FOUR opposing edges seamlessly repeatable, similar uninterrupted mid-blue water at borders, no islands touching edges, no lighting gradients between opposite borders. Intended to scroll diagonally down-right at 45 degrees indefinitely. Avoid central focal composition, avoid large islands, avoid broad white reflections. Clean production game background.
+
+Runtime: BattleBackground.prefab independently owns ocean and cloud layers.
+BattleOceanRepeat.shader blends edge water with interior water for periodic sampling without mirroring.
+Default scroll velocity: (12,-12) UI units/second, tile size 720.

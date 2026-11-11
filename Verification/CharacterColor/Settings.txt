@@ -1,0 +1,10 @@
+Character-only non-destructive grade: saturation 1.25, contrast 1.20.
+Material: Assets/ArtResources/Coworker/CharacterColor.mat
+Shader: Assets/SkyTree/Shaders/CharacterColor.shader
+23 prefab SpriteRenderer parts (Long 11, Navigator 12), including attack arms.
+Canvas projections inherit the same material in lobby and battle.
+Calculation in display RGB: luma=(.299R+.587G+.114B), saturation interpolation
+at 1.25, then contrast around 0.5 at 1.20. Alpha is unchanged.
+Original PNG textures are unchanged. Original prefab material assignments backed up
+under Backups/CharacterColor. Other scene artwork keeps its original materials.
+Shader compilation and all 23 battle Canvas part assignments verified.

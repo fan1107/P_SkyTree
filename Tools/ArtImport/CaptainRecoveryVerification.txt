@@ -1,0 +1,5 @@
+PASS: recovered 9 body parts after simulated domain reload.
+Breathe: sampled leg motion reaches UI.
+Walk: sampled leg motion reaches UI.
+Run: sampled leg motion reaches UI.
+20 seconds simulated: traveled 59.03855 UI units; remains below foliage.

@@ -1,0 +1,2 @@
+Long: part count, all bindings, hold, recoil, recovery and fire event PASS
+Navigator: part count, all bindings, hold, recoil, recovery and fire event PASS

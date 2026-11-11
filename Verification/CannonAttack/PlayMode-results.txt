@@ -1,0 +1,9 @@
+Unity Play mode checks (2026-11-11):
+Navigator comparison: Breathe=true, Walk=true, Run=true; repeated Attack events observed (17).
+Combined attack comparison: Long shots=9, Navigator shots=9; no console errors/warnings.
+Controlled 3-second Animator.Update test after Rebind:
+Long fires exactly once=true; Navigator fires exactly once=true.
+Long returns to Breathe=true; Navigator returns to Breathe=true.
+Long normal arm restored=true; Navigator normal arm restored=true.
+Lobby regression: Long rig total sprite parts=11, world renderers enabled=0,
+visible Canvas image parts=9; no console errors.

@@ -1,0 +1,32 @@
+Route selection popup implementation
+
+Prefab: Assets/SkyTree/Prefabs/RouteSelectionPopup.prefab
+Art: Assets/ArtResources/Atlas/RouteMap/CloudChart.png and TreeShipMarker.png
+Atlas: Assets/ArtResources/Atlas/RouteMap/RouteMap.spriteatlas
+Rebuild: SkyTree/Build Route Selection Popup (Editor menu, edit mode).
+
+The popup is a 352 x 636 panel inside the existing safe-area 400 x 720 UI frame.
+It blocks lobby input; Close hides it without leaving the lobby. Every Open resets selection.
+Nine point buttons use 44 x 44 hit areas, with separate sharp vector circle artwork.
+Map image, divider grid, route arrow, selection ring, labels and ship marker are separate layers.
+Internal point IDs are zero-based. Start is 7 (bottom middle). IDs are not displayed.
+Straight horizontal, vertical and diagonal routes are supported; current or nonstraight destinations clear selection and disable departure.
+RoutePlan supplies distance * 3 normal waves and one final boss. Departure is guarded against duplicate taps.
+
+Integration boundary: SkyTreeGame.SelectedRoute receives the selected plan and starts the existing battle demo.
+This change does NOT implement checkpoint progression, variable-length battle spawning, arrival persistence, or destination-specific lobby content.
+SkyTree.World.CurrentPoint is read with a default of 7; future progression must write it after a confirmed checkpoint/arrival.
+Destination labels and arrival descriptions are serialized on the popup and can be edited in Inspector.
+
+Verified in Unity:
+- No compiler/console errors.
+- All 81 source/destination pairs checked (56 valid directed straight routes).
+- Initial disabled state, one/two-cell routes, diagonals, invalid/current selection.
+- Close/reopen resets; double departure invokes callback once.
+- Game View raycast hits selected waypoint before popup/background.
+- Adventure opens popup, departure passes six-wave plan into existing battle.
+- Idle, selected prefab renders plus actual Game View capture in this directory.
+
+Raster assets generated using built-in image_gen, not CLI.
+Background prompt: Clean production background derived from the approved antique sky route map, portrait 3:4, warm aged ivory parchment and large sepia engraved cloud banks. Faint small island outlines at top-left, top-middle, center-middle, center-right, bottom-middle and bottom-right; no islands at top-right, middle-left or bottom-left. No UI, text, grid, markers, route or ship. Low contrast for interactive overlays.
+Ship prompt: One isolated transparent current-location marker: cute colorful wooden open-deck airship, lush central green tree, brass edging, blue leaf flag, red side propeller and tiny cannon, three-quarter overhead view, crisp hand-painted fantasy game art, no text, scenery, frame, balloon or sails.

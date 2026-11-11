@@ -1,0 +1,144 @@
+{
+  "removed": [
+    {
+      "path": "Assets/ArtResources/Ships/MainShip_Step01/HullMidDetail.png",
+      "guid": "b0f446d3c9f1467f8b35109a24ae8b9c",
+      "bytes": 1529372
+    },
+    {
+      "path": "Assets/ArtResources/Cannons/CannonComfyMatched.png",
+      "guid": "e0e242cb43316b44dbf5995ca5ffa91f",
+      "bytes": 540397
+    },
+    {
+      "path": "Assets/ArtResources/Atlas/Character/Character_01/Captain_01.png",
+      "guid": "012a6bc6cfd85a64b993e9a5cd7e0053",
+      "bytes": 191715
+    },
+    {
+      "path": "Assets/ArtResources/Ships/MainShip_Step01/CanopyRight.png",
+      "guid": "91ba5002bce2d1c44a24872e8206cd4c",
+      "bytes": 474140
+    },
+    {
+      "path": "Assets/SkyTree/Resources/SkyTree/Sky 1.png",
+      "guid": "f13e11219da44b24093795dc318e65a2",
+      "bytes": 2332584
+    },
+    {
+      "path": "Assets/ArtResources/Ships/TerracedShip-v2.png",
+      "guid": "b2b5639e9592496db32bfc91085ad108",
+      "bytes": 1628594
+    },
+    {
+      "path": "Assets/ArtResources/Ships/MainShip_Step01/Flag.png",
+      "guid": "83f84c63237ebd34d9ff37a95746a99a",
+      "bytes": 117710
+    },
+    {
+      "path": "Assets/ArtResources/Ships/MainShip_Step01/SkyTreePlanted.png",
+      "guid": "64a08be62226f974ca0797a642b95715",
+      "bytes": 1722936
+    },
+    {
+      "path": "Assets/ArtResources/Cannons/CannonStoutComfy.png",
+      "guid": "8526239b2e3bd184f98cdbb983ac242c",
+      "bytes": 653761
+    },
+    {
+      "path": "Assets/ArtResources/Ships/MainShip_Step01/SkyTreeGreen.png",
+      "guid": "97fda96c2763d1b4fba7d6b2bd015c68",
+      "bytes": 1372663
+    },
+    {
+      "path": "Assets/ArtResources/Ships/MainShip_Step01/SkyTreeTrunkBranches.png",
+      "guid": "b71414d4492f38f47ad33cfcc62575d4",
+      "bytes": 741751
+    },
+    {
+      "path": "Assets/ArtResources/Ships/MainShip_Step01/Hull.png",
+      "guid": "484bcd2d80075d849bc54c08a311c1fa",
+      "bytes": 2383174
+    },
+    {
+      "path": "Assets/ArtResources/Ships/MainShip_Step01/CanopyLowerLeft.png",
+      "guid": "2a99e5f628c336f408f7fa405bcf4c9e",
+      "bytes": 348699
+    },
+    {
+      "path": "Assets/ArtResources/Ships/MainShip_Step01/HullRefined.png",
+      "guid": "4a2d7d4e7eb9436b9f5e7c999f837ee4",
+      "bytes": 1343801
+    },
+    {
+      "path": "Assets/ArtResources/Ships/MainShip_Step01/CanopyTop.png",
+      "guid": "5a861594dcfa2f74fb8173be470ee3e7",
+      "bytes": 891876
+    },
+    {
+      "path": "Assets/SkyTree/Resources/SkyTree/TitleSky.png",
+      "guid": "2b6bac0e54b34f74183858328076be3f",
+      "bytes": 1701782
+    },
+    {
+      "path": "Assets/SkyTree/Resources/SkyTree/LobbyCloudSea.png",
+      "guid": "cbe06a562c7b1f9429683151e7e5b29c",
+      "bytes": 1256271
+    },
+    {
+      "path": "Assets/ArtResources/Ships/MainShip_Step01/Cannon.png",
+      "guid": "8cf7de3d29728374ca4192c47b5768d5",
+      "bytes": 186476
+    },
+    {
+      "path": "Assets/Screenshots/screenshot-20261111-174536.png",
+      "guid": "deb86031e0a2c484dbb88825f12e8fc3",
+      "bytes": 827590
+    },
+    {
+      "path": "Assets/ArtResources/Cannons/CannonComfyTransparent.png",
+      "guid": "0fbbb13a6f4443618b06b897d7680905",
+      "bytes": 256793
+    }
+  ],
+  "protected": [
+    {
+      "path": "Assets/Tests/CaptainRig/Art/CaptainPartsAtlas.png",
+      "reason": "Runtime Resources.Load or editor builder source"
+    },
+    {
+      "path": "Assets/SkyTree/Resources/SkyTree/Title/TitleArtwork.png",
+      "reason": "Runtime Resources.Load or editor builder source"
+    },
+    {
+      "path": "Assets/ArtResources/Ships/MainShip_Step01/AnimatedFlag/SeparatedFlag.png",
+      "reason": "Runtime Resources.Load or editor builder source"
+    },
+    {
+      "path": "Assets/Tests/CaptainRig/Art/Head.png",
+      "reason": "Runtime Resources.Load or editor builder source"
+    },
+    {
+      "path": "Assets/ArtResources/Ships/MainShip_Step01/AnimatedFlag/ClothSource.png",
+      "reason": "Runtime Resources.Load or editor builder source"
+    },
+    {
+      "path": "Assets/SkyTree/Resources/SkyTree/LobbyOceanIslands.png",
+      "reason": "Runtime Resources.Load or editor builder source"
+    },
+    {
+      "path": "Assets/SkyTree/Resources/SkyTree/Airship.png",
+      "reason": "Runtime Resources.Load or editor builder source"
+    },
+    {
+      "path": "Assets/SkyTree/Resources/SkyTree/Sky.png",
+      "reason": "Runtime Resources.Load or editor builder source"
+    },
+    {
+      "path": "Assets/SkyTree/Resources/SkyTree/Skybird.png",
+      "reason": "Runtime Resources.Load or editor builder source"
+    }
+  ],
+  "count": 20,
+  "bytes": 20502085
+}

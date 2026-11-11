@@ -1,0 +1,3 @@
+Breathe: nine sprites, bone bindings, looping and sampled motion PASS
+Walk: nine sprites, bone bindings, looping and sampled motion PASS
+Run: nine sprites, bone bindings, looping and sampled motion PASS

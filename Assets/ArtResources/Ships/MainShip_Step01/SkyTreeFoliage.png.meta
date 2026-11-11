@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 3e75ef2c531380e4da0d314900e88b88
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5197939612938957629
+    second: SkyTreeFoliage_0
+  - first:
+      213: -5531608773280503480
+    second: SkyTreeFoliage_1
+  - first:
+      213: 1500216574669983767
+    second: SkyTreeFoliage_2
+  - first:
+      213: -8186511549751076096
+    second: SkyTreeFoliage_3
+  - first:
+      213: -6432857807223483539
+    second: SkyTreeFoliage_4
+  - first:
+      213: -5588842212266976888
+    second: SkyTreeFoliage_5
+  - first:
+      213: -332162875527142616
+    second: SkyTreeFoliage_6
+  - first:
+      213: -3349293270420894154
+    second: SkyTreeFoliage_7
+  - first:
+      213: -6882532558077525629
+    second: SkyTreeFoliage_8
+  - first:
+      213: -5067949017831678430
+    second: SkyTreeFoliage_9
+  - first:
+      213: -3223596004804377953
+    second: SkyTreeFoliage_10
+  - first:
+      213: 2894571210099192187
+    second: SkyTreeFoliage_11
+  - first:
+      213: -250480931618350139
+    second: SkyTreeFoliage_12
+  - first:
+      213: 127469793367305410
+    second: SkyTreeFoliage_13
+  - first:
+      213: -1113954619668744490
+    second: SkyTreeFoliage_14
+  - first:
+      213: 308438546144898939
+    second: SkyTreeFoliage_15
+  - first:
+      213: 5454862610505337416
+    second: SkyTreeFoliage_16
+  - first:
+      213: -4402845808704193932
+    second: SkyTreeFoliage_17
+  - first:
+      213: -6755359091990255821
+    second: SkyTreeFoliage_18
+  - first:
+      213: 7352008288568480140
+    second: SkyTreeFoliage_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SkyTreeFoliage_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 1136
+        height: 1289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc87de36753dd7b0800000000000000
+      internalID: -5197939612938957629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyTreeFoliage_1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 271
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8496e20e027cb33b0800000000000000
+      internalID: -5531608773280503480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyTreeFoliage_2
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 273
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7109b53b607d1d410800000000000000
+      internalID: 1500216574669983767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyTreeFoliage_3
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 275
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b54779e1ba36e80800000000000000
+      internalID: -8186511549751076096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyTreeFoliage_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 241
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6398d538e5e9b6a0800000000000000
+      internalID: -6432857807223483539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyTreeFoliage_5
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 242
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8895e107e917072b0800000000000000
+      internalID: -5588842212266976888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyTreeFoliage_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 289
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823e1a4ef9be36bf0800000000000000
+      internalID: -332162875527142616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyTreeFoliage_7
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 291
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ec4ff048be481d0800000000000000
+      internalID: -3349293270420894154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyTreeFoliage_8
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 345
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3818ab88a155c70a0800000000000000
+      internalID: -6882532558077525629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyTreeFoliage_9
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 345
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e5a5c28370ba9b0800000000000000
+      internalID: -5067949017831678430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyTreeFoliage_10
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 351
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f924442538c7343d0800000000000000
+      internalID: -3223596004804377953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyTreeFoliage_11
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 339
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71f803fd259b2820800000000000000
+      internalID: 2894571210099192187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyTreeFoliage_12
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 353
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb11e77bec168cf0800000000000000
+      internalID: -250480931618350139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyTreeFoliage_13
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 357
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc20490a1dd4c100800000000000000
+      internalID: 127469793367305410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyTreeFoliage_14
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 321
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d63db6ec207a80f0800000000000000
+      internalID: -1113954619668744490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyTreeFoliage_15
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 343
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f210a393bc74400800000000000000
+      internalID: 308438546144898939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyTreeFoliage_16
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 333
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a0bb5a4a093bb40800000000000000
+      internalID: 5454862610505337416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyTreeFoliage_17
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 355
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a7e537013f5e2c0800000000000000
+      internalID: -4402845808704193932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyTreeFoliage_18
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 333
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33727bf72b42042a0800000000000000
+      internalID: -6755359091990255821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyTreeFoliage_19
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 362
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c811ad9f594970660800000000000000
+      internalID: 7352008288568480140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SkyTreeFoliage_0: -5197939612938957629
+      SkyTreeFoliage_1: -5531608773280503480
+      SkyTreeFoliage_10: -3223596004804377953
+      SkyTreeFoliage_11: 2894571210099192187
+      SkyTreeFoliage_12: -250480931618350139
+      SkyTreeFoliage_13: 127469793367305410
+      SkyTreeFoliage_14: -1113954619668744490
+      SkyTreeFoliage_15: 308438546144898939
+      SkyTreeFoliage_16: 5454862610505337416
+      SkyTreeFoliage_17: -4402845808704193932
+      SkyTreeFoliage_18: -6755359091990255821
+      SkyTreeFoliage_19: 7352008288568480140
+      SkyTreeFoliage_2: 1500216574669983767
+      SkyTreeFoliage_3: -8186511549751076096
+      SkyTreeFoliage_4: -6432857807223483539
+      SkyTreeFoliage_5: -5588842212266976888
+      SkyTreeFoliage_6: -332162875527142616
+      SkyTreeFoliage_7: -3349293270420894154
+      SkyTreeFoliage_8: -6882532558077525629
+      SkyTreeFoliage_9: -5067949017831678430
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

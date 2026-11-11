@@ -1,0 +1,3 @@
+Lobby: two independently moving crew, 22-second boundary audit, >=4 routes each PASS
+Battle: Long=8, Navigator=7, event counts equal, same-frame timing, no world sprite leaks PASS
+Pause, lobby return, battle reentry and crew cleanup PASS

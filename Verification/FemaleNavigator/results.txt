@@ -1,0 +1,4 @@
+Breathe: sprites, bindings, motion, loop/attack semantics PASS
+Walk: sprites, bindings, motion, loop/attack semantics PASS
+Run: sprites, bindings, motion, loop/attack semantics PASS
+Attack: sprites, bindings, motion, loop/attack semantics PASS

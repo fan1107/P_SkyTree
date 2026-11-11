@@ -1,0 +1,51 @@
+# Unity-generated caches and local editor state
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Build outputs (keep source assets and native plugins under Assets)
+/[Bb]uild/
+/[Bb]uilds/
+/*.apk
+/*.aab
+/*.unitypackage
+/*_BackUpThisFolder_ButDontShipItWithYourGame/
+/*_BurstDebugInformation_DoNotShip/
+
+# IDE-generated Unity solution/project files
+/.vs/
+/.idea/
+/*.csproj
+/*.sln
+/*.slnx
+/*.suo
+/*.user
+/*.userprefs
+/*.pidb
+/*.booproj
+/*.unityproj
+/*.opendb
+/*.VC.db
+
+# OS clutter
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local backup snapshots and generated verification captures
+/Backups/
+/Verification/**/*.png
+/Verification/**/*.jpg
+/Verification/**/*.mp4
+/Verification/**/*.webm
+
+# Unity diagnostic logs
+/sysinfo.txt
+/crash.dmp
+
+# Keep Assets (including ALL .meta files), Packages and ProjectSettings.
+# Root-level art concepts and notes are intentionally kept as project references.

@@ -1,0 +1,5 @@
+Tree layer separation
+SkyTreeTrunk.prefab: trunk/branches/planting rim and per-stage trunk graphics.
+SkyTreeFoliage.prefab: all existing leaf objects, transforms and sway components, including user-added leaf duplicates.
+Both are nested in MainShip_Step01.prefab. Foliage is the final ship sibling. LobbyCaptainWander caps the captain below foliage while retaining cannon depth ordering. ShipTreeGrowth synchronizes both prefab stage arrays.
+Unity verification passed: both nested prefab instances load; stages 1-3 synchronize; Initialize and UpdateDrawing leave captain below foliage; 5 active sway components preserved.

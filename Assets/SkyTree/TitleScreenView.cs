@@ -1,0 +1,199 @@
+using System;
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace SkyTree
+{
+    public sealed class TitleScreenView : MonoBehaviour
+    {
+        private const string MuteKey = "SkyTree.Settings.Muted";
+        private const string MotionKey = "SkyTree.Settings.TitleMotion";
+        private readonly Color cream = new Color32(255, 245, 210, 255);
+        private Font font;
+        private Font decorativeFont;
+        private GameObject settings, muteMark;
+        private Text soundLabel, motionLabel;
+        private bool muted, motion;
+        private CanvasGroup[] sparks;
+        private Vector2[] sparkOrigins;
+        private float elapsed;
+
+        public void Build(Font titleFont, bool hasSave, Action enterLobby)
+        {
+            font = titleFont;
+            var installed = Font.GetOSInstalledFontNames();
+            foreach (string candidate in new[] { "Batang", "Noto Serif CJK KR", "Noto Serif KR" })
+                if (Array.IndexOf(installed, candidate) >= 0)
+                {
+                    decorativeFont = Font.CreateDynamicFontFromOSFont(candidate, 32);
+                    break;
+                }
+            muted = PlayerPrefs.GetInt(MuteKey, 0) != 0;
+            motion = PlayerPrefs.GetInt(MotionKey, 1) != 0;
+            AudioListener.pause = muted;
+            AddSparks();
+            var tagline = Label("사라진 고향 섬을 찾아서", 100, 171, 200, 24, 12, transform);
+            if (decorativeFont) tagline.font = decorativeFont;
+            tagline.color = new Color32(89, 57, 29, 255);
+            tagline.fontStyle = FontStyle.Bold;
+            Shadow(tagline, new Color(1,1,1,.7f), new Vector2(0,-.6f));
+            var heading = Label("선장 롱의 항해 일지", 124, 554, 152, 25, 14, transform);
+            if (decorativeFont) heading.font = decorativeFont;
+            heading.fontStyle = FontStyle.Bold;
+            Shadow(heading, new Color(0,.13f,.2f,.8f), new Vector2(0,-1));
+            var caption = Label(hasSave ? "항해 이어하기" : "항해 시작하기", 74, 604, 252, 46, 28, transform);
+            if (decorativeFont) caption.font = decorativeFont;
+            caption.fontStyle = FontStyle.Bold;
+            Shadow(caption, new Color(.04f,.15f,.18f,1), new Vector2(1.2f,-1.8f));
+            var start = Hotspot("Start Voyage", 51, 591, 298, 66, transform, () => enterLobby());
+            start.targetGraphic = caption;
+            var colors = start.colors;
+            colors.normalColor = Color.white;
+            colors.highlightedColor = new Color(1,.96f,.8f);
+            colors.pressedColor = new Color(.65f,.9f,.88f);
+            colors.selectedColor = Color.white;
+            colors.fadeDuration = .1f;
+            start.colors = colors;
+            Label("진행 상황은 이 기기에 저장됩니다", 40, 666, 320, 20, 11, transform);
+
+            Hotspot("Sound", 316, 6, 40, 42, transform, ToggleSound).transition = Selectable.Transition.None;
+            Hotspot("Settings", 354, 6, 42, 42, transform, () => settings.SetActive(true)).transition = Selectable.Transition.None;
+            muteMark = Solid("Muted indicator", 334, 13, 2, 25, new Color32(255,139,100,255), transform).gameObject;
+            muteMark.transform.localRotation = Quaternion.Euler(0,0,-40);
+            BuildSettings();
+            RefreshSettings();
+        }
+
+        private RectTransform Rect(string name, float x, float y, float w, float h, Transform parent)
+        {
+            var rect = new GameObject(name, typeof(RectTransform)).GetComponent<RectTransform>();
+            rect.SetParent(parent, false);
+            rect.anchorMin = rect.anchorMax = new Vector2(0,1);
+            rect.sizeDelta = new Vector2(w,h);
+            rect.anchoredPosition = new Vector2(x+w*.5f,-y-h*.5f);
+            return rect;
+        }
+
+        private Image Solid(string name, float x, float y, float w, float h, Color color, Transform parent)
+        {
+            var image = Rect(name,x,y,w,h,parent).gameObject.AddComponent<Image>();
+            image.color = color;
+            image.raycastTarget = false;
+            return image;
+        }
+
+        private Text Label(string text, float x, float y, float w, float h, int size, Transform parent)
+        {
+            var label = Rect(text,x,y,w,h,parent).gameObject.AddComponent<Text>();
+            label.font = font;
+            label.text = text;
+            label.fontSize = size;
+            label.color = cream;
+            label.alignment = TextAnchor.MiddleCenter;
+            label.raycastTarget = false;
+            return label;
+        }
+
+        private static void Shadow(Text text, Color color, Vector2 offset)
+        {
+            var shadow = text.gameObject.AddComponent<Shadow>();
+            shadow.effectColor = color;
+            shadow.effectDistance = offset;
+        }
+
+        private Button Hotspot(string name, float x, float y, float w, float h, Transform parent, Action action)
+        {
+            var image = Solid(name,x,y,w,h,Color.clear,parent);
+            image.raycastTarget = true;
+            var button = image.gameObject.AddComponent<Button>();
+            button.targetGraphic = image;
+            button.onClick.AddListener(() => action());
+            return button;
+        }
+
+        private void BuildSettings()
+        {
+            var root = Rect("Title Settings",0,0,400,720,transform);
+            settings = root.gameObject;
+            var scrim = Solid("Dim",0,0,400,720,new Color(.01f,.06f,.10f,.78f),root);
+            scrim.raycastTarget = true;
+            var dismiss = scrim.gameObject.AddComponent<Button>();
+            dismiss.transition = Selectable.Transition.None;
+            dismiss.onClick.AddListener(() => settings.SetActive(false));
+            Solid("Gold border",42,244,316,236,new Color32(209,163,71,255),root);
+            var panel = Solid("Navy panel",45,247,310,230,new Color32(15,55,67,255),root);
+            panel.raycastTarget = true;
+            Label("항해 설정",70,265,260,35,23,root).fontStyle = FontStyle.Bold;
+            Solid("Divider",80,310,240,1,new Color32(209,163,71,255),root);
+            soundLabel = Label("",90,326,220,32,16,root);
+            Hotspot("Toggle Sound",75,322,250,40,root,ToggleSound).targetGraphic = soundLabel;
+            motionLabel = Label("",90,372,220,32,16,root);
+            Hotspot("Toggle Title Effects",75,367,250,40,root,ToggleMotion).targetGraphic = motionLabel;
+            var close = Label("닫기",120,426,160,30,16,root);
+            Hotspot("Close Settings",120,420,160,40,root,()=>settings.SetActive(false)).targetGraphic = close;
+            settings.SetActive(false);
+        }
+
+        private void ToggleSound()
+        {
+            muted = !muted;
+            AudioListener.pause = muted;
+            PlayerPrefs.SetInt(MuteKey, muted ? 1 : 0);
+            PlayerPrefs.Save();
+            RefreshSettings();
+        }
+
+        private void ToggleMotion()
+        {
+            motion = !motion;
+            PlayerPrefs.SetInt(MotionKey, motion ? 1 : 0);
+            PlayerPrefs.Save();
+            RefreshSettings();
+        }
+
+        private void RefreshSettings()
+        {
+            muteMark.SetActive(muted);
+            soundLabel.text = muted ? "소리  ·  꺼짐" : "소리  ·  켜짐";
+            motionLabel.text = motion ? "타이틀 반짝임  ·  켜짐" : "타이틀 반짝임  ·  꺼짐";
+            foreach (var spark in sparks) spark.gameObject.SetActive(motion);
+        }
+
+        private void AddSparks()
+        {
+            sparks = new CanvasGroup[12];
+            sparkOrigins = new Vector2[sparks.Length];
+            var random = new System.Random(71);
+            for(int i=0;i<sparks.Length;i++)
+            {
+                float x = i%2==0 ? 12+(float)random.NextDouble()*50 : 338+(float)random.NextDouble()*50;
+                float y = 200+(float)random.NextDouble()*355;
+                var rect = Rect("Sky sparkle",x,y,6,6,transform);
+                sparkOrigins[i] = rect.anchoredPosition;
+                sparks[i] = rect.gameObject.AddComponent<CanvasGroup>();
+                sparks[i].blocksRaycasts = false;
+                sparks[i].interactable = false;
+                Solid("Vertical",2.6f,0,.8f,6,cream,rect);
+                Solid("Horizontal",0,2.6f,6,.8f,cream,rect);
+                rect.localRotation = Quaternion.Euler(0,0,15);
+            }
+        }
+
+        private void Update()
+        {
+            if(!motion || sparks == null) return;
+            elapsed += Time.unscaledDeltaTime;
+            for(int i=0;i<sparks.Length;i++)
+            {
+                float phase = elapsed*.7f+i*1.7f;
+                sparks[i].alpha = .12f+.55f*Mathf.Pow((Mathf.Sin(phase)+1)*.5f,3);
+                ((RectTransform)sparks[i].transform).anchoredPosition = sparkOrigins[i]+new Vector2(Mathf.Sin(phase*.45f)*3,Mathf.Sin(phase*.3f)*6);
+            }
+        }
+
+        private void OnDestroy()
+        {
+            if (decorativeFont) Destroy(decorativeFont);
+        }
+    }
+}

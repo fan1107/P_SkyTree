@@ -1,0 +1,21 @@
+Female Navigator - concept v1
+Created with the built-in image_gen tool. Reference: MainShip_Step01/Captain.png.
+Status: 12 separated transparent sprite parts, Transform rig, prefab, Animator controller,
+Breathe / Walk / Run loops and a non-looping Attack sequence are implemented and verified.
+
+Design: warm hand-painted storybook chibi female airship navigator; chestnut ponytail,
+teal ribbon and short jacket, brass goggles, coral scarf, compass pouch, shorts,
+cream leggings and brown boots. Three-quarter view facing screen right.
+
+Rig includes Head, Torso, Pelvis, ArmLeft, ArmRight, Collar, LegLeft, LegRight,
+Scarf, Ponytail, AttackArmLeft and AttackArmRight. Only the appropriate arm pair is visible.
+Prefab: Assets/Prefabs/Coworker/FemaleNavigator.prefab
+Preview: Assets/Tests/FemaleNavigatorRig/FemaleNavigatorRigTest.unity
+Clips and controller: Assets/Tests/FemaleNavigatorRig/Animations
+Runtime API: FemaleNavigatorAnimation.SetMovement(0..2), Attack(), onCannonFire.
+Attack is 1.8 seconds: approach/grip at 0.22, fire event at 0.70, recoil at 0.76,
+normal arms restored at 1.28, return to selected locomotion after completion.
+The prefab uses world SpriteRenderers, not Canvas Images. Locomotion is in place.
+The preview cannon is a separate prop. Actual battle deployment uses BattleShipView and
+CanvasCrewRig; Attack's onCannonFire event drives BattleCannonSequence in the same frame.
+LobbyView contains a second LobbyCaptainWander configured for this navigator's front-deck route.

@@ -1,0 +1,1 @@
+Shots=57 Long=29 Navigator=28 LongEvents=29 NavigatorEvents=28 mismatchedFrames=0 hits=56

@@ -1,0 +1,31 @@
+LONG + FEMALE NAVIGATOR / CANNON ATTACK
+
+Open CannonAttackTest.unity and press Play to compare both characters.
+Buttons: Attack both, Pause/Resume, speed slider. Automatic attacks every 2.5 seconds.
+Navigator's four-state comparison: Assets/Tests/FemaleNavigatorRig/FemaleNavigatorRigTest.unity.
+
+Long: Assets/Prefabs/Coworker/Captain.prefab
+  CaptainAttackAnimation.Attack() or Animator.SetTrigger("Attack").
+  Returns to Breathe on completion. Existing Breathe/Walk/Run direct crossfades remain supported.
+Navigator: Assets/Prefabs/Coworker/FemaleNavigator.prefab
+  FemaleNavigatorAnimation.SetMovement(0 = breathe, 1 = walk, 2 = run).
+  FemaleNavigatorAnimation.Attack() or Animator.SetTrigger("Attack").
+  Returns to locomotion selected by Speed after completion.
+
+Both: onCannonFire UnityEvent fires once at 0.70 seconds of the 1.8-second Attack clip.
+Gameplay is connected: CanvasCrewRig relays this event through BattleShipView to
+BattleCannonSequence. Each character operates one cannon and alternate attacks begin
+1.35 seconds apart. The event starts flash, projectile and recoil in the same frame.
+Preview cannons also recoil using that event.
+Attack uses dedicated bent arms and stepped visibility keys; normal arms reset on exit.
+Long lobby UI now mirrors inactive as well as active rig parts to support these visibility keys.
+
+Art: built-in image_gen generated reconstructed sprite parts from the approved references.
+Female atlas: Assets/ArtResources/Coworker/FemaleNavigator/FemaleNavigatorPartsAtlas.png
+Long arms: Assets/ArtResources/Coworker/CaptainAttack/AttackArmsAtlas.png
+Unity import splits the atlases, trims transparent bounds, sets custom shoulder/hip/neck pivots.
+These are Transform cutout rigs, consistent with the existing Long rig (not skinned meshes).
+
+Validation: Verification/FemaleNavigator/results.txt and Verification/CannonAttack/results.txt.
+Unity Play mode: both attacks fire exactly once and return to Breathe with normal arms restored.
+Navigator locomotion transitions and repeated attacks were exercised without console errors.
