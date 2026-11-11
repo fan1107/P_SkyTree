@@ -48,4 +48,5 @@ Desktop.ini
 /crash.dmp
 
 # Keep Assets (including ALL .meta files), Packages and ProjectSettings.
-# Root-level art concepts and notes are intentionally kept as project references.
+# Root-level generated art previews (game textures under Assets stay tracked).
+/*.png
