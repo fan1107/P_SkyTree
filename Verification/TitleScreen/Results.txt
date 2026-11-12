@@ -1,0 +1,1 @@
+PASS: approved 1080x1920 background loaded; aspect-preserving cover; visible title and controls; all three title button raycasts; settings open/close; start enters LobbyController; player gold save restored after verification.

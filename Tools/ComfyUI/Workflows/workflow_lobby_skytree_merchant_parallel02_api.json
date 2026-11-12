@@ -1,0 +1,119 @@
+{
+  "10": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "krea2_turbo_int8_convrot.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "11": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
+      "type": "krea2",
+      "device": "default"
+    }
+  },
+  "12": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "qwen_image_vae.safetensors"
+    }
+  },
+  "6": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "A close-up PARTIAL VIEW of the near side and cargo deck of a COLOSSAL WOODEN SKY TREE MERCHANT SHIP, cropped by the top and right edges, floating above clouds. Portrait 9:16 fantasy mobile game background. Replace the reference mountaintop terrace with this giant merchant vessel while following the exact diagonal line of its long wooden cliffside walkway as the NEAR-SIDE SHIP RAIL. Replace the rock below the walkway with the wooden side of the enormous hull. The terrace behind it becomes the cargo deck. There must be no remaining land, cliff or dock.\n\nIMPORTANT STRUCTURE: the near-side straight wooden deck rail descends diagonally from the LEFT edge at about 20 percent image height to the RIGHT edge at 55 percent image height. It is a strong TOP-LEFT to BOTTOM-RIGHT line, approximately 35 degrees clockwise from horizontal, just like the long edge of the reference wooden walkway. The long ship axis follows this exact southeast diagonal. The STERN is offscreen beyond the TOP-LEFT edge. The BOW points DOWN-RIGHT and is mostly beyond the RIGHT edge. Do not turn the bow upward. Do not draw the whole boat as a centered object. Only the massive straight middle cargo section, a little of the front, and its NEAR-SIDE wooden hull are visible. The ship lies on the UPPER-RIGHT side of that diagonal. The LOWER-LEFT side of the image is empty cloud-filled air, a parallel docking lane for another vessel that is NOT drawn. A very steep overhead 3/4 camera looking down at the broad ship deck, comparable to isometric city-game art. No horizon.\n\nRICH SHIP DESIGN: the broad deck is dense with dozens of barrel casks, wooden trade boxes, diagonally braced shipping crates and rope-tied parcels arranged in abundant stacks. A huge ancient tree with a thick twisted brown trunk and luminous lime-green canopy grows at the cropped stern at upper-left. A few tiny merchant cabins have orange-red tiled roofs, timber walls, gold trim. Beautiful vivid CRIMSON, ROYAL BLUE and TEAL flags with ornate gold borders and golden leaf emblems stand on vertical short flagpoles along the deck, with strings of small pennants. Teal and red market awnings among the cargo. No large sails. No characters. The hull is warm amber wood with heavy plank ribs, dark blue inset panels bearing magnificent gold-leaf scrollwork, and large brass-rimmed round portholes. Preserve an extravagant cheerful merchant aesthetic. The near hull hangs below the straight diagonal deck rail, so its lower edge also descends from upper-left to lower-right. A conspicuous huge iron ANCHOR with golden fittings hangs vertically on a thick chain from the near hull toward the center-right, fully visible against the clouds.\n\nOnly ONE giant merchant ship. Its long side is parallel to an unseen foreground ship pointing toward bottom-right. All cargo sits on the deck and flags stand upright. The bottom 40 percent and lower-left region are clear airy blue atmosphere with soft white cloud layers far below. No mountain attached to the hull, no land, no ocean, no water surface. Premium hand-painted 2D fantasy mobile RPG quality, luminous green foliage, beautiful warm honey-brown wooden textures, elaborate golden carved decorations, warm upper-left sunshine and soft sculpted shading, saturated flags. No text, no UI, no border, no watermark. Strong descending diagonal ship edge from TOP-LEFT to BOTTOM-RIGHT; upper-right filled with a partial gigantic merchant vessel, lower-left open for another parallel ship.",
+      "clip": [
+        "11",
+        0
+      ]
+    }
+  },
+  "13": {
+    "class_type": "ConditioningZeroOut",
+    "inputs": {
+      "conditioning": [
+        "6",
+        0
+      ]
+    }
+  },
+  "3": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "10",
+        0
+      ],
+      "positive": [
+        "6",
+        0
+      ],
+      "negative": [
+        "13",
+        0
+      ],
+      "latent_image": [
+        "21",
+        0
+      ],
+      "seed": 2026111205,
+      "steps": 8,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "denoise": 0.78
+    }
+  },
+  "8": {
+    "class_type": "VAEDecodeTiled",
+    "inputs": {
+      "samples": [
+        "3",
+        0
+      ],
+      "vae": [
+        "12",
+        0
+      ],
+      "tile_size": 512,
+      "overlap": 64,
+      "temporal_size": 64,
+      "temporal_overlap": 8
+    }
+  },
+  "29": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ],
+      "filename_prefix": "SkyTree/Lobby/SkyTreeMerchantParallel02"
+    }
+  },
+  "20": {
+    "inputs": {
+      "image": "SkyTreeReferences/LobbyMountainHarbor02.png"
+    },
+    "class_type": "LoadImage"
+  },
+  "21": {
+    "inputs": {
+      "tile_size": 512,
+      "pixels": [
+        "20",
+        0
+      ],
+      "overlap": 64,
+      "temporal_size": 64,
+      "vae": [
+        "12",
+        0
+      ],
+      "temporal_overlap": 8
+    },
+    "class_type": "VAEEncodeTiled"
+  }
+}

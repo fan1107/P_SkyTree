@@ -1,0 +1,272 @@
+{
+  "prompt": [
+    15,
+    "396e85dd-fca5-42f8-9d7d-834e86b4b715",
+    {
+      "10": {
+        "class_type": "UNETLoader",
+        "inputs": {
+          "unet_name": "krea2_turbo_int8_convrot.safetensors",
+          "weight_dtype": "default"
+        }
+      },
+      "11": {
+        "class_type": "CLIPLoader",
+        "inputs": {
+          "clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
+          "type": "krea2",
+          "device": "default"
+        }
+      },
+      "12": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "qwen_image_vae.safetensors"
+        }
+      },
+      "6": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "text": "A single full-body character concept of a friendly SKYSHIP MERCHANT for the SkyTree fantasy mobile RPG. Use the existing young airship captain as a reference for the warm hand-painted art style, large expressive brown eyes, charming short proportions, brown contour lines, small rounded hands and detailed brass-and-leather materials. Create a DIFFERENT character: a prosperous, kindly middle-aged male traveling merchant with a round stocky body and a small belly. About 2.8 heads tall, oversized expressive head, short sturdy legs, both boots fully visible. Warm smiling face, rosy round cheeks, a small rounded nose, lively large brown eyes, thick friendly eyebrows, chestnut hair with a few gray strands at the temples, a tidy short curled brown moustache. No long beard.\n\nHe wears a distinctive soft dark emerald merchant beret with a small brass leaf brooch, round gold-rimmed spectacles, a rich deep teal-green knee-length trading coat with elegant gold piping and brass buttons, a burgundy waistcoat over a cream shirt with rolled cuffs, a small warm ochre neck scarf. A broad brown leather belt with a large square brass buckle, a plump drawstring coin pouch and a compact leather trade satchel. Brown cuffed trousers and sturdy polished brown ankle boots with brass buckles. The clothing is practical for traveling between floating islands, subtly luxurious and well cared for, matching a wooden sky-tree merchant ship.\n\nOne arm cradles a closed dark brown leather ledger against his side; its cover has a simple small brass corner clasp and NO lettering. His other hand shows one shiny gold coin with a warm inviting salesman's gesture at waist height. Hands anatomically clean and readable. Relaxed balanced standing pose, slight three-quarter view toward screen right, very mildly seen from above like a game character sprite, cheerful and trustworthy. Strong compact silhouette, generous clean margin around the whole body, hat and feet never cropped.\n\nPolished hand-painted storybook chibi game character, soft subtly textured brushwork, warm gentle upper-left light, crisp beautiful detail, matte painted fabric, warm golden highlights on brass, rich brown leather, expressive face. Closely match the established SkyTree captain and female navigator aesthetic. One assembled character, centered on a plain warm off-white background. No scenery, no ship, no crate, no second character, no character sheet, no labels, no letters, no watermark, no dramatic shadow, no weapon. NOT a realistic human, NOT photorealism, NOT 3D render, NOT flat vector, NOT sharp anime cel shading.",
+          "clip": [
+            "11",
+            0
+          ]
+        }
+      },
+      "13": {
+        "class_type": "ConditioningZeroOut",
+        "inputs": {
+          "conditioning": [
+            "6",
+            0
+          ]
+        }
+      },
+      "3": {
+        "class_type": "KSampler",
+        "inputs": {
+          "model": [
+            "10",
+            0
+          ],
+          "positive": [
+            "6",
+            0
+          ],
+          "negative": [
+            "13",
+            0
+          ],
+          "latent_image": [
+            "28",
+            0
+          ],
+          "seed": 2026111215,
+          "steps": 8,
+          "cfg": 1.0,
+          "sampler_name": "euler",
+          "scheduler": "simple",
+          "denoise": 0.86
+        }
+      },
+      "8": {
+        "class_type": "VAEDecodeTiled",
+        "inputs": {
+          "samples": [
+            "3",
+            0
+          ],
+          "vae": [
+            "12",
+            0
+          ],
+          "tile_size": 512,
+          "overlap": 64,
+          "temporal_size": 64,
+          "temporal_overlap": 8
+        }
+      },
+      "29": {
+        "class_type": "SaveImage",
+        "inputs": {
+          "images": [
+            "8",
+            0
+          ],
+          "filename_prefix": "SkyTree/Characters/SkyMerchantCharacter01"
+        }
+      },
+      "20": {
+        "inputs": {
+          "image": "SkyTreeReferences/Captain-style-reference.png"
+        },
+        "class_type": "LoadImage"
+      },
+      "21": {
+        "inputs": {
+          "upscale_method": "lanczos",
+          "height": 768,
+          "width": 576,
+          "crop": "disabled",
+          "image": [
+            "20",
+            0
+          ]
+        },
+        "class_type": "ImageScale"
+      },
+      "22": {
+        "inputs": {
+          "mask": [
+            "20",
+            1
+          ]
+        },
+        "class_type": "MaskToImage"
+      },
+      "23": {
+        "inputs": {
+          "upscale_method": "bilinear",
+          "height": 768,
+          "width": 576,
+          "crop": "disabled",
+          "image": [
+            "22",
+            0
+          ]
+        },
+        "class_type": "ImageScale"
+      },
+      "24": {
+        "inputs": {
+          "channel": "red",
+          "image": [
+            "23",
+            0
+          ]
+        },
+        "class_type": "ImageToMask"
+      },
+      "25": {
+        "inputs": {
+          "mask": [
+            "24",
+            0
+          ]
+        },
+        "class_type": "InvertMask"
+      },
+      "26": {
+        "inputs": {
+          "color": 16052712,
+          "height": 1024,
+          "width": 768,
+          "batch_size": 1
+        },
+        "class_type": "EmptyImage"
+      },
+      "27": {
+        "inputs": {
+          "x": 96,
+          "resize_source": false,
+          "source": [
+            "21",
+            0
+          ],
+          "mask": [
+            "25",
+            0
+          ],
+          "destination": [
+            "26",
+            0
+          ],
+          "y": 128
+        },
+        "class_type": "ImageCompositeMasked"
+      },
+      "28": {
+        "inputs": {
+          "tile_size": 512,
+          "pixels": [
+            "27",
+            0
+          ],
+          "temporal_overlap": 8,
+          "temporal_size": 64,
+          "vae": [
+            "12",
+            0
+          ],
+          "overlap": 64
+        },
+        "class_type": "VAEEncodeTiled"
+      }
+    },
+    {
+      "client_id": "codex-skytree-merchant-character",
+      "create_time": 1794448841167
+    },
+    [
+      "29"
+    ]
+  ],
+  "outputs": {
+    "29": {
+      "images": [
+        {
+          "filename": "SkyMerchantCharacter01_00001_.png",
+          "subfolder": "SkyTree\\Characters",
+          "type": "output",
+          "metadata": {
+            "kind": "image",
+            "width": 768,
+            "height": 1024
+          },
+          "id": "eb3fb317-91f0-4f00-9304-85d7eb692436"
+        }
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "396e85dd-fca5-42f8-9d7d-834e86b4b715",
+          "timestamp": 1794448841168
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "10",
+            "11",
+            "12"
+          ],
+          "prompt_id": "396e85dd-fca5-42f8-9d7d-834e86b4b715",
+          "timestamp": 1794448841174
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "396e85dd-fca5-42f8-9d7d-834e86b4b715",
+          "timestamp": 1794448864813
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "29": {
+      "node_id": "29",
+      "display_node": "29",
+      "parent_node": null,
+      "real_node_id": "29"
+    }
+  }
+}

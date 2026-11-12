@@ -1,0 +1,62 @@
+2026-11-12 16:01:12,976 - mcp-for-unity-server - INFO - Using default Unity instance from command-line: P_SkyTree@33fb3926f914a8e2
+2026-11-12 16:01:12,977 - mcp-for-unity-server - INFO - Transport mode: http
+2026-11-12 16:01:12,977 - mcp-for-unity-server - INFO - Initializing Unity connection pool
+2026-11-12 16:01:12,977 - mcp-for-unity-server - INFO - Default Unity instance set from environment: P_SkyTree@33fb3926f914a8e2
+2026-11-12 16:01:12,978 - mcp-for-unity-server - INFO - Discovered 0 Unity instances (after de-duplication by port)
+2026-11-12 16:01:12,978 - mcp-for-unity-server - INFO - Found 0 Unity instances: []
+2026-11-12 16:01:12,981 - mcp-for-unity-server - INFO - Registered Unity instance middleware for session-based routing
+2026-11-12 16:01:12,981 - mcp-for-unity-server - INFO - Auto-discovering MCP for Unity Server tools...
+2026-11-12 16:01:13,058 - mcp-for-unity-server - INFO - Skipping execute_custom_tool registration (project-scoped tools disabled)
+2026-11-12 16:01:13,161 - mcp-for-unity-server - INFO - Registered 49 MCP tools
+2026-11-12 16:01:13,161 - mcp-for-unity-server - INFO - Default tool groups: core. Disabled: animation, asset_gen, docs, probuilder, profiling, scripting_ext, testing, ui, vfx. Use manage_tools to activate more.
+2026-11-12 16:01:13,161 - mcp-for-unity-server - INFO - Auto-discovering MCP for Unity Server resources...
+2026-11-12 16:01:13,203 - mcp-for-unity-server - INFO - Skipping custom_tools resource registration (project-scoped tools disabled)
+2026-11-12 16:01:13,210 - mcp-for-unity-server - INFO - Registered 24 MCP resources (25 unique)
+2026-11-12 16:01:13,210 - mcp-for-unity-server - INFO - Starting FastMCP with HTTP transport on 127.0.0.1:8080
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│                                                                             │
+│                        ▄▀▀ ▄▀█ █▀▀ ▀█▀ █▀▄▀█ █▀▀ █▀█                        │
+│                        █▀  █▀█ ▄▄█  █  █ ▀ █ █▄▄ █▀▀                        │
+│                                                                             │
+│                                                                             │
+│                                                                             │
+│                                FastMCP 3.4.8                                │
+│                            https://gofastmcp.com                            │
+│                                                                             │
+│                 🖥  Server:      mcp-for-unity-server, 3.4.8                 │
+│                 🚀 Deploy free: https://horizon.prefect.io                  │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         🎉 Update available: 4.1.8                          │
+│                     Run: pip install --upgrade fastmcp                      │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+
+2026-11-12 16:01:13,261 - mcp-for-unity-server - INFO - MCP for Unity Server v10.3.0 starting up
+2026-11-12 16:01:13,262 - mcp-for-unity-server - WARNING - No Unity instances found on startup
+[11/12/26 16:01:13] INFO     Starting MCP server               transport.py:361
+                             'mcp-for-unity-server' with                       
+                             transport 'http' on                               
+                             http://127.0.0.1:8080/mcp                         
+INFO:     Started server process [42636]
+INFO:     Waiting for application startup.
+2026-11-12 16:01:13,309 - mcp.server.streamable_http_manager - INFO - StreamableHTTP session manager started
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+2026-11-12 16:01:14,271 - unity-mcp-telemetry - INFO - Telemetry configured: endpoint=https://api-prod.coplay.dev/telemetry/events (default=https://api-prod.coplay.dev/telemetry/events), timeout_env=5.0
+2026-11-12 16:01:14,272 - unity-mcp-telemetry - INFO - Telemetry timeout=5.00s
+2026-11-12 16:01:30,577 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: f3a1fb0b9e374d918cec3ef3d5d55b95
+2026-11-12 16:01:30,602 - unity-mcp-telemetry - INFO - telemetry_decorator async: resource=unity_instances
+2026-11-12 16:01:30,602 - mcp-for-unity-server - INFO - Resource 'unity_instances' called with args=() kwargs={'ctx': Context(_STATE_TTL_SECONDS=86400)}
+[11/12/26 16:01:30] DEBUG    Sending INFO to client: Listing    context.py:1446
+                             Unity instances                                   
+2026-11-12 16:01:30,606 - mcp-for-unity-server - INFO - Resource 'unity_instances' returned: {"success": true, "transport": "http", "instance_count": 0, "instances": []}
+2026-11-12 16:03:16,293 - unity-mcp-telemetry - INFO - telemetry_decorator async: resource=unity_instances
+2026-11-12 16:03:16,294 - mcp-for-unity-server - INFO - Resource 'unity_instances' called with args=() kwargs={'ctx': Context(_STATE_TTL_SECONDS=86400)}
+[11/12/26 16:03:16] DEBUG    Sending INFO to client: Listing    context.py:1446
+                             Unity instances                                   
+2026-11-12 16:03:16,296 - mcp-for-unity-server - INFO - Resource 'unity_instances' returned: {"success": true, "transport": "http", "instance_count": 0, "instances": []}

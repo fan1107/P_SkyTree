@@ -12,7 +12,7 @@ namespace SkyTree.EditorTools
     public static class FlagSpriteBuilder
     {
         public const string Folder = "Assets/ArtResources/Ships/MainShip_Step01/AnimatedFlag";
-        public const string PrefabPath = "Assets/SkyTree/Prefabs/ShipFlag.prefab";
+        public const string PrefabPath = "Assets/Prefabs/MainShip/ShipFlag.prefab";
 
         public static void Build()
         {
@@ -50,7 +50,7 @@ namespace SkyTree.EditorTools
             PrefabUtility.SaveAsPrefabAsset(root.gameObject,PrefabPath);
             UnityEngine.Object.DestroyImmediate(root.gameObject);
             AssetDatabase.SaveAssets();
-            ReplaceIn("Assets/SkyTree/Prefabs/LobbyView.prefab");
+            ReplaceIn("Assets/Prefabs/MainShip/MainShip_Step01_Lobby.prefab");
         }
 
         private static void Extract(Texture2D source,int x,int width,string name)
@@ -134,7 +134,7 @@ namespace SkyTree.EditorTools
             var content=PrefabUtility.LoadPrefabContents(path);
             try
             {
-                var old=content.transform.Find("MainShip_Step01/Flag") as RectTransform;
+                var old=content.transform.Find("Flag") as RectTransform;
                 if(!old)throw new Exception("Lobby flag not found");
                 var root=(GameObject)PrefabUtility.InstantiatePrefab(AssetDatabase.LoadAssetAtPath<GameObject>(PrefabPath),old.parent);
                 root.name="Flag";var rect=root.GetComponent<RectTransform>();

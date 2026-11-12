@@ -1,0 +1,7 @@
+lobbyPrefab -> Assets/UIPrefabs/Lobby/LobbyView.prefab
+worldLobbyTable -> Assets/SkyTree/Data/WorldLobbyTable.asset
+routePopupPrefab -> Assets/UIPrefabs/Popups/RouteSelectionPopup.prefab
+battleShipPrefab -> Assets/Prefabs/MainShip/MainShip_Step01_Adventure.prefab
+skybirdPrefab -> Assets/Prefabs/Enemy/Skybird.prefab
+19 prefabs: scripts/references loaded; 81 table lookups; variant inheritance; runtime Resources addresses PASS
+Original scene remains dirty=True

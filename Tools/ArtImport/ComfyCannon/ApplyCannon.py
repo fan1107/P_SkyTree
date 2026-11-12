@@ -1,7 +1,7 @@
 from pathlib import Path
 import re,uuid,shutil,datetime
 root=Path('D:/MyProject/P_SkyTree'); asset=root/'Assets/ArtResources/Cannons/CannonComfyTransparent.png'
-prefab=root/'Assets/SkyTree/Prefabs/MainShip_Step01.prefab'
+prefab=root/'Assets/Prefabs/MainShip/MainShip_Step01_Lobby.prefab'
 bak=root/'Tools/ArtImport/Backups'/('Cannon-'+datetime.datetime.now().strftime('%Y%m%d-%H%M%S'));bak.mkdir(parents=True,exist_ok=True);shutil.copy2(prefab,bak/prefab.name)
 g=uuid.uuid4().hex
 meta=(root/'Assets/ArtResources/Ships/MainShip_Step01/HullMidDetail.png.meta').read_text(encoding='utf-8-sig');meta=re.sub(r'^guid: .*$', 'guid: '+g,meta,flags=re.M)

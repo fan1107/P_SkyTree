@@ -1,0 +1,5 @@
+Health arithmetic, overkill, zero/negative damage and dead-target idempotence PASS
+Actual animation-event shots, projectile HP damage, collision damage, HUD synchronization, layer order and pause PASS
+Natural victory: shots=21, hits=21, collisions=28, hull=496; death cleanup, retargeting and all-dead idle PASS
+Hull zero HP, defeat stop, empty health bar and repeated collision immunity PASS
+Rendered HP/frame meshes, return-button raycast, lobby cleanup and fresh battle reentry PASS

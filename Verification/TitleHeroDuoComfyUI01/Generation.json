@@ -1,0 +1,19 @@
+{
+  "generator": "Local ComfyUI",
+  "server": "http://127.0.0.1:8188",
+  "model": "krea2_turbo_int8_convrot.safetensors",
+  "initial_prompt_id": "2bebd337-3782-4b36-864d-0070877ccb0c",
+  "final_prompt_id": "4272e7bb-a840-4616-a4a9-861ff240629e",
+  "initial_seed": 2026111221,
+  "final_seed": 2026111223,
+  "native_resolution": "1024x1216",
+  "output_resolution": "2048x2432",
+  "upscale": "2x Lanczos in ComfyUI",
+  "pose_reference": "Tools/ArtImport/TitleHeroDuoComfyUI01/PoseSketch.png",
+  "character_reference_usage": "Existing Captain.png and FemaleNavigator-Concept.png visually reviewed; costume and appearance descriptions supplied in prompt",
+  "alpha_postprocess": "Local deterministic white-background matting in ExtractAlpha.ps1; two complete foreground components, 76.8 percent transparent",
+  "final_prompt": "Tools/ArtImport/TitleHeroDuoComfyUI01/PromptFinal.txt",
+  "final_workflow": "Tools/ComfyUI/Workflows/workflow_title_hero_duo_comfy01_final_api.json",
+  "output": "Assets/ArtResources/Title/TitleHeroDuo_ComfyUI01.png",
+  "game_title_applied": false
+}

@@ -17,12 +17,21 @@ namespace SkyTree
         private RectTransform frame, page, ship, bird, shot, enemyBar, hullBar;
         private Text waveText, hullText, repairText;
         private Button repairButton;
-        [SerializeField] private LobbyView lobbyPrefab;
+        [SerializeField] private LobbyController lobbyRootPrefab;
+        private LobbyController lobby;
+        [SerializeField] private WorldLobbyTable worldLobbyTable;
         [SerializeField] private RouteSelectionPopup routePopupPrefab;
+        [SerializeField] private VoyageResultPopup resultPopupPrefab;
         private RouteSelectionPopup routePopup;
         public RoutePlan SelectedRoute { get; private set; }
+        public VoyageBattleController ActiveVoyage { get; private set; }
+        public const string WorldPointKey = "SkyTree.World.CurrentPoint";
+        public const string WorldNumberKey = "SkyTree.World.CurrentWorld";
+        public int CurrentWorldNumber => Mathf.Clamp(PlayerPrefs.GetInt(WorldNumberKey, 1), 1, WorldLobbyTable.WorldCount);
+        public int CurrentWorldPoint => Mathf.Clamp(PlayerPrefs.GetInt(WorldPointKey, 7), 0, 8);
         [SerializeField] private BattleShipView battleShipPrefab;
         [SerializeField] private RawImage skybirdPrefab;
+        [SerializeField] private RawImage skybirdMotherPrefab;
         [SerializeField] private Sprite titleButtonSprite;
         private Font font;
         private Texture2D skyArt, shipArt, birdArt;
@@ -147,10 +156,14 @@ namespace SkyTree
         private void Open(Page next)
         {
             if (page) { page.gameObject.SetActive(false); Destroy(page.gameObject); }
+            routePopup = null;
+            lobby = null;
             current = next;
             ship = null;
             page = Node(next.ToString(), frame);
             page.sizeDelta = frame.sizeDelta;
+            // 로비의 그림·구름·배·UI는 저장된 조합 프리팹이 담당한다.
+            if (next == Page.Lobby) return;
             if (next == Page.Battle)
             {
                 Instantiate(Resources.Load<BattleBackgroundView>("SkyTree/BattleBackground"), page, false);
@@ -159,18 +172,16 @@ namespace SkyTree
             var background = next switch
             {
                 Page.Title => Resources.Load<Texture2D>("SkyTree/Title/TitleArtwork"),
-                Page.Lobby => Resources.Load<Texture2D>("SkyTree/LobbyOceanIslands"),
                 _ => skyArt
             };
-            Art(next == Page.Lobby ? "Ocean and islands" : "Background", background, 0, 0, 400, 720, true);
-            if (next == Page.Lobby) page.gameObject.AddComponent<LobbyPassingClouds>();
+            Art("Background", background, 0, 0, 400, 720, true);
         }
 
         private void Title()
         {
             Open(Page.Title);
             // Keep the approved key art fixed; text and controls remain real, accessible UI.
-            page.gameObject.AddComponent<TitleScreenView>().Build(font, PlayerPrefs.HasKey(GoldKey), Login);
+            page.gameObject.AddComponent<TitleScreenView>().Build(font, PlayerPrefs.HasKey(GoldKey), Login, titleButtonSprite);
         }
 
         private void Login()
@@ -183,36 +194,75 @@ namespace SkyTree
         private void Lobby()
         {
             Open(Page.Lobby);
-            var lobby = Instantiate(lobbyPrefab, page, false);
-            lobby.Bind(font, PlayerPrefs.GetInt("SkyTree.Guest.Energy", 30), gold,
-                PlayerPrefs.GetInt("SkyTree.Guest.Gems", 0), OpenRouteMap);
+            if (!worldLobbyTable || !lobbyRootPrefab)
+                throw new InvalidOperationException("SkyTreeGame의 로비 루트와 지역 테이블 연결이 필요합니다.");
+            lobby = Instantiate(lobbyRootPrefab, page, false);
+            lobby.Open(worldLobbyTable.Resolve(CurrentWorldNumber, CurrentWorldPoint + 1),
+                font, PlayerPrefs.GetInt("SkyTree.Guest.Energy", 30), gold,
+                PlayerPrefs.GetInt("SkyTree.Guest.Gems", 0), OpenRouteMap, CurrentWorldNumber);
         }
 
         private void OpenRouteMap()
         {
             if (!routePopupPrefab) { Debug.LogError("Route selection prefab is missing."); return; }
-            if (!routePopup) routePopup = Instantiate(routePopupPrefab, page, false);
-            routePopup.Open(font, PlayerPrefs.GetInt("SkyTree.World.CurrentPoint", 7), plan =>
-            {
-                SelectedRoute = plan;
-                BeginBattle();
-            });
+            if (!routePopup) routePopup = Instantiate(routePopupPrefab, lobby ? lobby.PopupRoot : page, false);
+            routePopup.Open(font, CurrentWorldPoint, BeginVoyage);
+        }
+
+        public void BeginVoyage(RoutePlan plan)
+        {
+            if (plan == null || plan.Source != CurrentWorldPoint) return;
+            if (ActiveVoyage && !ActiveVoyage.Progress.Finished) return;
+            SelectedRoute = plan;
+            BeginBattle();
         }
 
         private void BeginBattle()
         {
             battle = null;
             Open(Page.Battle);
+            ActiveVoyage = null;
             var player = Instantiate(battleShipPrefab, page, false);
-            page.gameObject.AddComponent<BattleCannonSequence>().Build(player, skybirdPrefab);
-            Label("구름새 습격", 24, 26, 352, 36, 25, Cream, bold:true);
-            Label("SKYBIRD × 7   ·   충돌 공격", 24, 64, 352, 25, 14, Gold);
-            var back = ActionButton("로비로 돌아가기", 80, 636, 240, Lobby, out var caption);
-            if (titleButtonSprite)
+            var sequence = page.gameObject.AddComponent<BattleCannonSequence>();
+            sequence.Build(player, skybirdPrefab, font, SelectedRoute == null ? 7 : VoyageBattleController.EnemiesPerWave, skybirdMotherPrefab);
+            if (SelectedRoute != null)
             {
-                back.GetComponent<Image>().sprite = titleButtonSprite;
-                back.GetComponent<Image>().color = Color.white;
-                caption.color = Ink;
+                ActiveVoyage = page.gameObject.AddComponent<VoyageBattleController>();
+                ActiveVoyage.Initialize(SelectedRoute, sequence, player);
+                ActiveVoyage.CheckpointReached += SaveWorldPoint;
+                ActiveVoyage.Completed += CompleteVoyage;
+            }
+            var hud = BattleHudView.Node("Battle HUD", page, Vector2.zero, new Vector2(400, 720)).gameObject.AddComponent<BattleHudView>();
+            hud.Build(font, player, sequence, LeaveBattle, ActiveVoyage);
+        }
+
+        private void LeaveBattle()
+        {
+            if (ActiveVoyage) ActiveVoyage.Retreat();
+            else Lobby();
+        }
+
+        private void SaveWorldPoint(int point)
+        {
+            PlayerPrefs.SetInt(WorldPointKey, Mathf.Clamp(point, 0, 8));
+            PlayerPrefs.Save();
+        }
+
+        private void CompleteVoyage(VoyageProgress progress)
+        {
+            SaveWorldPoint(progress.ReachedPoint);
+            ActiveVoyage = null;
+            SelectedRoute = null;
+            Lobby();
+            if (progress.Phase == VoyagePhase.Victory && resultPopupPrefab)
+            {
+                var result = Instantiate(resultPopupPrefab, lobby.PopupRoot, false);
+                result.Open(font, progress, progress.EarnedRewards, () => Destroy(result.gameObject));
+            }
+            else
+            {
+                OpenRouteMap();
+                routePopup.ShowVoyageResult(progress);
             }
         }
         private RectTransform Meter(string name, int x, int y, int width, Color color)

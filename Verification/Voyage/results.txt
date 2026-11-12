@@ -1,0 +1,6 @@
+88 route options: two waves per cell, all checkpoints, final boss exactly once and terminal idempotence PASS
+OneCell: 2 regular waves + one boss, shots=34, hull=928; HP carryover, saved arrival, map animation/reopen and next-route source PASS
+TwoCells: 4 regular waves + one boss, shots=51, hull=856; HP carryover, saved arrival, map animation/reopen and next-route source PASS
+Second-cell defeat saves the selected intermediate point; closing arrival animation/reopening preserves the marker PASS
+Boss defeat retains checkpoint; no final arrival before boss victory PASS
+Return button abort, invalid-source guard and source-position preservation PASS

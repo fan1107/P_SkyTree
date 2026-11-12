@@ -14,12 +14,15 @@ namespace SkyTree.EditorTools
             importer.spriteImportMode = SpriteImportMode.Single;
             importer.alphaIsTransparency = true;
             importer.SaveAndReimport();
-            var lobby = PrefabUtility.LoadPrefabContents("Assets/SkyTree/Prefabs/LobbyView.prefab");
+            var lobby = PrefabUtility.LoadPrefabContents("Assets/Prefabs/MainShip/MainShip_Step01_Lobby.prefab");
             GameObject root = null;
             try
             {
-                root = Object.Instantiate(lobby.transform.Find("MainShip_Step01").gameObject);
-                root.name = "BattleShip";
+                root = Object.Instantiate(lobby);
+                // 로비 표시 연출은 전투 프리팹으로 복사하지 않는다.
+                foreach (var walker in root.GetComponents<LobbyCaptainWander>()) Object.DestroyImmediate(walker);
+                Object.DestroyImmediate(root.GetComponent<LobbyShipView>());
+                root.name = "MainShip_Step01_Adventure";
                 var rect = root.GetComponent<RectTransform>();
                 rect.SetParent(null, false);
                 rect.anchorMin = rect.anchorMax = new Vector2(.5f, .5f);
@@ -61,7 +64,7 @@ namespace SkyTree.EditorTools
                 cannon.SetAsLastSibling();
                 captain.SetAsLastSibling();
                 rect.Find("SkyTreeFoliage").SetAsLastSibling();
-                PrefabUtility.SaveAsPrefabAsset(root, "Assets/Prefabs/MainShip/BattleShip.prefab");
+                PrefabUtility.SaveAsPrefabAsset(root, "Assets/Prefabs/MainShip/MainShip_Step01_Adventure.prefab");
             }
             finally
             {

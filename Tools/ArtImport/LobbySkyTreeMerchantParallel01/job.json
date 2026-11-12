@@ -1,0 +1,6 @@
+{
+  "source_asset": "Assets/ArtResources/Backgrounds/LobbySkyTreeMerchant02.png",
+  "server": "http://127.0.0.1:8188",
+  "workflow": "C:\\Users\\eicke\\Documents\\P_SkyTree\\Tools\\ComfyUI\\Workflows\\workflow_lobby_skytree_merchant_parallel01_api.json",
+  "prompt_id": "ea1b2aac-8051-4513-84b2-22169d9444e9"
+}

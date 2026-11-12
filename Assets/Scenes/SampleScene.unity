@@ -148,10 +148,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67c8ee050f69a5940bc4fda29a81f0ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SkyTree.SkyTreeGame
-  lobbyPrefab: {fileID: 7668096732527684311, guid: 6cb35bdd54efb604d9ec5fe87b865bde, type: 3}
+  lobbyRootPrefab: {fileID: 814356218234249414, guid: 9a7f074aa6c3eb54f89f08bee26dbb83, type: 3}
+  worldLobbyTable: {fileID: 11400000, guid: c6d49b18e6bfab542a150b7130f9ccf7, type: 2}
   routePopupPrefab: {fileID: 4282851579792914336, guid: 7bc77c57e2698914bab426c5ac98c0b8, type: 3}
+  resultPopupPrefab: {fileID: 2988414375402490797, guid: 971e90f211743704ca042be127724b13, type: 3}
   battleShipPrefab: {fileID: 8868475630394688048, guid: 32f4846923d759e46aea6d62b5e781c5, type: 3}
   skybirdPrefab: {fileID: 5171818269019836851, guid: 022215f752c6b4f4693b4c565d10292e, type: 3}
+  skybirdMotherPrefab: {fileID: 6287985889207687359, guid: 7fe2bbd6dc453dc42962bb7f0d96ccfd, type: 3}
   titleButtonSprite: {fileID: 21300000, guid: 362bf29c63a801e489ae6585763f5269, type: 3}
 --- !u!4 &225048414
 Transform:

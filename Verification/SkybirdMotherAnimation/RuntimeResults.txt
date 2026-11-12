@@ -1,0 +1,12 @@
+PASS
+Normal wave unchanged: True
+Mother prefab: 어미 스카이버드
+Idle unique textures: 3
+Attack samples: 477
+Wrong attack textures: 0
+Return flap samples: 698
+Impact contact error: 3.814697E-06
+Collisions: 1
+Ship damage: 36
+Damage correct: True
+Death stop correct: True

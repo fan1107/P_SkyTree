@@ -1,0 +1,7 @@
+{
+  "concept": "A solitary large sky tree carries a small clump of terrain held together by exposed roots.",
+  "server": "http://127.0.0.1:8188",
+  "prompt_id": "f2a408de-d097-4be4-9d64-adca3ca03ed7",
+  "intended_use": "World-map destination lobby background; asset only, no scene assignment.",
+  "workflow": "C:\\Users\\eicke\\Documents\\P_SkyTree\\Tools\\ComfyUI\\Workflows\\workflow_lobby_lone_skytree_island03_api.json"
+}

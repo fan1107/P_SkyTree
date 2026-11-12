@@ -1,0 +1,271 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7da2521cf310e14eaf5afce8f770c0c, type: 3}
+  m_Name: WorldLobbyTable
+  m_EditorClassIdentifier: Assembly-CSharp::SkyTree.WorldLobbyTable
+  defaultRegion:
+    displayName: "\uBC14\uB78C\uCD08\uC6D0 \uC815\uBC15\uC9C0"
+    background: {fileID: 273809395276742257, guid: 1638888c6e82a51439bc60da3ddea8da, type: 3}
+    worldLabelColor: {r: 0.22352941, g: 0.25490198, b: 0.21176471, a: 1}
+  worlds:
+  - regions:
+    - displayName: "\uBC14\uB78C\uCD08\uC6D0 \uC815\uBC15\uC9C0"
+      background: {fileID: 273809395276742257, guid: 1638888c6e82a51439bc60da3ddea8da, type: 3}
+      worldLabelColor: {r: 0.22352941, g: 0.25490198, b: 0.21176471, a: 1}
+    - displayName: "\uBC14\uB78C\uCD08\uC6D0 \uC815\uBC15\uC9C0"
+      background: {fileID: 273809395276742257, guid: 1638888c6e82a51439bc60da3ddea8da, type: 3}
+      worldLabelColor: {r: 0.22352941, g: 0.25490198, b: 0.21176471, a: 1}
+    - displayName: "\uD558\uB298\uB098\uBB34 \uC0C1\uC120"
+      background: {fileID: 5886122075377961030, guid: 3469b5663dc28fb4cb19d5fa618918be, type: 3}
+      worldLabelColor: {r: 1, g: 0.9529412, b: 0.8156863, a: 1}
+    - displayName: "\uC678\uB534 \uD558\uB298\uB098\uBB34 \uC12C"
+      background: {fileID: 6855648578064508258, guid: 1876e93cc0f44ae4088e59cbd22b4d43, type: 3}
+      worldLabelColor: {r: 1, g: 0.9529412, b: 0.8156863, a: 1}
+    - displayName: "\uBC14\uB78C\uCD08\uC6D0 \uC815\uBC15\uC9C0"
+      background: {fileID: 273809395276742257, guid: 1638888c6e82a51439bc60da3ddea8da, type: 3}
+      worldLabelColor: {r: 0.22352941, g: 0.25490198, b: 0.21176471, a: 1}
+    - displayName: "\uBC14\uB78C\uCD08\uC6D0 \uC815\uBC15\uC9C0"
+      background: {fileID: 273809395276742257, guid: 1638888c6e82a51439bc60da3ddea8da, type: 3}
+      worldLabelColor: {r: 0.22352941, g: 0.25490198, b: 0.21176471, a: 1}
+    - displayName: "\uBC14\uB78C\uCD08\uC6D0 \uC815\uBC15\uC9C0"
+      background: {fileID: 273809395276742257, guid: 1638888c6e82a51439bc60da3ddea8da, type: 3}
+      worldLabelColor: {r: 0.22352941, g: 0.25490198, b: 0.21176471, a: 1}
+    - displayName: "\uBC14\uB78C\uCD08\uC6D0 \uC815\uBC15\uC9C0"
+      background: {fileID: 273809395276742257, guid: 1638888c6e82a51439bc60da3ddea8da, type: 3}
+      worldLabelColor: {r: 0.22352941, g: 0.25490198, b: 0.21176471, a: 1}
+    - displayName: "\uBC14\uB78C\uCD08\uC6D0 \uC815\uBC15\uC9C0"
+      background: {fileID: 273809395276742257, guid: 1638888c6e82a51439bc60da3ddea8da, type: 3}
+      worldLabelColor: {r: 0.22352941, g: 0.25490198, b: 0.21176471, a: 1}
+  - regions:
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+  - regions:
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+  - regions:
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+  - regions:
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+  - regions:
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+  - regions:
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+  - regions:
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+  - regions:
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}
+    - displayName: 
+      background: {fileID: 0}
+      worldLabelColor: {r: 1, g: 1, b: 1, a: 1}

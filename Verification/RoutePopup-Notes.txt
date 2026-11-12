@@ -1,7 +1,7 @@
 Route selection popup implementation
 
-Prefab: Assets/SkyTree/Prefabs/RouteSelectionPopup.prefab
-Art: Assets/ArtResources/Atlas/RouteMap/CloudChart.png and TreeShipMarker.png
+Prefab: Assets/UIPrefabs/Popups/RouteSelectionPopup.prefab
+Art: Assets/ArtResources/Atlas/RouteMap/CloudChartLandmarks.png and TreeShipMarker.png
 Atlas: Assets/ArtResources/Atlas/RouteMap/RouteMap.spriteatlas
 Rebuild: SkyTree/Build Route Selection Popup (Editor menu, edit mode).
 
@@ -9,16 +9,22 @@ The popup is a 352 x 636 panel inside the existing safe-area 400 x 720 UI frame.
 It blocks lobby input; Close hides it without leaving the lobby. Every Open resets selection.
 Nine point buttons use 44 x 44 hit areas, with separate sharp vector circle artwork.
 Map image, divider grid, route arrow, selection ring, labels and ship marker are separate layers.
+The current map adds a monochrome sepia merchant airship at point 3 (top right) and a small floating island at point 4 (middle left). The original CloudChart.png is retained. See Verification/RouteMap-Landmarks.txt for image editing prompts.
 Internal point IDs are zero-based. Start is 7 (bottom middle). IDs are not displayed.
-Straight horizontal, vertical and diagonal routes are supported; current or nonstraight destinations clear selection and disable departure.
-RoutePlan supplies distance * 3 normal waves and one final boss. Departure is guarded against duplicate taps.
+Horizontal, vertical and diagonal adjacent steps are supported. Straight destinations keep their direct route; nonstraight destinations use two steps via an intermediate waypoint.
+Repeated clicks on the same nonstraight destination alternate straight-then-diagonal and diagonal-then-straight. From displayed point 8 to 3: 8->5->3, then 8->6->3, then wrap.
+Changing destination or reopening resets to the first option. Selecting the current point clears selection and disables departure.
+RoutePlan.Waypoints stores the source, every crossed cell and the destination as zero-based indices. The drawn route follows each segment.
+RoutePlan supplies distance * 2 normal waves and one final boss (updated 2026-11-12). Departure is guarded against duplicate taps.
 
-Integration boundary: SkyTreeGame.SelectedRoute receives the selected plan and starts the existing battle demo.
-This change does NOT implement checkpoint progression, variable-length battle spawning, arrival persistence, or destination-specific lobby content.
-SkyTree.World.CurrentPoint is read with a default of 7; future progression must write it after a confirmed checkpoint/arrival.
+Integration: SkyTreeGame.SelectedRoute starts VoyageBattleController with the exact selected waypoints.
+Three enemies spawn per normal wave; all must die before the next wave starts. Two normal waves complete one cell, and a single final boss follows all normal waves. Hull HP carries between encounters.
+The intermediate point is saved after its two waves; the destination is saved only after boss victory. Defeat/return preserves the last checkpoint.
+SkyTree.World.CurrentPoint is read with a default of 7 and written on confirmed checkpoints/outcomes. The returned map animates the ship along the traveled route and keeps its marker at the saved point. Reopening and the next departure use this point.
+WorldLobbyTable now chooses the lobby by saved world/region: World 1 region 3 uses LobbyView_SkyMerchant, region 4 uses LobbyView_LoneSkyTreeIsland, and the other regions use LobbyView. Actual trading features and voyage rewards remain follow-up work.
 Destination labels and arrival descriptions are serialized on the popup and can be edited in Inspector.
 
-Verified in Unity:
+Original verification in Unity (2026-11-11, before bent routes):
 - No compiler/console errors.
 - All 81 source/destination pairs checked (56 valid directed straight routes).
 - Initial disabled state, one/two-cell routes, diagonals, invalid/current selection.
@@ -26,6 +32,23 @@ Verified in Unity:
 - Game View raycast hits selected waypoint before popup/background.
 - Adventure opens popup, departure passes six-wave plan into existing battle.
 - Idle, selected prefab renders plus actual Game View capture in this directory.
+
+Bent-route verification (2026-11-12, before the two-wave update): run SkyTree/Verify Route Selection.
+Results: Verification/RouteSelection-results.txt. All 72 non-current directed pairs are now valid; 16 have two bent route options.
+Unity 6000.3.28f1 compilation and the prefab verification menu passed.
+Live Play mode: Waypoint_3 raycast and pointer click changed 8->5->3 to 8->6->3. Both render 6 waves / 1 boss, with the correct intermediate waypoint and arrows.
+Departure preserved the exact selected RoutePlan in SkyTreeGame.SelectedRoute and entered BattleCannonSequence. Final console query returned no errors/warnings.
+Captures: Verification/Route-8-5-3.png and Verification/Route-8-6-3.png (ignored by Git).
+Background rendering stalled during initial capture; temporarily enabling Application.runInBackground resumed frames and resolved the stale screenshot / depth -1 raycast. Restore the runtime setting after verification.
+
+Actual-voyage verification (2026-11-12): Assets/Tests/VoyageProgressVerify.cs, Begin() in Play mode.
+- All 88 route options: two waves/cell, correct checkpoints, one final boss, duplicate transition and terminal outcome guards PASS.
+- Natural cannon battle: one cell = 2 waves + boss (hull 928/1000); two cells = 4 waves + boss (hull 856/1000) PASS.
+- No active old swarm or animation-event timing mismatch; hull HP carries across all encounters PASS.
+- Intermediate-cell defeat follows the chosen alternate path; boss defeat does not save the destination PASS.
+- Return button, invalid-source guard, saved map marker, travel animation, close/reopen and next departure source PASS.
+- Verification restores the original saved position, background setting and time scale.
+Results and screenshots: Verification/Voyage/. Route selection menu was rerun with the updated 2/4 wave expectations.
 
 Raster assets generated using built-in image_gen, not CLI.
 Background prompt: Clean production background derived from the approved antique sky route map, portrait 3:4, warm aged ivory parchment and large sepia engraved cloud banks. Faint small island outlines at top-left, top-middle, center-middle, center-right, bottom-middle and bottom-right; no islands at top-right, middle-left or bottom-left. No UI, text, grid, markers, route or ship. Low contrast for interactive overlays.

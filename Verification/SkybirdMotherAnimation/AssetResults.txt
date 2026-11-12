@@ -1,0 +1,1 @@
+PASS: three distinct idle textures; 0.667-second up/spread/down/spread loop; original attack texture; both immediate Animator transitions; square prefab; no scale animation or missing scripts.

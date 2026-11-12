@@ -1,0 +1,47 @@
+if (UnityEditor.EditorApplication.isPlaying) throw new System.Exception("Preview requires Edit Mode");
+var preview=UnityEditor.SceneManagement.EditorSceneManager.NewPreviewScene();
+var previous=UnityEngine.RenderTexture.active;
+UnityEngine.RenderTexture target=null;
+UnityEngine.Texture2D capture=null,candidate=null;
+UnityEngine.Font font=null;
+try {
+ var lightGo=new UnityEngine.GameObject("Preview light",typeof(UnityEngine.Light));
+ UnityEngine.SceneManagement.SceneManager.MoveGameObjectToScene(lightGo,preview);
+ lightGo.GetComponent<UnityEngine.Light>().type=UnityEngine.LightType.Directional;
+ var cameraGo=new UnityEngine.GameObject("Lobby preview camera",typeof(UnityEngine.Camera));
+ UnityEngine.SceneManagement.SceneManager.MoveGameObjectToScene(cameraGo,preview);
+ var camera=cameraGo.GetComponent<UnityEngine.Camera>();
+ camera.scene=preview;camera.orthographic=true;camera.orthographicSize=360;camera.transform.position=new UnityEngine.Vector3(0,0,-1000);camera.farClipPlane=2000;
+ camera.clearFlags=UnityEngine.CameraClearFlags.SolidColor;camera.backgroundColor=UnityEngine.Color.black;camera.allowHDR=false;camera.allowMSAA=false;
+ var canvasGo=new UnityEngine.GameObject("Preview canvas",typeof(UnityEngine.RectTransform),typeof(UnityEngine.Canvas));
+ UnityEngine.SceneManagement.SceneManager.MoveGameObjectToScene(canvasGo,preview);
+ var canvas=canvasGo.GetComponent<UnityEngine.Canvas>();canvas.renderMode=UnityEngine.RenderMode.WorldSpace;canvas.worldCamera=camera;
+ canvasGo.GetComponent<UnityEngine.RectTransform>().sizeDelta=new UnityEngine.Vector2(400,720);
+ var prefab=UnityEditor.AssetDatabase.LoadAssetAtPath<UnityEngine.GameObject>("Assets/UIPrefabs/Lobby/LobbyRoot.prefab");
+ var lobbyGo=(UnityEngine.GameObject)UnityEditor.PrefabUtility.InstantiatePrefab(prefab,preview);
+ lobbyGo.transform.SetParent(canvasGo.transform,false);
+ var rect=lobbyGo.GetComponent<UnityEngine.RectTransform>();rect.anchorMin=UnityEngine.Vector2.zero;rect.anchorMax=UnityEngine.Vector2.one;rect.offsetMin=UnityEngine.Vector2.zero;rect.offsetMax=UnityEngine.Vector2.zero;
+ var lobby=lobbyGo.GetComponent<SkyTree.LobbyController>();
+ var table=UnityEditor.AssetDatabase.LoadAssetAtPath<SkyTree.WorldLobbyTable>("Assets/SkyTree/Data/WorldLobbyTable.asset");
+ font=UnityEngine.Font.CreateDynamicFontFromOSFont(new[]{"Malgun Gothic","Arial"},32);
+ lobby.Open(table.Resolve(1,4),font,30,0,0,()=>{},1);
+ candidate=new UnityEngine.Texture2D(2,2,UnityEngine.TextureFormat.RGBA32,false);
+ UnityEngine.ImageConversion.LoadImage(candidate,System.IO.File.ReadAllBytes("C:/Users/eicke/AppData/Local/Comfy-Desktop/ComfyUI-Shared/output/SkyTree/Lobby/IslandAerial04Revision01/Final_864x1536_00001_.png"));
+ lobby.Background.transform.Find("Artwork").GetComponent<UnityEngine.UI.RawImage>().texture=candidate;
+ UnityEngine.Canvas.ForceUpdateCanvases();
+ target=new UnityEngine.RenderTexture(1080,1920,24,UnityEngine.RenderTextureFormat.ARGB32);
+ camera.targetTexture=target;camera.Render();UnityEngine.RenderTexture.active=target;
+ capture=new UnityEngine.Texture2D(1080,1920,UnityEngine.TextureFormat.RGB24,false);
+ capture.ReadPixels(new UnityEngine.Rect(0,0,1080,1920),0,0);capture.Apply();
+ var directory=System.IO.Path.GetFullPath("Verification/ComfyIslandAerial04Revision01");System.IO.Directory.CreateDirectory(directory);
+ var output=directory+"/LobbyPreview.png";System.IO.File.WriteAllBytes(output,capture.EncodeToPNG());
+ camera.targetTexture=null;
+ return output;
+} finally {
+ UnityEngine.RenderTexture.active=previous;
+ if(capture)UnityEngine.Object.DestroyImmediate(capture);
+ if(candidate)UnityEngine.Object.DestroyImmediate(candidate);
+ if(target){target.Release();UnityEngine.Object.DestroyImmediate(target);}
+ UnityEditor.SceneManagement.EditorSceneManager.ClosePreviewScene(preview);
+ if(font)UnityEngine.Object.DestroyImmediate(font);
+}

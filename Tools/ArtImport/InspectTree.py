@@ -1,6 +1,6 @@
 from pathlib import Path
 import re
-s=Path('Assets/SkyTree/Prefabs/MainShip_Step01.prefab').read_text()
+s=Path('Assets/Prefabs/MainShip/MainShip_Step01_Lobby.prefab').read_text()
 bs=re.split(r'(?=^--- !u!)',s,flags=re.M);d={re.match(r'--- !u!\d+ &(\d+)',b)[1]:b for b in bs if b.startswith('--- !u!')}
 for key,b in d.items():
  if not b.startswith('--- !u!1 '):continue

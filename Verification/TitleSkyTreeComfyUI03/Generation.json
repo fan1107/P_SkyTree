@@ -1,0 +1,16 @@
+{
+  "generator": "Local ComfyUI",
+  "model": "krea2_turbo_int8_convrot.safetensors",
+  "prompt_id": "2f8a2933-aa68-425a-838b-569e07dbee0b",
+  "status": "success",
+  "seed": 2026111209,
+  "denoise": 0.48,
+  "composition_reference": "Tools/ArtImport/ComfyTitleSkyTree03/CompositionReference.png",
+  "mood_reference": "Tools/ArtImport/ComfyTitleSkyTree03/MoodReference.png",
+  "reference_preparation": "ComfyUI ColorTransfer: reinhard_lab, per_frame, strength 1.0, image 1 palette onto image 2 structure",
+  "native_resolution": "720x1280",
+  "output_resolution": "1080x1920",
+  "upscale": "Lanczos in ComfyUI",
+  "workflow": "Tools/ComfyUI/Workflows/workflow_title_skytree_golden_canopy03_api.json",
+  "output": "Assets/ArtResources/Backgrounds/TitleSkyTreeGoldenCanopy_ComfyUI03.png"
+}

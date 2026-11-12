@@ -1,0 +1,54 @@
+[
+  {
+    "source": "Assets/Prefabs/Lobby/LobbyView.prefab",
+    "destination": "Assets/UIPrefabs/Lobby/LobbyView.prefab"
+  },
+  {
+    "source": "Assets/Prefabs/Lobby/LobbyView_SkyMerchant.prefab",
+    "destination": "Assets/UIPrefabs/Lobby/LobbyView_SkyMerchant.prefab"
+  },
+  {
+    "source": "Assets/Prefabs/Lobby/LobbyView_LoneSkyTreeIsland.prefab",
+    "destination": "Assets/UIPrefabs/Lobby/LobbyView_LoneSkyTreeIsland.prefab"
+  },
+  {
+    "source": "Assets/SkyTree/Prefabs/LobbyCurrencyHud.prefab",
+    "destination": "Assets/UIPrefabs/HUD/LobbyCurrencyHud.prefab"
+  },
+  {
+    "source": "Assets/SkyTree/Prefabs/MainTabCommon.prefab",
+    "destination": "Assets/UIPrefabs/Common/MainTabCommon.prefab"
+  },
+  {
+    "source": "Assets/SkyTree/Prefabs/RouteSelectionPopup.prefab",
+    "destination": "Assets/UIPrefabs/Popups/RouteSelectionPopup.prefab"
+  },
+  {
+    "source": "Assets/SkyTree/Prefabs/SkyTreeTrunk.prefab",
+    "destination": "Assets/Prefabs/Trees/SkyTreeTrunk.prefab"
+  },
+  {
+    "source": "Assets/SkyTree/Prefabs/SkyTreeFoliage.prefab",
+    "destination": "Assets/Prefabs/Trees/SkyTreeFoliage.prefab"
+  },
+  {
+    "source": "Assets/SkyTree/Prefabs/ShipFlag.prefab",
+    "destination": "Assets/Prefabs/MainShip/ShipFlag.prefab"
+  },
+  {
+    "source": "Assets/ArtResources/Ships/MeshyWoodenShip/WoodenShip.prefab",
+    "destination": "Assets/Prefabs/Ships/MeshyWoodenShip/WoodenShip.prefab"
+  },
+  {
+    "source": "Assets/ArtResources/Ships/MeshyWoodenShip/New Prefab.prefab",
+    "destination": "Assets/Prefabs/Ships/MeshyWoodenShip/New Prefab.prefab"
+  },
+  {
+    "source": "Assets/SkyTree/Resources/SkyTree/BattleBackground.prefab",
+    "destination": "Assets/Prefabs/Resources/SkyTree/BattleBackground.prefab"
+  },
+  {
+    "source": "Assets/SkyTree/Resources/SkyTree/EnemyShip.prefab",
+    "destination": "Assets/Prefabs/Resources/SkyTree/EnemyShip.prefab"
+  }
+]

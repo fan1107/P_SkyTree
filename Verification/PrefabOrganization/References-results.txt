@@ -1,0 +1,20 @@
+PASS 1da38a63063d9f944813af15b3f70aed Assets/Prefabs/Cannon/Cannon.prefab
+PASS 2e0b20cef574a174e8e1505800cba47a Assets/Prefabs/Coworker/FemaleNavigator.prefab
+PASS 3955fa56cfb702d438d07295245fc95c Assets/Prefabs/Coworker/Captain.prefab
+PASS 022215f752c6b4f4693b4c565d10292e Assets/Prefabs/Enemy/Skybird.prefab
+PASS a7e2507879b76ab47bb21de427f983b4 Assets/Prefabs/MainShip/MainShip_Step01_Lobby.prefab
+PASS 32f4846923d759e46aea6d62b5e781c5 Assets/Prefabs/MainShip/MainShip_Step01_Adventure.prefab
+PASS c432f735a5c74364bd0d79278c4442cd Assets/Prefabs/Trees/SkyTreeTrunk.prefab
+PASS eae52c0c500042f1a496448eb2e92ad7 Assets/Prefabs/Trees/SkyTreeFoliage.prefab
+PASS 5808550b099a38140ade9484ef5374e4 Assets/Prefabs/MainShip/ShipFlag.prefab
+PASS 7bc77c57e2698914bab426c5ac98c0b8 Assets/UIPrefabs/Popups/RouteSelectionPopup.prefab
+PASS b589d713133139047994866b7bb3dc0b Assets/UIPrefabs/Common/MainTabCommon.prefab
+PASS b6616d2e9001b204da781b6bb6a7b366 Assets/UIPrefabs/HUD/LobbyCurrencyHud.prefab
+PASS 3469b5663dc28fb4cb19d5fa618918be Assets/UIPrefabs/Lobby/LobbyView_SkyMerchant.prefab
+PASS 1876e93cc0f44ae4088e59cbd22b4d43 Assets/UIPrefabs/Lobby/LobbyView_LoneSkyTreeIsland.prefab
+PASS 6cb35bdd54efb604d9ec5fe87b865bde Assets/UIPrefabs/Lobby/LobbyView.prefab
+PASS 7d0365b7d51ee3547bc35a85fbb2c525 Assets/Prefabs/Resources/SkyTree/EnemyShip.prefab
+PASS 79c718f0d873aa14795b905f7af57e47 Assets/Prefabs/Resources/SkyTree/BattleBackground.prefab
+PASS 15fbb8f7d73ac5e458a16ceff696a2d3 Assets/Prefabs/Ships/MeshyWoodenShip/New Prefab.prefab
+PASS 4759db718c1fbba4d9be35d9ef4ec939 Assets/Prefabs/Ships/MeshyWoodenShip/WoodenShip.prefab
+PASS all 19 prefab contents, meta files and GUIDs unchanged; saved scene and world lobby table byte-for-byte unchanged

@@ -1,7 +1,7 @@
 from pathlib import Path
 import re, uuid, json, shutil, datetime
 root=Path('D:/MyProject/P_SkyTree')
-prefab=root/'Assets/SkyTree/Prefabs/MainShip_Step01.prefab'
+prefab=root/'Assets/Prefabs/MainShip/MainShip_Step01_Lobby.prefab'
 out=root/'Assets/ArtResources/Ships/MainShip_Step01/TreeOriginalLayers'
 backup=root/'Tools/ArtImport/Backups'/datetime.datetime.now().strftime('%Y%m%d-%H%M%S')
 backup.mkdir(parents=True,exist_ok=True);shutil.copy2(prefab,backup/prefab.name)

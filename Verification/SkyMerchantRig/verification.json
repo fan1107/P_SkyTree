@@ -1,0 +1,18 @@
+{
+  "prefab": "Assets/Prefabs/NPC/SkyMerchant.prefab",
+  "parts": 9,
+  "transparentParts": true,
+  "animation": "Assets/Animations/NPC/SkyMerchant/Idle_Breathe.anim",
+  "defaultState": "Idle_Breathe",
+  "states": 1,
+  "durationSeconds": 3.2,
+  "looping": true,
+  "feetPlanted": true,
+  "runtimeAnimatorVerified": true,
+  "runtimeChestRise": 0.0180000067,
+  "runtimeLoopPositionError": 0,
+  "missingScripts": 0,
+  "consoleErrors": 0,
+  "previewFrames": 48,
+  "preview": "Verification/SkyMerchantRig/SkyMerchant-Idle.gif"
+}

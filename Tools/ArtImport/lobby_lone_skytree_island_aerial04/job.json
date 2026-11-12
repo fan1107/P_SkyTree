@@ -1,0 +1,7 @@
+{
+  "workflow": "Tools/ComfyUI/Workflows/workflow_lobby_lone_skytree_island_aerial04_api.json",
+  "prompt_id": "cdbd97a2-06b3-4a26-aeb2-fecfb1be2468",
+  "model": "krea2_turbo_int8_convrot.safetensors",
+  "server": "http://127.0.0.1:8188",
+  "purpose": "Higher distant island with lush aerial tree canopy"
+}

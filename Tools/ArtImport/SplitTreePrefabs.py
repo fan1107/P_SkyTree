@@ -1,6 +1,6 @@
 from pathlib import Path
 import re,uuid,shutil,datetime
-root=Path('D:/MyProject/P_SkyTree');folder=root/'Assets/SkyTree/Prefabs';p=folder/'MainShip_Step01.prefab';s=p.read_text(encoding='utf-8-sig')
+root=Path('D:/MyProject/P_SkyTree');folder=root/'Assets/Prefabs/Trees';p=root/'Assets/Prefabs/MainShip/MainShip_Step01_Lobby.prefab';s=p.read_text(encoding='utf-8-sig')
 backup=root/'Tools/ArtImport/Backups'/('SplitTree-'+datetime.datetime.now().strftime('%Y%m%d-%H%M%S'));backup.mkdir(parents=True)
 for f in [p,root/'Assets/SkyTree/LobbyCaptainWander.cs',root/'Assets/SkyTree/ShipTreeGrowth.cs']:shutil.copy2(f,backup/f.name)
 blocks=re.split(r'(?=^--- !u!)',s,flags=re.M);header=blocks[0]

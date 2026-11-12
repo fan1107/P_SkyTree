@@ -1,0 +1,24 @@
+Mother Skybird animation integration
+
+Prefab: Assets/Prefabs/Boss/SkybirdMother.prefab
+Controller and clips: Assets/Animations/Boss/SkybirdMother/
+Approved spread pose: Assets/ArtResources/Enemy/SkybirdMotherTopDown03.png
+Added wing poses: Assets/ArtResources/Enemy/SkybirdMotherTopDown/
+Image edits: built-in image_gen, transparent output; prompts saved in Tools/ArtImport/SkybirdMotherAnimation/PromptSet.txt.
+
+Idle_Flap uses three unique images, up/spread/down/spread at 6 fps (0.667 seconds per loop).
+Attack_Headbutt holds the approved spread-wing image. SkybirdAnimation.IsAttacking controls immediate transitions.
+SkybirdSwarm drives the charge (0.9 seconds), holds the impact pose briefly (0.12 seconds), and returns over 1.35 seconds.
+SkybirdHeadbuttProfile aligns the painted beak with the ship's upper hull.
+SkyTreeGame.skybirdMotherPrefab is assigned in Assets/Scenes/SampleScene.unity.
+BattleCannonSequence selects the mother for boss encounters and retains the existing blue bird for normal waves.
+Boss HP 720 / collision damage 36 remain unchanged. Mother prefab base size is 64 square, scaled to 118.4 square for the boss encounter.
+
+Verification:
+- AssetResults.txt: three distinct textures, clip duration, default state, both instant transitions, square aspect, no missing scripts.
+- RuntimeResults.txt / RuntimeTrace.csv: normal and boss prefab selection, three idle images, spread wings throughout charge, contact accuracy, damage, return animation, death stop.
+- Battle-Idle.png / Battle-Charge.png / Battle-Impact.png / Battle-Return.png: actual Game View captures.
+- ThreeFrames.png: visual preview of the three wing poses.
+- VerifyRuntime.cs.txt: one-off Play Mode verification snippet; uses a transient battle without advancing a saved route. Background execution was enabled only during verification and restored afterward.
+
+Unity console: no errors after execution. The mother reference is verified in the saved scene file. Returned to Edit Mode; did not save unrelated scene dirtiness after the Play Mode check.

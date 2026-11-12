@@ -1,0 +1,104 @@
+{
+  "10": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "krea2_turbo_int8_convrot.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "11": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
+      "type": "krea2",
+      "device": "default"
+    }
+  },
+  "12": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "qwen_image_vae.safetensors"
+    }
+  },
+  "6": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "A solitary small FLOATING ISLAND lifted into the sky by the roots of one large ancient SKY TREE. A beautiful 9:16 portrait hand-painted background for a cozy fantasy mobile RPG lobby, a quiet unexplored destination along a sky voyage. The island feels lonely, peaceful and untouched. The key idea is that a great living tree rose into the air and pulled a modest chunk of earth and stone up with its roots. This is not a tree planted on a huge floating mountain: the land is small compared with the tree and is visibly held together by its tangled roots.\n\nCOMPOSITION: steep bird's-eye three-quarter view looking DOWN from above at about 55 degrees, with the grass surface, exposed roots and tops of rocks clearly visible. Place the island in the UPPER-RIGHT part of the portrait, occupying roughly the upper 60 percent and right two-thirds of the image. Its near grassy rim is a gentle diagonal descending from upper-left to lower-right, matching an isometric ship berth. The huge canopy occupies the upper-middle and upper-right, while the small rocky earth chunk and hanging roots remain on the right, away from the lower-left. Leave generous clear blue atmospheric space across the LEFT LOWER HALF and the entire BOTTOM THIRD for a separate foreground player ship to be added later; DO NOT draw a ship. Show the irregular underside with enough surrounding air to make the island obviously detached and floating. No horizon, no eye-level landscape, no centered full-screen tree portrait.\n\nTHE TREE: one impressive mature tree, much bigger than the small patch of land beneath it. A thick warm brown gnarled trunk, elegant slightly wind-bent branching silhouette, broad lush layered rounded canopy of luminous lime-green and yellow-green foliage with rich deep-green undersides. Beautifully detailed but readable hand-painted leaves and softly sculpted volumes. Large powerful roots emerge above the grass, curl around boulders and weave through the broken edges of the island. The crown is full and alive. No face on the tree, no glowing runes, no artificial ornaments.\n\nTHE PULLED-UP TERRAIN: a small irregular grassy clump with fresh green turf, a few tiny wildflowers and tufts of grass, a couple of natural weathered stones, a little exposed brown soil near the trunk. Uneven recently torn edges reveal layered ochre soil and broken gray-beige rock. Thick and thin tangled tree roots CLUTCH the rock from all sides like a natural net, holding the small landmass together. Several long tapering roots and small rootlets hang freely below into open air. The underside is a compact asymmetrical jagged earth-and-rock clump, not a long perfect cone, not a vast cliff. The large tree and its root-entangled small island are the ONLY focal object.\n\nBACKGROUND AND STYLE: deep clear azure atmosphere with soft white cumulus cloud layers far below, diffuse pale blue distance, wide empty surrounding sky to emphasize solitude and immense altitude. Warm gentle sunshine from upper-left, fresh living greens, honey-brown bark, warm natural soil, blue-gray stone shadows. Polished premium hand-painted 2D fantasy mobile RPG art matching a richly painted wooden flying-ship game, crisp beautiful shapes, soft detailed shading, cheerful yet tranquil adventure atmosphere. The lower area is quiet soft clouds and blue air with subdued contrast. No other islands, no surrounding mountains, no water, no ocean, no ships, no docks, no buildings, no paths, no flags, no barrels, no crates, no characters, no people, no UI, no text, no border, no watermark. One lonely small root-bound floating island with a large magnificent sky tree, positioned upper-right and viewed from above.",
+      "clip": [
+        "11",
+        0
+      ]
+    }
+  },
+  "13": {
+    "class_type": "ConditioningZeroOut",
+    "inputs": {
+      "conditioning": [
+        "6",
+        0
+      ]
+    }
+  },
+  "5": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 864,
+      "height": 1536,
+      "batch_size": 1
+    }
+  },
+  "3": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "10",
+        0
+      ],
+      "positive": [
+        "6",
+        0
+      ],
+      "negative": [
+        "13",
+        0
+      ],
+      "latent_image": [
+        "5",
+        0
+      ],
+      "seed": 2026111206,
+      "steps": 8,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "denoise": 1.0
+    }
+  },
+  "8": {
+    "class_type": "VAEDecodeTiled",
+    "inputs": {
+      "samples": [
+        "3",
+        0
+      ],
+      "vae": [
+        "12",
+        0
+      ],
+      "tile_size": 512,
+      "overlap": 64,
+      "temporal_size": 64,
+      "temporal_overlap": 8
+    }
+  },
+  "29": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ],
+      "filename_prefix": "SkyTree/Lobby/LoneSkyTreeIsland01"
+    }
+  }
+}

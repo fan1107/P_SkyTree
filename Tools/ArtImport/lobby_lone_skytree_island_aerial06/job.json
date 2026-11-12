@@ -1,0 +1,8 @@
+{
+  "server": "http://127.0.0.1:8188",
+  "prompt_id": "c29c4847-b52f-4c57-a5a4-5a8072aacfa6",
+  "model": "krea2_turbo_int8_convrot.safetensors",
+  "workflow": "Tools/ComfyUI/Workflows/workflow_lobby_lone_skytree_island_aerial06_api.json",
+  "purpose": "Reframe island to upper right with Krea2 sky outpainting for foreground separation",
+  "source": "IslandAerial05-reference.png"
+}

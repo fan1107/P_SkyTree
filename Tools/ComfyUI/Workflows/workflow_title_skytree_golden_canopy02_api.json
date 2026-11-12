@@ -1,0 +1,189 @@
+{
+  "10": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "krea2_turbo_int8_convrot.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "11": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
+      "type": "krea2",
+      "device": "default"
+    }
+  },
+  "12": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "qwen_image_vae.safetensors"
+    }
+  },
+  "6": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "Bright, luminous, dreamy fantasy morning. A magical sky tree with a huge golden canopy growing from an ornate flying wooden galleon, suspended above a sea of fluffy cream and peach clouds. Preserve the existing reference's single tree-ship silhouette, the majestic low-angle three-quarter view, twisting trunk rooted into the wooden decks, rounded stern cabins and intricate wooden balconies. One coherent complete ship, one great tree, no fabric sails. Keep the same vertical composition and lovingly painted fantasy RPG illustration style.\n\nMake the entire atmosphere significantly BRIGHTER and more ethereal: an open luminous turquoise, pale aqua and powder-blue morning sky instead of a dark night sky, soft ivory-gold sunlight pouring from upper left, subtle peach-pink and lavender cloud edges, gentle sunbeams filtering through translucent golden leaves, airy opalescent mist under the vessel. Beautiful soft bloom and sunlit haze, a hopeful and peaceful fairy-tale adventure, delicate watercolor-like atmospheric depth and painterly detail. The golden canopy glows warmly, the ancient trunk is touched by golden light, wooden honey-brown ship details are readable with lifted soft shadows and luminous turquoise reflected light. Retain rich colors and well-defined forms; no whiteout and no harsh glare.\n\nFEATURED WIND-BLOWN LEAVES: many clearly recognizable individual golden leaves detach from the sky tree canopy and drift freely through the air, dancing in a graceful broad curling S-shaped breeze around both sides of the ship and into the lower foreground. Around 35 to 50 scattered leaves in varied sizes and orientations, with visible delicate leaf silhouettes and a few veins. A few larger softly focused translucent golden leaves near the side edges give foreground depth, medium leaves tumble around the hull, tiny leaves recede toward the glowing clouds. Soft warm light passes through the falling leaves, with a few subtle sparkling pollen motes accompanying them. The leaf drift must be obvious and elegant, not merely two or three specks. Leaves have clear tapered organic shapes, not birds, stars, confetti dots, fire sparks or a glowing ribbon. Keep the hull and trunk readable through the drifting leaves.\n\nPortrait 9:16 mobile game title background only. Keep a quiet spacious pale turquoise sky in the upper fifth for a title added later, and soft luminous mist and cloud layers in the lowest fifth for a start button added later. Place the foreground drifting leaves mostly near the side edges so the middle of these UI-safe zones remains calm. Continuous painted background to every edge, subtle natural gradients, no panels. Premium hand-painted fantasy key art, finely clustered foliage, beautiful ancient bark, coherent handcrafted wooden architecture, dreamy soft light and graceful motion. Absolutely no letters, no text, no logos, no UI, no buttons, no border, no watermark, no humans, no duplicated ship, no additional giant tree, no dark storm or gloomy night.\n",
+      "clip": [
+        "11",
+        0
+      ]
+    }
+  },
+  "13": {
+    "class_type": "ConditioningZeroOut",
+    "inputs": {
+      "conditioning": [
+        "6",
+        0
+      ]
+    }
+  },
+  "3": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "10",
+        0
+      ],
+      "positive": [
+        "6",
+        0
+      ],
+      "negative": [
+        "13",
+        0
+      ],
+      "latent_image": [
+        "26",
+        0
+      ],
+      "seed": 2026111208,
+      "steps": 8,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "denoise": 0.7
+    }
+  },
+  "8": {
+    "class_type": "VAEDecodeTiled",
+    "inputs": {
+      "samples": [
+        "3",
+        0
+      ],
+      "vae": [
+        "12",
+        0
+      ],
+      "tile_size": 512,
+      "overlap": 64,
+      "temporal_size": 64,
+      "temporal_overlap": 8
+    }
+  },
+  "29": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "90",
+        0
+      ],
+      "filename_prefix": "SkyTree/TitleGoldenCanopy_ComfyUI02/Title_1080x1920"
+    }
+  },
+  "20": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "Native_720x1280.png"
+    }
+  },
+  "21": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "width": 720,
+      "upscale_method": "lanczos",
+      "crop": "disabled",
+      "height": 1280,
+      "image": [
+        "20",
+        0
+      ]
+    }
+  },
+  "22": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "color": 14021354,
+      "width": 720,
+      "height": 1280,
+      "batch_size": 1
+    }
+  },
+  "25": {
+    "inputs": {
+      "image2": [
+        "22",
+        0
+      ],
+      "blend_mode": "screen",
+      "image1": [
+        "21",
+        0
+      ],
+      "blend_factor": 0.28
+    },
+    "class_type": "ImageBlend"
+  },
+  "26": {
+    "class_type": "VAEEncodeTiled",
+    "inputs": {
+      "overlap": 64,
+      "vae": [
+        "12",
+        0
+      ],
+      "pixels": [
+        "25",
+        0
+      ],
+      "temporal_size": 64,
+      "tile_size": 512,
+      "temporal_overlap": 8
+    }
+  },
+  "90": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "width": 1080,
+      "upscale_method": "lanczos",
+      "crop": "disabled",
+      "height": 1920,
+      "image": [
+        "8",
+        0
+      ]
+    }
+  },
+  "30": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ],
+      "filename_prefix": "SkyTree/TitleGoldenCanopy_ComfyUI02/Native_720x1280"
+    }
+  },
+  "31": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "25",
+        0
+      ],
+      "filename_prefix": "SkyTree/TitleGoldenCanopy_ComfyUI02/BrightReferenceGuide"
+    }
+  }
+}

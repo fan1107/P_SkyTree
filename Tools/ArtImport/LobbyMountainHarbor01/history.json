@@ -1,0 +1,176 @@
+{
+  "0033a6b1-43e2-409d-8e5b-c22ac30ec90a": {
+    "prompt": [
+      2,
+      "0033a6b1-43e2-409d-8e5b-c22ac30ec90a",
+      {
+        "10": {
+          "class_type": "UNETLoader",
+          "inputs": {
+            "unet_name": "krea2_turbo_int8_convrot.safetensors",
+            "weight_dtype": "default"
+          }
+        },
+        "11": {
+          "class_type": "CLIPLoader",
+          "inputs": {
+            "clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
+            "type": "krea2",
+            "device": "default"
+          }
+        },
+        "12": {
+          "class_type": "VAELoader",
+          "inputs": {
+            "vae_name": "qwen_image_vae.safetensors"
+          }
+        },
+        "6": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "text": "Portrait 9:16 background illustration for a cozy colorful fantasy mobile RPG lobby. An EMPTY wooden skyship harbor built onto the summit of a very high rocky mountain above a sea of clouds. This is a full-frame environment background, without any ship or UI.\n\nCAMERA AND COMPOSITION: steep bird's-eye three-quarter view, camera looking DOWN at roughly 55 degrees, almost orthographic isometric game perspective. Clearly see the TOP surfaces of the wooden piers, stone paving, grass and building roofs. The image is looking down onto the summit and the cloud-filled abyss below; there is NO horizon and NO eye-level sky panorama. Cropped close enough that wooden dock planks and mooring bollards are readable. The main grassy summit terrace and the small harbor facilities occupy the upper third and the upper-right side. A long sturdy wooden quay attached to the cliff runs diagonally from upper-left toward lower-right across the upper-middle and along the right edge, forming the far edge of an EMPTY docking berth. The central and lower-middle area, about 60 percent of the image, is open pale turquoise-blue atmospheric depth with soft white clouds far below, deliberately spacious and visually quiet so a large diagonal foreground ship can be composited there later. The lower edge is simple cloud mist with soft low contrast. Do NOT put a platform, island, tower or any focal object in the central empty berth.\n\nHARBOR DETAILS: warm golden-brown thick timber decking with distinct planks, short stout wooden mooring posts, loops of rope fastened to posts, brass fittings, a compact hand-operated cargo crane at the upper-right, a few stacked wooden crates and barrels beside a tiny cozy timber harbor office with a terracotta orange tiled roof. Narrow pale cobblestone paths, vivid fresh green summit grass, small round leafy trees around the edges. Strong visible gray-beige vertical mountain rock faces under the terrace plunging deeply into clouds, communicating immense altitude. This is a mountain attached to the world below, not a floating island and not a water harbor. All piers are empty. No vessels anywhere. Buildings and props small and secondary.\n\nSTYLE: premium hand-painted 2D fantasy game background, softly sculpted dimensional shapes, charming slightly chunky proportions, beautiful clean readable details, warm honey wood, saturated lime foliage, turquoise and sky blue cloud shadows, subtle golden metal highlights. Warm sunshine from upper-left, soft ambient shadows, cheerful airy adventure atmosphere. Unified polished painterly game art with crisp timber edges and atmospheric depth, consistent with a colorful wooden flying ship and a lush green tree as the foreground asset. Edge-to-edge illustration, no borders. No ships, no boats, no airships, no aircraft, no balloons, no vehicles, no characters, no people, no ocean, no sea water, no lake, no text, no lettering, no signs with text, no logos, no interface, no buttons, no frame, no watermark. Only the empty mountaintop sky harbor environment seen from above.",
+            "clip": [
+              "11",
+              0
+            ]
+          }
+        },
+        "13": {
+          "class_type": "ConditioningZeroOut",
+          "inputs": {
+            "conditioning": [
+              "6",
+              0
+            ]
+          }
+        },
+        "5": {
+          "class_type": "EmptyLatentImage",
+          "inputs": {
+            "width": 864,
+            "height": 1536,
+            "batch_size": 1
+          }
+        },
+        "3": {
+          "class_type": "KSampler",
+          "inputs": {
+            "model": [
+              "10",
+              0
+            ],
+            "positive": [
+              "6",
+              0
+            ],
+            "negative": [
+              "13",
+              0
+            ],
+            "latent_image": [
+              "5",
+              0
+            ],
+            "seed": 2026111202,
+            "steps": 8,
+            "cfg": 1.0,
+            "sampler_name": "euler",
+            "scheduler": "simple",
+            "denoise": 1.0
+          }
+        },
+        "8": {
+          "class_type": "VAEDecodeTiled",
+          "inputs": {
+            "samples": [
+              "3",
+              0
+            ],
+            "vae": [
+              "12",
+              0
+            ],
+            "tile_size": 512,
+            "overlap": 64,
+            "temporal_size": 64,
+            "temporal_overlap": 8
+          }
+        },
+        "29": {
+          "class_type": "SaveImage",
+          "inputs": {
+            "images": [
+              "8",
+              0
+            ],
+            "filename_prefix": "SkyTree/Lobby/MountainHarbor01"
+          }
+        }
+      },
+      {
+        "client_id": "codex-skytree-lobby-harbor01",
+        "create_time": 1794444036214
+      },
+      [
+        "29"
+      ]
+    ],
+    "outputs": {
+      "29": {
+        "images": [
+          {
+            "filename": "MountainHarbor01_00001_.png",
+            "subfolder": "SkyTree\\Lobby",
+            "type": "output",
+            "metadata": {
+              "kind": "image",
+              "width": 864,
+              "height": 1536
+            },
+            "id": "efc7e749-647c-44a3-88f6-e2e21f95a0c4"
+          }
+        ]
+      }
+    },
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "0033a6b1-43e2-409d-8e5b-c22ac30ec90a",
+            "timestamp": 1794444036215
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "10",
+              "11",
+              "12"
+            ],
+            "prompt_id": "0033a6b1-43e2-409d-8e5b-c22ac30ec90a",
+            "timestamp": 1794444036216
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "0033a6b1-43e2-409d-8e5b-c22ac30ec90a",
+            "timestamp": 1794444075649
+          }
+        ]
+      ]
+    },
+    "meta": {
+      "29": {
+        "node_id": "29",
+        "display_node": "29",
+        "parent_node": null,
+        "real_node_id": "29"
+      }
+    }
+  }
+}

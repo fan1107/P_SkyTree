@@ -1,0 +1,4 @@
+PASS: actual battle prefab cycles all three textures without stretching.
+PASS: natural attack holds original wings for 556 rendered frames, then returns to Idle.
+PASS: interrupted strikes resume wingbeats; death freezes animation and removes the bird.
+PASS: a fresh boss encounter starts Idle with the same animation prefab.

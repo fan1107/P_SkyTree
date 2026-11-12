@@ -1,0 +1,1 @@
+PASS: nine transparent sprite parts; no missing scripts; one default Idle_Breathe state; 3.2-second seamless loop; chest motion sampled; planted feet; rendered 48 frames.

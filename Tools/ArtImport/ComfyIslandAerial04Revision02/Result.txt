@@ -1,0 +1,25 @@
+Tool: local ComfyUI 0.45.2 at http://127.0.0.1:8188
+Model: krea2_turbo_int8_convrot.safetensors
+Encoder: qwen3vl_4b_fp8_scaled.safetensors (krea2)
+VAE: qwen_image_vae.safetensors
+Completed prompt ID: fe2574fd-fa94-4fcf-adb0-88c7b60edf8c
+Seed: 2026111242; steps: 8; CFG: 1; Euler/simple; denoise: 0.59.
+Generation: 720 x 1280; ComfyUI Lanczos output: 864 x 1536.
+
+Input: original LobbyLoneSkyTreeIslandAerial04, enlarged 1.6x and cropped in ComfyUI to bring the floating island near the foreground ship.
+Second user reference was inspected for sky/cloud color, soft cumulus volume, and atmospheric depth, described in Prompt.txt. It was not directly encoded as a second image-conditioning input.
+Selected the second revision because the tree crown and ground are viewed from above and the clouds are seen below the island.
+
+Applied image: Assets/ArtResources/Backgrounds/LobbyLoneSkyTreeIslandAerial04.png
+Preserved texture GUID: 73c456dbfe3190549a73b8b0c192822f
+The .meta file is byte-identical to the backup. The existing LobbyBackground_LoneSkyTreeIsland prefab still references the same texture.
+Output SHA256: 2A72D9088BEC0E5FDD303027CBB47FC8B89DC9785771316073D58396B6796F8C
+Backup: Tools/ArtImport/ComfyIslandAerial04Revision01/Before.png
+Final generation copy: Final.png
+Reproducible ComfyUI API graph: workflow_api.json
+Shared workflow copy: Tools/ComfyUI/Workflows/workflow_lobby_lone_skytree_island_aerial04_revision02_api.json
+Generation status and image metadata: history.json
+
+Verification: imported texture is 864 x 1536; SHA256 matches ComfyUI output; existing prefab reference is valid.
+Actual lobby prefab composition was rendered in an isolated Unity preview scene to Verification/ComfyIslandAerial04Revision02/LobbyPreview.png.
+No active scene, ship layout, gameplay, or saved world position was edited.

@@ -9,11 +9,14 @@ namespace SkyTree
     {
         [SerializeField] private float shotInterval = 1.35f;
         [SerializeField] private float flightDuration = .72f;
+        [SerializeField, Min(1)] private int cannonDamage = 48;
         private RectTransform layer, hitPoint;
         private SkybirdSwarm swarm;
         private RectTransform[] cannons;
         private Vector2[] cannonRest;
         private BattleShipView crewShip;
+        private RawImage enemyTemplate, bossTemplate;
+        private Font enemyFont;
         private int awaitingCannon = -1, pendingCannon = -1;
 
 
@@ -29,8 +32,11 @@ namespace SkyTree
         public int LastShotCannon { get; private set; } = -1;
         public int[] ShotsByCannon { get; private set; }
         public int TimingMismatches { get; private set; }
+        public SkybirdSwarm Swarm => swarm;
+        public event System.Action EnemiesChanged;
+        public bool Finished => crewShip && crewShip.Health != null && (!crewShip.Health.IsAlive || (swarm && swarm.AliveCount == 0));
 
-        public void Build(BattleShipView player, RawImage enemyPrefab)
+        public void Build(BattleShipView player, RawImage enemyPrefab, Font font, int enemyCount = 7, RawImage bossPrefab = null)
         {
             var playerRect = (RectTransform)player.transform;
             playerRect.localScale = Vector3.one * .82f;
@@ -38,12 +44,7 @@ namespace SkyTree
             crewShip = player;
             player.InitializeCrew();
             player.CannonFire += QueueShot;
-            var flock = new GameObject("Skybird Swarm", typeof(RectTransform)).GetComponent<RectTransform>();
-            flock.SetParent(transform,false);
-            flock.sizeDelta=new Vector2(400,720);
-            swarm=flock.gameObject.AddComponent<SkybirdSwarm>();
-            swarm.Build(player, enemyPrefab);
-            hitPoint=swarm.GetTarget(0);
+            enemyTemplate = enemyPrefab; bossTemplate = bossPrefab ? bossPrefab : enemyPrefab; enemyFont = font;
             var guns = new List<RectTransform>();
             foreach (Transform child in player.transform)
                 if (child.name.StartsWith("Cannon") && child.gameObject.activeSelf) guns.Add((RectTransform)child);
@@ -66,7 +67,30 @@ namespace SkyTree
             sparks = new BattleEffectGraphic[7];
             for (int i = 0; i < sparks.Length; i++) sparks[i] = Effect("Impact spark " + i, new Color(1,.75f,.2f,1), 7);
             HideEffects();
+            StartEncounter(enemyCount, false);
         }
+
+        public void StartEncounter(int count, bool boss)
+        {
+            if (swarm)
+            {
+                swarm.EnemyDefeated -= OnEnemyDefeated;
+                swarm.Retire();
+            }
+            awaitingCannon = pendingCannon = -1;
+            shotAge = impactAge = 100; nextShot = .3f;
+            HideEffects();
+            var flock = BattleHudView.Node(boss ? "Boss encounter" : "Skybird Swarm", transform, Vector2.zero, new Vector2(400, 720));
+            // Background < birds and their HP < ship < impact effects < HUD.
+            flock.SetSiblingIndex(crewShip.transform.GetSiblingIndex());
+            swarm = flock.gameObject.AddComponent<SkybirdSwarm>();
+            swarm.Build(crewShip, boss ? bossTemplate : enemyTemplate, enemyFont, count, boss);
+            swarm.EnemyDefeated += OnEnemyDefeated;
+            hitPoint = swarm.GetTarget(0);
+            EnemiesChanged?.Invoke();
+        }
+
+        private void OnEnemyDefeated() => EnemiesChanged?.Invoke();
 
         private BattleEffectGraphic Effect(string name, Color tint, float size)
         {
@@ -89,18 +113,31 @@ namespace SkyTree
 
         private void QueueShot(int cannon)
         {
-            if (!isActiveAndEnabled || cannon != awaitingCannon) return;
+            if (!isActiveAndEnabled || Finished || cannon != awaitingCannon) return;
             pendingCannon = cannon; awaitingCannon = -1;
         }
-        private void OnDestroy() { if (crewShip) crewShip.CannonFire -= QueueShot; }
+        private void OnDestroy()
+        {
+            if (crewShip) crewShip.CannonFire -= QueueShot;
+            if (swarm) swarm.EnemyDefeated -= OnEnemyDefeated;
+        }
 
         private void LateUpdate()
         {
             if (!swarm || cannons == null || cannons.Length == 0) return;
+            if (Finished)
+            {
+                awaitingCannon = pendingCannon = -1;
+                HideEffects();
+                for (int i = 0; i < cannons.Length; i++) cannons[i].anchoredPosition = cannonRest[i];
+                return;
+            }
             float dt = Time.deltaTime;
             elapsed += dt;
             impactAge += dt;
-            if (shotAge >= flightDuration) hitPoint = swarm.GetTarget(ShotsFired);
+            // Keep the projectile's target locked until this shot has landed.
+            if (shotAge >= flightDuration || !swarm.IsAlive(hitPoint)) hitPoint = swarm.GetTarget(ShotsFired);
+            if (!hitPoint) { HideEffects(); return; }
             bool fired = pendingCannon >= 0;
             if (fired) { activeCannon = pendingCannon; pendingCannon = -1; shotAge = 0; }
             for (int i=0;i<cannons.Length;i++)
@@ -153,7 +190,8 @@ namespace SkyTree
             }
             if (previous<flightDuration && shotAge>=flightDuration)
             {
-                hit = InLayer(hitPoint.position); impactAge=0; Hits++; swarm.Hit(hitPoint);
+                hit = InLayer(hitPoint.position); impactAge=0;
+                if (swarm.Hit(hitPoint, cannonDamage)) Hits++;
             }
             impact.gameObject.SetActive(impactAge<.3f);
             impact.rectTransform.anchoredPosition = hit;

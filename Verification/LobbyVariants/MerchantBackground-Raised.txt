@@ -1,0 +1,12 @@
+Merchant background adjustment (2026-11-12)
+
+Input: Assets/ArtResources/Backgrounds/LobbySkyTreeMerchantParallel02.png
+Output: Assets/ArtResources/Backgrounds/LobbySkyTreeMerchantParallel03.png
+Consumer: Assets/UIPrefabs/Lobby/LobbyView_SkyMerchant.prefab > Destination background > RawImage.texture
+Method: built-in image_gen edit. Original image retained. Player ship and UI transforms unchanged.
+Requested change: raise the merchant airship about 10% of the image height and fill the vacated lower area with clouds.
+
+Final prompt:
+Use case: precise-object-edit. Edit target: the attached portrait fantasy game background, 864 x 1536. Make a small composition correction: translate the ENTIRE large merchant airship (including its tree, deck, buildings, flags, cargo, hull and hanging anchor) straight UP by approximately 155 pixels, about 10 percent of the canvas height. Maintain the SAME ship size, proportions, diagonal perspective, horizontal position, detailed design, color palette and hand-painted art style. Cropping more of the upper tree/top details at the top edge is intentional. The merchant ship should sit higher and have a larger open sky/cloud gap underneath for a separate foreground player ship in Unity. Preserve the artwork as closely as possible; do not redesign or add details. Seamlessly fill the area vacated by the lower hull and anchor with the same soft blue sky and pastel white/lilac clouds. Keep the portrait canvas and full background coverage. This is the BACKGROUND TEXTURE ONLY: do not add a foreground player ship, characters, UI, writing, frames, or any other elements. Output exactly 864 x 1536 if possible. Opaque background.
+
+Verification: Unity Play mode merchant lobby rendered and visually checked with the existing player ship and UI. Saved reference confirmed in the open merchant prefab stage. Capture: Verification/LobbyVariants/LobbyView_SkyMerchant-Raised.png.

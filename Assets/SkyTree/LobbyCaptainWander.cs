@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 namespace SkyTree
 {
-    // Coordinates are foot positions in MainShip_Step01 local UI units.
+    // Coordinates are foot positions in MainShip_Step01_Lobby local UI units.
     // The boundary is inset from the painted rail by the boot/stride clearance.
     public sealed class LobbyCaptainWander : MonoBehaviour
     {

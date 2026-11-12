@@ -1,0 +1,4 @@
+World 1: all 9 saved regions instantiate the configured lobby; correct 1-based/0-based conversion PASS
+Unconfigured World 9 uses default lobby and displays WORLD 09 PASS
+Selected-route victories return to merchant (region 3) then island (region 4) lobbies PASS
+Defeat after intermediate region 4 returns to its island lobby PASS

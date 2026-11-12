@@ -1,0 +1,9 @@
+{
+  "prompt_id": "396e85dd-fca5-42f8-9d7d-834e86b4b715",
+  "purpose": "New skyship merchant NPC concept matching the player characters",
+  "image_reference": "Assets/ArtResources/Ships/MainShip_Step01/Captain.png",
+  "workflow": "Tools/ComfyUI/Workflows/workflow_sky_merchant_character01_api.json",
+  "server": "http://127.0.0.1:8188",
+  "additional_visual_reference": "Assets/ArtResources/Coworker/FemaleNavigator/FemaleNavigator-Concept.png",
+  "model": "krea2_turbo_int8_convrot.safetensors"
+}

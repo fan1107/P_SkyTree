@@ -1,0 +1,24 @@
+Completed in local ComfyUI 0.45.2 using krea2_turbo_int8_convrot.safetensors.
+Original generation prompt ID: a9bff809-140c-4066-9795-8293f82efa7c
+Selected cloud-softness refinement prompt ID: 09fad557-8e59-41b8-b270-6b770e539c16
+Seed 2026111243; Euler/simple; 8 steps; CFG 1; img2img denoise 0.48.
+
+Changes:
+- Shift the composition 176 pixels right on a 720-pixel-wide generation canvas (24.4% of frame width), preserving the large nearby island scale.
+- Regenerate the extended sky and refine the island rim so the grassy shelf and pale rocks remain visible beside the foreground ship's tree.
+- Soften clouds with ComfyUI ImageBlur (radius 4, sigma 1.2) and 12% blue atmospheric haze, feather-masked to preserve the island's detail.
+- Native 720 x 1280, final 864 x 1536 via ComfyUI Lanczos scaling.
+
+Applied asset: Assets/ArtResources/Backgrounds/LobbyLoneSkyTreeIslandAerial04.png
+Texture GUID preserved: 73c456dbfe3190549a73b8b0c192822f
+Final SHA256: BF8507227FB0039ABA06C39E4E1246495FE000D3848975DEC1C9A3200A0225B8
+Original image and .meta backup: Before.png / Before.png.meta.txt
+Final image copy: Final.png
+Prompt: Prompt.txt
+Selected reproducible workflow: workflow_soft02_api.json
+Shared graph: Tools/ComfyUI/Workflows/workflow_lobby_lone_skytree_island_aerial04_revision03_api.json
+
+Unity validation: texture imported at 864 x 1536; the existing island-background prefab references the same texture; .meta is unchanged.
+Visual check used the actual lobby, ship and UI prefabs in an isolated preview scene. The grassy right rim is clearly visible outside the ship's foliage.
+Preview: Verification/ComfyIslandAerial04Revision03/LobbyPreview.png
+The active scene, ship placement, gameplay and saved world location were not changed. Existing Play Mode was left running.

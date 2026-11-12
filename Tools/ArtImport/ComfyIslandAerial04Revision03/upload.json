@@ -1,0 +1,17 @@
+{
+  "name": "Before.png",
+  "subfolder": "SkyTreeReferences/IslandRevision03",
+  "type": "input",
+  "asset": {
+    "id": "7587ceaa-2af4-40ea-905a-84966435b0a5",
+    "name": "Before.png",
+    "asset_hash": "blake3:fcd3b9801fbe6aec310b3761e36091cc64db38967b9063c2e498dc862049ede2",
+    "size": 1543201,
+    "mime_type": "image/png",
+    "tags": [
+      "input",
+      "uploaded"
+    ],
+    "preview_url": "/api/view?type=input&filename=Before.png&subfolder=SkyTreeReferences%2FIslandRevision03"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "prefab": "Assets/Prefabs/Lobby/Backgrounds/LobbyBackground_SkyMerchant.prefab",
+  "npcSource": "Assets/Prefabs/NPC/SkyMerchant.prefab",
+  "parts": 9,
+  "mirrored": true,
+  "loopingIdle": true,
+  "breathMotion": 0.0180053711,
+  "feetFixed": true,
+  "missingScripts": 0,
+  "blocksUI": false
+}

@@ -1,0 +1,1 @@
+PASS: merchant lobby background prefab points to LobbySkyTreeMerchantParallel03_ComfyUI01.png; 1080x1920 texture; existing UV crop and all other prefab properties retained; runtime world 1 region 3 displays the new background with the existing ship, clouds, light and UI; progress values restored after preview; no console errors.

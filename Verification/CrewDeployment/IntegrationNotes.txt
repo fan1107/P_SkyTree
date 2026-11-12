@@ -2,7 +2,7 @@ Two-crew deployment, 2026-11-11
 
 Saved prefabs:
 Assets/Prefabs/MainShip/BattleShip.prefab: Long at the upper cannon, navigator at lower cannon.
-Assets/SkyTree/Prefabs/LobbyView.prefab: two independently configured LobbyCaptainWander components.
+Assets/UIPrefabs/Lobby/LobbyView.prefab: two independently configured LobbyCaptainWander components.
 
 BattleShipView instantiates both prefabs as CanvasCrewRig projections, including inactive
 attack arms, with world SpriteRenderers disabled. The controller's fire event is the

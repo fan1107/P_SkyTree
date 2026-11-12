@@ -1,6 +1,6 @@
 from pathlib import Path
 import re,json
-root=Path('D:/MyProject/P_SkyTree'); p=root/'Assets/SkyTree/Prefabs/MainShip_Step01.prefab'
+root=Path('D:/MyProject/P_SkyTree'); p=root/'Assets/Prefabs/MainShip/MainShip_Step01_Lobby.prefab'
 s=p.read_text(); blocks=re.split(r'(?=^--- !u!)',s,flags=re.M)
 ids={re.search(r'^--- !u!\d+ &(\d+)',b).group(1):b for b in blocks if b.startswith('--- !u!')}
 notes=json.loads((root/'Assets/ArtResources/Ships/MainShip_Step01/TreeOriginalLayers/ImportNotes.json').read_text())

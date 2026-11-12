@@ -1,0 +1,11 @@
+{
+  "revision": "Rebuilt from original SkybirdTopDown anatomy: continuous tapered torso, integrated neck, feathered foreleg roots, flexed lion hindquarters",
+  "assetHash": "45ACC2F5F2AB25F71AE2ECDDE2EB7898B5B1954B33B46AB74E2F4060C500338D",
+  "tool": "Built-in image_gen",
+  "sourceHash": "45ACC2F5F2AB25F71AE2ECDDE2EB7898B5B1954B33B46AB74E2F4060C500338D",
+  "transparent_background": true,
+  "asset": "Assets/ArtResources/Enemy/SkybirdMotherTopDown03.png",
+  "referenceHash": "92A894A3126D947AED52AB1985FC179A7E1481E45283C8C946AA8670ED15B651",
+  "source": "C:/Users/eicke/.codex/generated_images/01a1cd21-56aa-7cc2-8841-816e087f520f/exec-dbf743b2-ebc3-4c06-93e1-9a8bc34213eb.png",
+  "reference": "Assets/ArtResources/Enemy/SkybirdTopDown.png"
+}

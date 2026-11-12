@@ -1,0 +1,175 @@
+{
+  "prompt": [
+    12,
+    "447b626b-16ee-4435-b8f0-b60635ab7f70",
+    {
+      "10": {
+        "class_type": "UNETLoader",
+        "inputs": {
+          "unet_name": "krea2_turbo_int8_convrot.safetensors",
+          "weight_dtype": "default"
+        }
+      },
+      "11": {
+        "class_type": "CLIPLoader",
+        "inputs": {
+          "clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
+          "type": "krea2",
+          "device": "default"
+        }
+      },
+      "12": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "qwen_image_vae.safetensors"
+        }
+      },
+      "6": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "text": "Extreme wide aerial establishing shot, looking almost straight down through open blue sky toward distant clouds. One small solitary floating island occupies ONLY THE TOP RIGHT CORNER. Its entire silhouette is visible and surrounded by blue air. The island with its tree fits within the upper quarter of the tall picture. It is a distant small destination. At least eighty percent of the picture is quiet open blue atmosphere and soft distant clouds. The middle, lower half, and left side are empty. No central subject.\n\nThe island has ONE magnificent old tree, a very lush rounded crown of dense green foliage seen from overhead. The tree is large RELATIVE TO THE TINY ISLAND, not large relative to the whole image. Nearly top-down view, about 75 degrees downward: we see the rounded upper surface of the crown, sunlit clusters of leaves, with the short foreshortened trunk mostly hidden. A narrow crescent of grassy land and pale boulders peeks from beneath the tree crown, while twisting roots embrace a very small rugged chunk of earth that was pulled into the air. A little jagged rock and hanging roots visible beneath the near edge. Island is very far ABOVE THE CENTER of the picture, at the top right, with a large clear stretch of blue air below it.\n\nBeautiful premium hand-painted fantasy mobile RPG background art. Delicate detailed leaf clusters, fresh emerald and yellow-green foliage with warm sunshine, warm brown roots, luminous blue atmosphere, white fluffy clouds far below. Cozy enchanted feeling, isolated and peaceful, softly painterly shading, crisp natural forms. No visible horizon, no side-facing tall tree, no long bare trunk. No ships, no buildings, no other islands, no characters, no interface, no text. Portrait 9:16. A distant small top-down tree island at the top right with abundant open blue sky below.",
+          "clip": [
+            "11",
+            0
+          ]
+        }
+      },
+      "13": {
+        "class_type": "ConditioningZeroOut",
+        "inputs": {
+          "conditioning": [
+            "6",
+            0
+          ]
+        }
+      },
+      "5": {
+        "class_type": "EmptyLatentImage",
+        "inputs": {
+          "width": 864,
+          "height": 1536,
+          "batch_size": 1
+        }
+      },
+      "3": {
+        "class_type": "KSampler",
+        "inputs": {
+          "model": [
+            "10",
+            0
+          ],
+          "positive": [
+            "6",
+            0
+          ],
+          "negative": [
+            "13",
+            0
+          ],
+          "latent_image": [
+            "5",
+            0
+          ],
+          "seed": 2026111212,
+          "steps": 8,
+          "cfg": 1.0,
+          "sampler_name": "euler",
+          "scheduler": "simple",
+          "denoise": 1.0
+        }
+      },
+      "8": {
+        "class_type": "VAEDecodeTiled",
+        "inputs": {
+          "samples": [
+            "3",
+            0
+          ],
+          "vae": [
+            "12",
+            0
+          ],
+          "tile_size": 512,
+          "overlap": 64,
+          "temporal_size": 64,
+          "temporal_overlap": 8
+        }
+      },
+      "29": {
+        "class_type": "SaveImage",
+        "inputs": {
+          "images": [
+            "8",
+            0
+          ],
+          "filename_prefix": "SkyTree/Lobby/LoneSkyTreeIslandAerial05"
+        }
+      }
+    },
+    {
+      "client_id": "codex-skytree-lobby-aerial",
+      "create_time": 1794448307965
+    },
+    [
+      "29"
+    ]
+  ],
+  "outputs": {
+    "29": {
+      "images": [
+        {
+          "filename": "LoneSkyTreeIslandAerial05_00001_.png",
+          "subfolder": "SkyTree\\Lobby",
+          "type": "output",
+          "metadata": {
+            "kind": "image",
+            "width": 864,
+            "height": 1536
+          },
+          "id": "344eded9-f344-4645-8c78-dacdf07c195f"
+        }
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "447b626b-16ee-4435-b8f0-b60635ab7f70",
+          "timestamp": 1794448307967
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "10",
+            "11",
+            "12",
+            "5"
+          ],
+          "prompt_id": "447b626b-16ee-4435-b8f0-b60635ab7f70",
+          "timestamp": 1794448307968
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "447b626b-16ee-4435-b8f0-b60635ab7f70",
+          "timestamp": 1794448342181
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "29": {
+      "node_id": "29",
+      "display_node": "29",
+      "parent_node": null,
+      "real_node_id": "29"
+    }
+  }
+}

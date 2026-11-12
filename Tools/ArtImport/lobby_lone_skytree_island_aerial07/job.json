@@ -1,0 +1,8 @@
+{
+  "model": "krea2_turbo_int8_convrot.safetensors",
+  "workflow": "Tools/ComfyUI/Workflows/workflow_lobby_lone_skytree_island_aerial07_api.json",
+  "purpose": "Unify cloud painting while preserving distant island composition",
+  "server": "http://127.0.0.1:8188",
+  "prompt_id": "8a8f515c-33fb-4b49-8317-b4a64463f391",
+  "source": "IslandAerial06-reference.png"
+}

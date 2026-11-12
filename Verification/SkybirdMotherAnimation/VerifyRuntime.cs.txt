@@ -1,0 +1,66 @@
+if (!UnityEditor.EditorApplication.isPlaying) throw new System.Exception("Play mode required");
+var game=UnityEngine.Object.FindFirstObjectByType<SkyTree.SkyTreeGame>();
+if (game.SelectedRoute != null) throw new System.Exception("Verification must not advance a saved voyage");
+typeof(SkyTree.SkyTreeGame).GetMethod("BeginBattle",System.Reflection.BindingFlags.Instance|System.Reflection.BindingFlags.NonPublic).Invoke(game,null);
+var sequence=UnityEngine.Object.FindFirstObjectByType<SkyTree.BattleCannonSequence>();
+bool normalOk=sequence.Swarm.Count==7 && !sequence.Swarm.GetTarget(0).GetComponent<SkyTree.SkybirdHeadbuttProfile>();
+sequence.enabled=false;
+sequence.StartEncounter(1,true);
+var swarm=sequence.Swarm;
+var rect=swarm.GetTarget(0);
+var profile=rect.GetComponent<SkyTree.SkybirdHeadbuttProfile>();
+var image=rect.GetComponent<UnityEngine.UI.RawImage>();
+var animation=rect.GetComponent<SkyTree.SkybirdAnimation>();
+var ship=UnityEngine.Object.FindFirstObjectByType<SkyTree.BattleShipView>();
+var original=UnityEditor.AssetDatabase.LoadAssetAtPath<UnityEngine.Texture2D>("Assets/ArtResources/Enemy/SkybirdMotherTopDown03.png");
+if(!profile || !swarm.IsBoss || swarm.Count!=1)throw new System.Exception("Boss prefab wiring failed");
+var array=(System.Array)typeof(SkyTree.SkybirdSwarm).GetField("birds",System.Reflection.BindingFlags.NonPublic|System.Reflection.BindingFlags.Instance).GetValue(swarm);
+object bird=array.GetValue(0);
+var birdType=bird.GetType();
+var states=new System.Collections.Generic.HashSet<int>();
+var textures=new System.Collections.Generic.HashSet<string>();
+var log=new System.Collections.Generic.List<string>();
+log.Add("elapsed,state,age,texture,attacking,shipHP,collisions,x,y");
+float start=UnityEngine.Time.time;
+int attackSamples=0,wrongAttack=0,returnedSamples=0,healthAtStart=ship.Health.Current;
+float impactError=-1;
+bool idleCapture=false,attackCapture=false,impactCapture=false,returnCapture=false,killed=false,stopped=false;
+int collisionsAtDeath=-1;
+string root=System.IO.Path.GetFullPath("Verification/SkybirdMotherAnimation");
+System.IO.Directory.CreateDirectory(root);
+UnityEditor.EditorApplication.CallbackFunction monitor=null;
+monitor=()=>{
+ try {
+  if(!UnityEditor.EditorApplication.isPlaying || !swarm) {UnityEditor.EditorApplication.update-=monitor;return;}
+  float t=UnityEngine.Time.time-start;
+  int state=(int)birdType.GetField("state").GetValue(bird);
+  float age=(float)birdType.GetField("age").GetValue(bird);
+  states.Add(state);
+  if(!killed && state==0)textures.Add(image.texture.name);
+  if(!killed && state==1 && age>.06f){attackSamples++; if(image.texture!=original || !animation.IsAttacking)wrongAttack++;}
+  if(!killed && state==2 && age>.2f && !animation.IsAttacking)returnedSamples++;
+  if(!killed && state==2 && age<.06f && impactError<0 && swarm.CollisionCount>0){
+   var localHead=UnityEngine.Vector2.Scale(profile.HeadContactUV-rect.pivot,rect.rect.size);
+   var headInSpace=rect.anchoredPosition+(UnityEngine.Vector2)(rect.localRotation*(UnityEngine.Vector3)localHead);
+   var recordedContact=(UnityEngine.Vector2)birdType.GetField("contact").GetValue(bird);
+   impactError=UnityEngine.Vector2.Distance(headInSpace,recordedContact);
+  }
+  log.Add(string.Format(System.Globalization.CultureInfo.InvariantCulture,"{0:F3},{1},{2:F3},{3},{4},{5},{6},{7:F3},{8:F3}",t,state,age,image.texture.name,animation.IsAttacking,ship.Health.Current,swarm.CollisionCount,rect.anchoredPosition.x,rect.anchoredPosition.y));
+  if(!idleCapture && t>.4f){UnityEngine.ScreenCapture.CaptureScreenshot(root+"/Battle-Idle.png");idleCapture=true;}
+  if(!attackCapture && state==1 && age>.6f){UnityEngine.ScreenCapture.CaptureScreenshot(root+"/Battle-Charge.png");attackCapture=true;}
+  if(!impactCapture && state==2 && swarm.CollisionCount>0){UnityEngine.ScreenCapture.CaptureScreenshot(root+"/Battle-Impact.png");impactCapture=true;}
+  if(!returnCapture && state==2 && age>.5f){UnityEngine.ScreenCapture.CaptureScreenshot(root+"/Battle-Return.png");returnCapture=true;}
+  if(!killed && t>4.1f){swarm.Hit(rect,10000);killed=true;collisionsAtDeath=swarm.CollisionCount;stopped=animation.IsStopped && rect.GetComponent<UnityEngine.Animator>().speed==0;}
+  if(t>5.6f){
+   bool damageOk=healthAtStart-ship.Health.Current==36*swarm.CollisionCount && swarm.CollisionCount>=1;
+   bool deathOk=stopped && swarm.AliveCount==0 && !rect.gameObject.activeSelf && swarm.CollisionCount==collisionsAtDeath;
+   bool passed=normalOk && textures.Count==3 && attackSamples>5 && wrongAttack==0 && returnedSamples>5 && impactError>=0 && impactError<.1f && damageOk && deathOk;
+   string result=(passed?"PASS":"FAIL")+"\nNormal wave unchanged: "+normalOk+"\nMother prefab: "+profile.DisplayName+"\nIdle unique textures: "+textures.Count+"\nAttack samples: "+attackSamples+"\nWrong attack textures: "+wrongAttack+"\nReturn flap samples: "+returnedSamples+"\nImpact contact error: "+impactError+"\nCollisions: "+swarm.CollisionCount+"\nShip damage: "+(healthAtStart-ship.Health.Current)+"\nDamage correct: "+damageOk+"\nDeath stop correct: "+deathOk;
+   System.IO.File.WriteAllLines(root+"/RuntimeTrace.csv",log.ToArray());
+   System.IO.File.WriteAllText(root+"/RuntimeResults.txt",result);
+   UnityEditor.EditorApplication.update-=monitor;
+  }
+ } catch(System.Exception ex) {UnityEditor.EditorApplication.update-=monitor; System.IO.File.WriteAllText(root+"/RuntimeResults.txt","ERROR: "+ex);}
+};
+UnityEditor.EditorApplication.update+=monitor;
+return new {monitor="started",normalWaveCorrect=normalOk,mother=profile.DisplayName,size=rect.sizeDelta.ToString()};

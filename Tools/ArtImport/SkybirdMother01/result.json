@@ -1,0 +1,13 @@
+{
+  "reference": "Assets/ArtResources/Enemy/SkybirdTopDown.png",
+  "sourceHash": "7F23389100A02BC89281A3AF85D904DA8D0BAA995A63D348331900E460ADC7EA",
+  "transparent_background": true,
+  "width": 1254,
+  "source": "C:/Users/eicke/.codex/generated_images/01a1cd21-56aa-7cc2-8841-816e087f520f/exec-9f41e6a5-f912-4cdb-836e-0775bf0782c7.png",
+  "assetHash": "7F23389100A02BC89281A3AF85D904DA8D0BAA995A63D348331900E460ADC7EA",
+  "tool": "Built-in image_gen",
+  "asset": "Assets/ArtResources/Enemy/SkybirdMotherTopDown01.png",
+  "height": 1254,
+  "purpose": "Magenta mother skybird: broad heavy body, compact head, enlarged hooked beak and talons",
+  "referenceHash": "92A894A3126D947AED52AB1985FC179A7E1481E45283C8C946AA8670ED15B651"
+}

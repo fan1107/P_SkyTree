@@ -10,7 +10,14 @@ namespace SkyTree
         public enum Shape { Grid, Point, Selection, Route }
         public Shape shape;
         public Vector2 from, to;
-        public void SetRoute(Vector2 start, Vector2 end) { from = start; to = end; SetVerticesDirty(); }
+        private Vector2[] routePoints;
+        public void SetRoute(params Vector2[] positions)
+        {
+            routePoints = positions == null ? null : (Vector2[])positions.Clone();
+            if (routePoints != null && routePoints.Length >= 2)
+            { from = routePoints[0]; to = routePoints[routePoints.Length - 1]; }
+            SetVerticesDirty();
+        }
         protected override void OnPopulateMesh(VertexHelper vh)
         {
             vh.Clear(); var r = rectTransform.rect;
@@ -25,12 +32,12 @@ namespace SkyTree
             }
             else if (shape == Shape.Route)
             {
-                var dir = (to - from).normalized;
-                var end = to - dir * 10;
-                Line(vh, from, end, 2.4f, new Color32(247, 219, 128, 255));
-                Line(vh, from, end, 1.2f, color);
-                var side = new Vector2(-dir.y, dir.x) * 4;
-                Triangle(vh, end, end - dir * 9 + side, end - dir * 9 - side, color);
+                if (routePoints != null && routePoints.Length >= 2)
+                {
+                    for (int i = 1; i < routePoints.Length; i++)
+                        RouteSegment(vh, routePoints[i - 1], routePoints[i]);
+                }
+                else RouteSegment(vh, from, to);
             }
             else if (shape == Shape.Selection)
             {
@@ -43,6 +50,15 @@ namespace SkyTree
                 Ring(vh, 5.6f, 0, new Color32(145, 107, 38, 255));
                 Ring(vh, 4.5f, 0, color);
             }
+        }
+        void RouteSegment(VertexHelper vh, Vector2 start, Vector2 destination)
+        {
+            var dir = (destination - start).normalized;
+            var end = destination - dir * 10;
+            Line(vh, start, end, 2.4f, new Color32(247, 219, 128, 255));
+            Line(vh, start, end, 1.2f, color);
+            var side = new Vector2(-dir.y, dir.x) * 4;
+            Triangle(vh, end, end - dir * 9 + side, end - dir * 9 - side, color);
         }
         void Dashed(VertexHelper vh, Vector2 a, Vector2 b, float width)
         {

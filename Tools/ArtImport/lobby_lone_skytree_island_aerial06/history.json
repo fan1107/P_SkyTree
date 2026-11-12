@@ -1,0 +1,237 @@
+{
+  "prompt": [
+    13,
+    "c29c4847-b52f-4c57-a5a4-5a8072aacfa6",
+    {
+      "10": {
+        "class_type": "UNETLoader",
+        "inputs": {
+          "unet_name": "krea2_turbo_int8_convrot.safetensors",
+          "weight_dtype": "default"
+        }
+      },
+      "11": {
+        "class_type": "CLIPLoader",
+        "inputs": {
+          "clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
+          "type": "krea2",
+          "device": "default"
+        }
+      },
+      "12": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "qwen_image_vae.safetensors"
+        }
+      },
+      "6": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "text": "An airy hand-painted fantasy sky background, looking down at soft distant white cloud layers in vivid clear blue atmosphere. Open azure sky across the left and bottom, soft painterly cumulus clouds far below, continuous natural blue and white clouds. A lonely distant island with a lush rounded treetop seen from high above in the far upper right corner. Warm sunlight from the upper left. The center and lower area are empty sky, peaceful and spacious. Match the existing soft painted cloud texture and colors seamlessly. No horizon, no new objects, no additional trees, no extra islands, no people, no ships, no text. A polished cozy fantasy mobile RPG background.",
+          "clip": [
+            "11",
+            0
+          ]
+        }
+      },
+      "13": {
+        "class_type": "ConditioningZeroOut",
+        "inputs": {
+          "conditioning": [
+            "6",
+            0
+          ]
+        }
+      },
+      "3": {
+        "class_type": "KSampler",
+        "inputs": {
+          "model": [
+            "10",
+            0
+          ],
+          "positive": [
+            "6",
+            0
+          ],
+          "negative": [
+            "13",
+            0
+          ],
+          "latent_image": [
+            "23",
+            0
+          ],
+          "seed": 2026111213,
+          "steps": 8,
+          "cfg": 1.0,
+          "sampler_name": "euler",
+          "scheduler": "simple",
+          "denoise": 1.0
+        }
+      },
+      "8": {
+        "class_type": "VAEDecodeTiled",
+        "inputs": {
+          "samples": [
+            "3",
+            0
+          ],
+          "vae": [
+            "12",
+            0
+          ],
+          "tile_size": 512,
+          "overlap": 64,
+          "temporal_size": 64,
+          "temporal_overlap": 8
+        }
+      },
+      "29": {
+        "class_type": "SaveImage",
+        "inputs": {
+          "images": [
+            "24",
+            0
+          ],
+          "filename_prefix": "SkyTree/Lobby/LoneSkyTreeIslandAerial06"
+        }
+      },
+      "20": {
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "SkyTreeReferences/IslandAerial05-reference.png"
+        }
+      },
+      "21": {
+        "class_type": "ImageScale",
+        "inputs": {
+          "height": 1024,
+          "upscale_method": "lanczos",
+          "crop": "disabled",
+          "width": 576,
+          "image": [
+            "20",
+            0
+          ]
+        }
+      },
+      "22": {
+        "class_type": "ImagePadForOutpaint",
+        "inputs": {
+          "top": 0,
+          "feathering": 80,
+          "bottom": 512,
+          "image": [
+            "21",
+            0
+          ],
+          "left": 288,
+          "right": 0
+        }
+      },
+      "23": {
+        "class_type": "VAEEncodeForInpaint",
+        "inputs": {
+          "vae": [
+            "12",
+            0
+          ],
+          "mask": [
+            "22",
+            1
+          ],
+          "pixels": [
+            "22",
+            0
+          ],
+          "grow_mask_by": 8
+        }
+      },
+      "24": {
+        "class_type": "ImageCompositeMasked",
+        "inputs": {
+          "y": 0,
+          "resize_source": false,
+          "destination": [
+            "22",
+            0
+          ],
+          "mask": [
+            "22",
+            1
+          ],
+          "x": 0,
+          "source": [
+            "8",
+            0
+          ]
+        }
+      }
+    },
+    {
+      "client_id": "codex-skytree-lobby-aerial",
+      "create_time": 1794448409241
+    },
+    [
+      "29"
+    ]
+  ],
+  "outputs": {
+    "29": {
+      "images": [
+        {
+          "filename": "LoneSkyTreeIslandAerial06_00001_.png",
+          "subfolder": "SkyTree\\Lobby",
+          "type": "output",
+          "metadata": {
+            "kind": "image",
+            "width": 864,
+            "height": 1536
+          },
+          "id": "3d373938-6474-455f-bfcc-148ecf4430c6"
+        }
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "c29c4847-b52f-4c57-a5a4-5a8072aacfa6",
+          "timestamp": 1794448409242
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "10",
+            "11",
+            "12"
+          ],
+          "prompt_id": "c29c4847-b52f-4c57-a5a4-5a8072aacfa6",
+          "timestamp": 1794448409250
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "c29c4847-b52f-4c57-a5a4-5a8072aacfa6",
+          "timestamp": 1794448441456
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "29": {
+      "node_id": "29",
+      "display_node": "29",
+      "parent_node": null,
+      "real_node_id": "29"
+    }
+  }
+}

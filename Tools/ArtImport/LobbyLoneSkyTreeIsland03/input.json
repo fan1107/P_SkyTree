@@ -1,0 +1,17 @@
+{
+  "name": "LoneSkyTreeIsland01-reference.png",
+  "subfolder": "SkyTreeReferences",
+  "type": "input",
+  "asset": {
+    "id": "b234575e-6bd6-461d-afbd-8d9f2c5fc4de",
+    "name": "LoneSkyTreeIsland01-reference.png",
+    "asset_hash": "blake3:6585df737a6d05c1287f3e7cdf8b491f4d29f8d1aae26c3dfa029f96f87bfa3a",
+    "size": 1480440,
+    "mime_type": "image/png",
+    "tags": [
+      "input",
+      "uploaded"
+    ],
+    "preview_url": "/api/view?type=input&filename=LoneSkyTreeIsland01-reference.png&subfolder=SkyTreeReferences"
+  }
+}

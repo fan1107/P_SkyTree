@@ -1,0 +1,17 @@
+{
+  "name": "LobbyMountainHarbor02.png",
+  "subfolder": "SkyTreeReferences",
+  "type": "input",
+  "asset": {
+    "id": "c1ec199e-ab27-4e19-8b0e-8d42c390c627",
+    "name": "LobbyMountainHarbor02.png",
+    "asset_hash": "blake3:44285fb1983a9a79c0d7f4e171ae35c9d0910c20396026ed96b5d74cc4fdbac1",
+    "size": 1610950,
+    "mime_type": "image/png",
+    "tags": [
+      "input",
+      "uploaded"
+    ],
+    "preview_url": "/api/view?type=input&filename=LobbyMountainHarbor02.png&subfolder=SkyTreeReferences"
+  }
+}

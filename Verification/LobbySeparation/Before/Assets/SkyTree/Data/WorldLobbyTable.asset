@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7da2521cf310e14eaf5afce8f770c0c, type: 3}
+  m_Name: WorldLobbyTable
+  m_EditorClassIdentifier: Assembly-CSharp::SkyTree.WorldLobbyTable
+  defaultLobby: {fileID: 7668096732527684311, guid: 6cb35bdd54efb604d9ec5fe87b865bde, type: 3}
+  worlds:
+  - regions:
+    - {fileID: 7668096732527684311, guid: 6cb35bdd54efb604d9ec5fe87b865bde, type: 3}
+    - {fileID: 7668096732527684311, guid: 6cb35bdd54efb604d9ec5fe87b865bde, type: 3}
+    - {fileID: 1273719184078141362, guid: 3469b5663dc28fb4cb19d5fa618918be, type: 3}
+    - {fileID: 3657522097852631998, guid: 1876e93cc0f44ae4088e59cbd22b4d43, type: 3}
+    - {fileID: 7668096732527684311, guid: 6cb35bdd54efb604d9ec5fe87b865bde, type: 3}
+    - {fileID: 7668096732527684311, guid: 6cb35bdd54efb604d9ec5fe87b865bde, type: 3}
+    - {fileID: 7668096732527684311, guid: 6cb35bdd54efb604d9ec5fe87b865bde, type: 3}
+    - {fileID: 7668096732527684311, guid: 6cb35bdd54efb604d9ec5fe87b865bde, type: 3}
+    - {fileID: 7668096732527684311, guid: 6cb35bdd54efb604d9ec5fe87b865bde, type: 3}
+  - regions:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - regions:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - regions:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - regions:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - regions:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - regions:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - regions:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - regions:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}

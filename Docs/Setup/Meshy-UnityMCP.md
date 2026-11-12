@@ -39,10 +39,11 @@ Meshy 공식 API는 `Authorization: Bearer <키>`로 인증한다. 키 생성과
 `Assets/ArtResources/Ships/MeshyWoodenShip/`에 다음 파일이 있다:
 
 - `WoodenShip.fbx`
-- `WoodenShip.prefab`
 - `WoodenShip_Material.mat`
 - `Texture_0_base_color.png`
 - `GenerationInfo.json`
+
+`WoodenShip.prefab`과 `New Prefab.prefab`은 UI/리소스 프리팹 분리에 따라 `Assets/Prefabs/Ships/MeshyWoodenShip/`으로 이동했다. 모델·재질·텍스처 참조 GUID는 유지한다.
 
 메타데이터는 제공자 Meshy, 모델 **meshy-6**, 당시 생성 비용 **30 credits**를 기록한다. 이는 과거 한 작업의 기록이며 새 요청의 가격이나 잔액이 아니다. 원본 입력 이미지는 집의 임시 클립보드 파일명으로만 기록되어 있어 회사에서 같은 입력이 있다고 가정하지 않는다. 결과물 자체는 저장소에 있다.
 

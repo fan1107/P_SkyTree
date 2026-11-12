@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: 48557bbceabef1b47b36018016df1a14
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -580004035776607762
+    second: SkyMerchantPartsAtlas_0
+  - first:
+      213: 5164631106450028102
+    second: SkyMerchantPartsAtlas_1
+  - first:
+      213: -1454252812966700309
+    second: SkyMerchantPartsAtlas_2
+  - first:
+      213: 761186634585855324
+    second: SkyMerchantPartsAtlas_3
+  - first:
+      213: -7833121873509323469
+    second: SkyMerchantPartsAtlas_4
+  - first:
+      213: 5062452478095591956
+    second: SkyMerchantPartsAtlas_5
+  - first:
+      213: -2815366873535022425
+    second: SkyMerchantPartsAtlas_6
+  - first:
+      213: 2966924449678503698
+    second: SkyMerchantPartsAtlas_7
+  - first:
+      213: -3195980021707030457
+    second: SkyMerchantPartsAtlas_8
+  - first:
+      213: -8944952988941345900
+    second: SkyMerchantPartsAtlas_9
+  - first:
+      213: -5620643940836650002
+    second: SkyMerchantPartsAtlas_10
+  - first:
+      213: 8241562358107818051
+    second: SkyMerchantPartsAtlas_11
+  - first:
+      213: 6458562212747005213
+    second: SkyMerchantPartsAtlas_12
+  - first:
+      213: 4336692381490507138
+    second: SkyMerchantPartsAtlas_13
+  - first:
+      213: 5260284645678713710
+    second: SkyMerchantPartsAtlas_14
+  - first:
+      213: -3297593856000021264
+    second: SkyMerchantPartsAtlas_15
+  - first:
+      213: -4257500268295481142
+    second: SkyMerchantPartsAtlas_16
+  - first:
+      213: -769537482558136956
+    second: SkyMerchantPartsAtlas_17
+  - first:
+      213: 4778298944267097633
+    second: SkyMerchantPartsAtlas_18
+  - first:
+      213: -7442161825831796972
+    second: SkyMerchantPartsAtlas_19
+  - first:
+      213: 3536778321375456023
+    second: SkyMerchantPartsAtlas_20
+  - first:
+      213: -4953077597639408602
+    second: SkyMerchantPartsAtlas_21
+  - first:
+      213: -1401837832077355726
+    second: SkyMerchantPartsAtlas_22
+  - first:
+      213: 6688998559862548198
+    second: SkyMerchantPartsAtlas_23
+  - first:
+      213: -1644019984235742338
+    second: SkyMerchantPartsAtlas_24
+  - first:
+      213: 3881554294159437390
+    second: SkyMerchantPartsAtlas_25
+  - first:
+      213: -2908003780259954961
+    second: SkyMerchantPartsAtlas_26
+  - first:
+      213: -1096998621765091835
+    second: SkyMerchantPartsAtlas_27
+  - first:
+      213: 8856172612684468424
+    second: SkyMerchantPartsAtlas_28
+  - first:
+      213: -2198081267902260106
+    second: SkyMerchantPartsAtlas_29
+  - first:
+      213: 8326833142650751149
+    second: SkyMerchantPartsAtlas_30
+  - first:
+      213: 1073265923848412891
+    second: SkyMerchantPartsAtlas_31
+  - first:
+      213: -7313588168810536667
+    second: SkyMerchantPartsAtlas_32
+  - first:
+      213: -7428869794469064010
+    second: SkyMerchantPartsAtlas_33
+  - first:
+      213: 53289124482302727
+    second: SkyMerchantPartsAtlas_34
+  - first:
+      213: -6932992951102965235
+    second: SkyMerchantPartsAtlas_35
+  - first:
+      213: 51527735146547469
+    second: SkyMerchantPartsAtlas_36
+  - first:
+      213: -6723839975690528510
+    second: SkyMerchantPartsAtlas_37
+  - first:
+      213: 8628818635086505935
+    second: SkyMerchantPartsAtlas_38
+  - first:
+      213: 6955051312987932316
+    second: SkyMerchantPartsAtlas_39
+  - first:
+      213: 7212651184891258142
+    second: SkyMerchantPartsAtlas_40
+  - first:
+      213: 8986620910186828018
+    second: SkyMerchantPartsAtlas_41
+  - first:
+      213: -8822953983745315067
+    second: SkyMerchantPartsAtlas_42
+  - first:
+      213: 4194596587763890492
+    second: SkyMerchantPartsAtlas_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 835
+        width: 373
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee90e37076963f7f0800000000000000
+      internalID: -580004035776607762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 337
+        width: 525
+        height: 910
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646f2efb0a47ca740800000000000000
+      internalID: 5164631106450028102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 826
+        width: 393
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bead18585c471dbe0800000000000000
+      internalID: -1454252812966700309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1174
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55d3421637409a00800000000000000
+      internalID: 761186634585855324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 1157
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d622f58292b4390800000000000000
+      internalID: -7833121873509323469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 890
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a0f21f4b1714640800000000000000
+      internalID: 5062452478095591956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 831
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aafa86bebecde8d0800000000000000
+      internalID: -2815366873535022425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 859
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f228a4112ac2920800000000000000
+      internalID: 2966924449678503698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 835
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74048e07a1995a3d0800000000000000
+      internalID: -3195980021707030457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 395
+        width: 315
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b159126a42dd380800000000000000
+      internalID: -8944952988941345900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 417
+        width: 213
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3da718d167ff1b0800000000000000
+      internalID: -5620643940836650002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 757
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3484f3d8c49ef5270800000000000000
+      internalID: 8241562358107818051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 346
+        width: 288
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1dcb821d1c61a950800000000000000
+      internalID: 6458562212747005213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 706
+        width: 63
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d62e28eb60f2c30800000000000000
+      internalID: 4336692381490507138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_14
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 712
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b0f1bd309400940800000000000000
+      internalID: 5260284645678713710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_15
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 696
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fcab9ffbd79c32d0800000000000000
+      internalID: -3297593856000021264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_16
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 672
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac81e1d20125ae4c0800000000000000
+      internalID: -4257500268295481142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_17
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 682
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d16ce9cbd0255f0800000000000000
+      internalID: -769537482558136956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_18
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 642
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1261aa3c29def4240800000000000000
+      internalID: 4778298944267097633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_19
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 586
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41fb25aef3128b890800000000000000
+      internalID: -7442161825831796972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_20
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 562
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71be2e60529251130800000000000000
+      internalID: 3536778321375456023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_21
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 532
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62402cfda22234bb0800000000000000
+      internalID: -4953077597639408602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_22
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 484
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23553524bebab8ce0800000000000000
+      internalID: -1401837832077355726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_23
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 471
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6e4b710c814dc50800000000000000
+      internalID: 6688998559862548198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_24
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 489
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b3cf3e8844f29e0800000000000000
+      internalID: -1644019984235742338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_25
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 419
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ee3cfa01d0ed530800000000000000
+      internalID: 3881554294159437390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_26
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 459
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feebc1818f1b4a7d0800000000000000
+      internalID: -2908003780259954961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_27
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 433
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e399ec09da6c0f0800000000000000
+      internalID: -1096998621765091835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_28
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 428
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0d998b11277ea70800000000000000
+      internalID: 8856172612684468424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_29
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 441
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cde379bb8de71e0800000000000000
+      internalID: -2198081267902260106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_30
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 409
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8c5a330aade8370800000000000000
+      internalID: 8326833142650751149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_31
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 409
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde148cdba105ee00800000000000000
+      internalID: 1073265923848412891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_32
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 383
+        width: 62
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5216c8c3f4ae08a90800000000000000
+      internalID: -7313588168810536667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_33
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 375
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2da02284a57e890800000000000000
+      internalID: -7428869794469064010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_34
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 374
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703c8272d225db000800000000000000
+      internalID: 53289124482302727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_35
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 364
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a783fb4af09cf90800000000000000
+      internalID: -6932992951102965235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_36
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 353
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d098d7db33017b000800000000000000
+      internalID: 51527735146547469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 417
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2091562aa2f10b2a0800000000000000
+      internalID: -6723839975690528510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_38
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 39
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc72a97c4d8bfb770800000000000000
+      internalID: 8628818635086505935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_39
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 22
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c968249d15e458060800000000000000
+      internalID: 6955051312987932316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_40
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 15
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e156e34d90c781460800000000000000
+      internalID: 7212651184891258142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_41
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 0
+        width: 347
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f098caca14e6bc70800000000000000
+      internalID: 8986620910186828018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_42
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 15
+        width: 418
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f2e3909129e8580800000000000000
+      internalID: -8822953983745315067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyMerchantPartsAtlas_43
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 0
+        width: 259
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c397bb56f53363a30800000000000000
+      internalID: 4194596587763890492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SkyMerchantPartsAtlas_0: -580004035776607762
+      SkyMerchantPartsAtlas_1: 5164631106450028102
+      SkyMerchantPartsAtlas_10: -5620643940836650002
+      SkyMerchantPartsAtlas_11: 8241562358107818051
+      SkyMerchantPartsAtlas_12: 6458562212747005213
+      SkyMerchantPartsAtlas_13: 4336692381490507138
+      SkyMerchantPartsAtlas_14: 5260284645678713710
+      SkyMerchantPartsAtlas_15: -3297593856000021264
+      SkyMerchantPartsAtlas_16: -4257500268295481142
+      SkyMerchantPartsAtlas_17: -769537482558136956
+      SkyMerchantPartsAtlas_18: 4778298944267097633
+      SkyMerchantPartsAtlas_19: -7442161825831796972
+      SkyMerchantPartsAtlas_2: -1454252812966700309
+      SkyMerchantPartsAtlas_20: 3536778321375456023
+      SkyMerchantPartsAtlas_21: -4953077597639408602
+      SkyMerchantPartsAtlas_22: -1401837832077355726
+      SkyMerchantPartsAtlas_23: 6688998559862548198
+      SkyMerchantPartsAtlas_24: -1644019984235742338
+      SkyMerchantPartsAtlas_25: 3881554294159437390
+      SkyMerchantPartsAtlas_26: -2908003780259954961
+      SkyMerchantPartsAtlas_27: -1096998621765091835
+      SkyMerchantPartsAtlas_28: 8856172612684468424
+      SkyMerchantPartsAtlas_29: -2198081267902260106
+      SkyMerchantPartsAtlas_3: 761186634585855324
+      SkyMerchantPartsAtlas_30: 8326833142650751149
+      SkyMerchantPartsAtlas_31: 1073265923848412891
+      SkyMerchantPartsAtlas_32: -7313588168810536667
+      SkyMerchantPartsAtlas_33: -7428869794469064010
+      SkyMerchantPartsAtlas_34: 53289124482302727
+      SkyMerchantPartsAtlas_35: -6932992951102965235
+      SkyMerchantPartsAtlas_36: 51527735146547469
+      SkyMerchantPartsAtlas_37: -6723839975690528510
+      SkyMerchantPartsAtlas_38: 8628818635086505935
+      SkyMerchantPartsAtlas_39: 6955051312987932316
+      SkyMerchantPartsAtlas_4: -7833121873509323469
+      SkyMerchantPartsAtlas_40: 7212651184891258142
+      SkyMerchantPartsAtlas_41: 8986620910186828018
+      SkyMerchantPartsAtlas_42: -8822953983745315067
+      SkyMerchantPartsAtlas_43: 4194596587763890492
+      SkyMerchantPartsAtlas_5: 5062452478095591956
+      SkyMerchantPartsAtlas_6: -2815366873535022425
+      SkyMerchantPartsAtlas_7: 2966924449678503698
+      SkyMerchantPartsAtlas_8: -3195980021707030457
+      SkyMerchantPartsAtlas_9: -8944952988941345900
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,7 @@
+{
+  "composition_reference": "Assets/ArtResources/Backgrounds/LobbyMountainHarbor02.png",
+  "server": "http://127.0.0.1:8188",
+  "workflow": "C:\\Users\\eicke\\Documents\\P_SkyTree\\Tools\\ComfyUI\\Workflows\\workflow_lobby_skytree_merchant_parallel02_api.json",
+  "prompt_id": "cb116eb8-d066-4403-9fa8-80ba530fb236",
+  "design_reference": "Assets/ArtResources/Backgrounds/LobbySkyTreeMerchant02.png"
+}

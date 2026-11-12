@@ -1,0 +1,7 @@
+{
+  "prompt_id": "309a5c0a-8907-402a-aecb-b07462ecb12d",
+  "workflow": "C:\\Users\\eicke\\Documents\\P_SkyTree\\Tools\\ComfyUI\\Workflows\\workflow_lobby_lone_skytree_island02_api.json",
+  "concept": "A solitary large sky tree has pulled a small root-bound clump of terrain into the air.",
+  "intended_use": "World-map destination lobby background; asset only, no scene assignment.",
+  "server": "http://127.0.0.1:8188"
+}

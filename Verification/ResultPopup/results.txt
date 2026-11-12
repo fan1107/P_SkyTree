@@ -1,0 +1,4 @@
+Unscaled route animation; 0/1/3/7 rewards; invalid rows; scroll/reset; pooled slot rebinding; callback clearing; confirm/reopen PASS
+Battle to region 5: selected route, one boss, supplied reward list, saved arrival, confirm, next departure PASS
+Battle to region 3: selected route, one boss, supplied reward list, saved arrival, confirm, next departure PASS
+Result UI and sample preview never award currency PASS

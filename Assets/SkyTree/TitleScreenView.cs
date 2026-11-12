@@ -11,14 +11,14 @@ namespace SkyTree
         private readonly Color cream = new Color32(255, 245, 210, 255);
         private Font font;
         private Font decorativeFont;
-        private GameObject settings, muteMark;
-        private Text soundLabel, motionLabel;
+        private GameObject settings;
+        private Text soundLabel, motionLabel, soundButtonLabel;
         private bool muted, motion;
         private CanvasGroup[] sparks;
         private Vector2[] sparkOrigins;
         private float elapsed;
 
-        public void Build(Font titleFont, bool hasSave, Action enterLobby)
+        public void Build(Font titleFont, bool hasSave, Action enterLobby, Sprite buttonSprite = null)
         {
             font = titleFont;
             var installed = Font.GetOSInstalledFontNames();
@@ -31,22 +31,34 @@ namespace SkyTree
             muted = PlayerPrefs.GetInt(MuteKey, 0) != 0;
             motion = PlayerPrefs.GetInt(MotionKey, 1) != 0;
             AudioListener.pause = muted;
+            AddHeroes();
             AddSparks();
-            var tagline = Label("사라진 고향 섬을 찾아서", 100, 171, 200, 24, 12, transform);
+            // The new key art is a background only, so branding and controls are real UI.
+            var logo = Label("하늘나무", 22, 35, 356, 65, 48, transform);
+            if (decorativeFont) logo.font = decorativeFont;
+            logo.fontStyle = FontStyle.Bold;
+            var logoOutline = logo.gameObject.AddComponent<Outline>();
+            logoOutline.effectColor = new Color32(31, 76, 72, 240);
+            logoOutline.effectDistance = new Vector2(1.5f, -1.5f);
+            Shadow(logo, new Color(.08f,.23f,.24f,.45f), new Vector2(0,-3));
+            var english = Label("S K Y   T R E E", 65, 94, 270, 20, 13, transform);
+            english.color = new Color32(31, 76, 72, 255);
+            english.fontStyle = FontStyle.Bold;
+            Shadow(english, new Color(1,1,.85f,.65f), new Vector2(0,-.7f));
+            var tagline = Label("사라진 고향 섬을 찾아서", 80, 116, 240, 21, 11, transform);
             if (decorativeFont) tagline.font = decorativeFont;
-            tagline.color = new Color32(89, 57, 29, 255);
+            tagline.color = new Color32(40, 78, 75, 255);
             tagline.fontStyle = FontStyle.Bold;
             Shadow(tagline, new Color(1,1,1,.7f), new Vector2(0,-.6f));
-            var heading = Label("선장 롱의 항해 일지", 124, 554, 152, 25, 14, transform);
+            var heading = Label("선장 롱의 항해 일지", 70, 571, 260, 26, 15, transform);
             if (decorativeFont) heading.font = decorativeFont;
             heading.fontStyle = FontStyle.Bold;
             Shadow(heading, new Color(0,.13f,.2f,.8f), new Vector2(0,-1));
-            var caption = Label(hasSave ? "항해 이어하기" : "항해 시작하기", 74, 604, 252, 46, 28, transform);
+            var start = FramedButton("Start Voyage", 54, 607, 292, 57, transform, enterLobby, buttonSprite);
+            var caption = Label(hasSave ? "항해 이어하기" : "항해 시작하기", 64, 611, 272, 46, 23, transform);
             if (decorativeFont) caption.font = decorativeFont;
             caption.fontStyle = FontStyle.Bold;
             Shadow(caption, new Color(.04f,.15f,.18f,1), new Vector2(1.2f,-1.8f));
-            var start = Hotspot("Start Voyage", 51, 591, 298, 66, transform, () => enterLobby());
-            start.targetGraphic = caption;
             var colors = start.colors;
             colors.normalColor = Color.white;
             colors.highlightedColor = new Color(1,.96f,.8f);
@@ -54,14 +66,37 @@ namespace SkyTree
             colors.selectedColor = Color.white;
             colors.fadeDuration = .1f;
             start.colors = colors;
-            Label("진행 상황은 이 기기에 저장됩니다", 40, 666, 320, 20, 11, transform);
+            var saveNote = Label("진행 상황은 이 기기에 저장됩니다", 40, 675, 320, 20, 10, transform);
+            saveNote.color = new Color32(36, 71, 75, 255);
+            Shadow(saveNote, new Color(1,1,.9f,.8f), new Vector2(0,-.7f));
 
-            Hotspot("Sound", 316, 6, 40, 42, transform, ToggleSound).transition = Selectable.Transition.None;
-            Hotspot("Settings", 354, 6, 42, 42, transform, () => settings.SetActive(true)).transition = Selectable.Transition.None;
-            muteMark = Solid("Muted indicator", 334, 13, 2, 25, new Color32(255,139,100,255), transform).gameObject;
-            muteMark.transform.localRotation = Quaternion.Euler(0,0,-40);
+            FramedButton("Sound", 296, 10, 44, 30, transform, ToggleSound, buttonSprite);
+            soundButtonLabel = Label("소리", 298, 10, 40, 28, 10, transform);
+            FramedButton("Settings", 346, 10, 44, 30, transform, () => settings.SetActive(true), buttonSprite);
+            Label("설정", 348, 10, 40, 28, 10, transform);
             BuildSettings();
             RefreshSettings();
+        }
+
+        private void AddHeroes()
+        {
+            // Separate cutouts keep the approved duo pose while allowing independent placement.
+            AddHero("Female Navigator", "TitleFemaleNavigator_ComfyUI01", 32, 262.52f, 170.28f);
+            AddHero("Male Captain", "TitleMaleCaptain_ComfyUI01", 172.76f, 215, 178.2f);
+        }
+
+        private void AddHero(string name, string resource, float x, float y, float width)
+        {
+            var texture = Resources.Load<Texture2D>("SkyTree/Title/" + resource);
+            if (!texture)
+            {
+                Debug.LogError("Missing title character artwork: " + resource, this);
+                return;
+            }
+            var rect = Rect(name, x, y, width, width * texture.height / texture.width, transform);
+            var image = rect.gameObject.AddComponent<RawImage>();
+            image.texture = texture;
+            image.raycastTarget = false;
         }
 
         private RectTransform Rect(string name, float x, float y, float w, float h, Transform parent)
@@ -111,6 +146,23 @@ namespace SkyTree
             return button;
         }
 
+        private Button FramedButton(string name, float x, float y, float w, float h, Transform parent, Action action, Sprite sprite)
+        {
+            var border = Solid(name, x, y, w, h, new Color32(218,181,103,255), parent);
+            if (sprite)
+            {
+                border.sprite = sprite;
+                border.type = Image.Type.Sliced;
+                border.color = Color.white;
+            }
+            border.raycastTarget = true;
+            var body = Solid("Teal inset", 4, 4, w-8, h-8, new Color32(29,83,82,246), border.transform);
+            var button = border.gameObject.AddComponent<Button>();
+            button.targetGraphic = body;
+            button.onClick.AddListener(() => action());
+            return button;
+        }
+
         private void BuildSettings()
         {
             var root = Rect("Title Settings",0,0,400,720,transform);
@@ -153,7 +205,7 @@ namespace SkyTree
 
         private void RefreshSettings()
         {
-            muteMark.SetActive(muted);
+            soundButtonLabel.text = muted ? "음소거" : "소리";
             soundLabel.text = muted ? "소리  ·  꺼짐" : "소리  ·  켜짐";
             motionLabel.text = motion ? "타이틀 반짝임  ·  켜짐" : "타이틀 반짝임  ·  꺼짐";
             foreach (var spark in sparks) spark.gameObject.SetActive(motion);

@@ -1,0 +1,8 @@
+Assets/UIPrefabs/Popups/VoyageResultPopup.prefab: references PASS
+Assets/UIPrefabs/Common/SrcItemSlot.prefab: references PASS
+Assets/Prefabs/UI/Icon/IconGold.prefab: references PASS
+Assets/Prefabs/UI/Icon/IconWood.prefab: references PASS
+Assets/Prefabs/UI/Icon/IconGem.prefab: references PASS
+Gold: Single=True, max=512
+Wood: Single=True, max=512
+Gem: Single=True, max=512

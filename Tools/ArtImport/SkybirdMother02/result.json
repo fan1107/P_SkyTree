@@ -1,0 +1,14 @@
+{
+  "anatomy": "One elongated neck, two forward eagle forelegs, two lion hind legs, two feathered wings",
+  "reference": "Assets/ArtResources/Enemy/SkybirdMotherTopDown01.png",
+  "source": "C:/Users/eicke/.codex/generated_images/01a1cd21-56aa-7cc2-8841-816e087f520f/exec-39bc5d7a-7679-49ec-b8ee-72cb94e4e6ad.png",
+  "assetHash": "638264314D3E7F84A58B5BF28800BD6FEF20192912D460AF1546006D84BDA170",
+  "sourceHash": "638264314D3E7F84A58B5BF28800BD6FEF20192912D460AF1546006D84BDA170",
+  "prompts": [
+    "EditPrompt.txt",
+    "FramingPrompt.txt"
+  ],
+  "transparent_background": true,
+  "tool": "Built-in image_gen edit",
+  "asset": "Assets/ArtResources/Enemy/SkybirdMotherTopDown02.png"
+}

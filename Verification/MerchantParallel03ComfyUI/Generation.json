@@ -1,0 +1,14 @@
+{
+  "generator": "Local ComfyUI",
+  "model": "krea2_turbo_int8_convrot.safetensors",
+  "prompt_id": "4244ffb1-276d-49c5-92d2-b75fc140e0ee",
+  "status": "success",
+  "seed": 2026111210,
+  "denoise": 0.48,
+  "reference": "Assets/ArtResources/Backgrounds/LobbySkyTreeMerchantParallel03.png",
+  "native_resolution": "720x1280",
+  "output_resolution": "1080x1920",
+  "upscale": "Lanczos in ComfyUI",
+  "workflow": "Tools/ComfyUI/Workflows/workflow_lobby_skytree_merchant_parallel03_comfy01_api.json",
+  "output": "Assets/ArtResources/Backgrounds/LobbySkyTreeMerchantParallel03_ComfyUI01.png"
+}

@@ -59,7 +59,7 @@ namespace SkyTree.EditorTools
                 list.arraySize = clouds.Length;
                 for (int i = 0; i < clouds.Length; i++) list.GetArrayElementAtIndex(i).objectReferenceValue = clouds[i];
                 so.ApplyModifiedPropertiesWithoutUndo();
-                PrefabUtility.SaveAsPrefabAsset(root, "Assets/SkyTree/Resources/SkyTree/BattleBackground.prefab");
+                PrefabUtility.SaveAsPrefabAsset(root, "Assets/Prefabs/Resources/SkyTree/BattleBackground.prefab");
             }
             finally { Object.DestroyImmediate(root); }
         }

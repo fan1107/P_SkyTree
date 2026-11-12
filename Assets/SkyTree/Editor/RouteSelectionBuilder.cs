@@ -9,7 +9,8 @@ namespace SkyTree.Editor
     public static class RouteSelectionBuilder
     {
         const string ArtFolder="Assets/ArtResources/Atlas/RouteMap/";
-        const string PrefabPath="Assets/SkyTree/Prefabs/RouteSelectionPopup.prefab";
+        const string MapArtwork="CloudChartLandmarks.png";
+        const string PrefabPath="Assets/UIPrefabs/Popups/RouteSelectionPopup.prefab";
         static readonly Color Ink=new Color32(74,62,40,255);
         static readonly Color Cream=new Color32(255,242,212,255);
         static Font font;
@@ -47,7 +48,7 @@ namespace SkyTree.Editor
         [MenuItem("SkyTree/Build Route Selection Popup")]
         public static void Build()
         {
-            foreach(var file in new[]{"CloudChart.png","TreeShipMarker.png"})
+            foreach(var file in new[]{MapArtwork,"TreeShipMarker.png"})
             {
                 string path=ArtFolder+file;AssetDatabase.ImportAsset(path);
                 var importer=(TextureImporter)AssetImporter.GetAtPath(path);
@@ -64,7 +65,7 @@ namespace SkyTree.Editor
             var panel=Node("Popup panel",root,0,0,352,636);Image(panel,Color.white,plate).raycastTarget=true;
             Image(Node("Parchment",panel,0,0,339,621),new Color32(227,209,169,255));
             var map=Node("Map",panel,0,43,328,398);
-            Image(map,Color.white,AssetDatabase.LoadAssetAtPath<Sprite>(ArtFolder+"CloudChart.png")).type=UnityEngine.UI.Image.Type.Simple;
+            Image(map,Color.white,AssetDatabase.LoadAssetAtPath<Sprite>(ArtFolder+MapArtwork)).type=UnityEngine.UI.Image.Type.Simple;
             Graphic("Region dividers",map,RouteMapGraphic.Shape.Grid,328,398,new Color32(106,86,52,150));
             var line=Graphic("Selected route",map,RouteMapGraphic.Shape.Route,328,398,new Color32(155,112,28,255));Ref(so,"route",line);
             var points=so.FindProperty("points");points.arraySize=9;
@@ -86,10 +87,10 @@ namespace SkyTree.Editor
             Image(Node("Footer separator",panel,0,-161,328,1),new Color32(158,130,82,255));
             Ref(so,"title",Text("Destination title",panel,0,-181,318,28,19,"목적지를 선택하세요",Ink));
             Ref(so,"summary",Text("Battle summary",panel,0,-209,320,24,13,"노란 지점을 눌러 항로를 정하세요",Ink));
-            Ref(so,"arrival",Text("Arrival hint",panel,0,-232,324,24,11,"가로 · 세로 · 대각선으로 이동할 수 있습니다",Ink));
+            Ref(so,"arrival",Text("Arrival hint",panel,0,-232,324,24,11,"같은 목적지를 다시 누르면 경유 항로가 바뀝니다",Ink));
             var depart=Button("Depart",panel,0,-272,292,43,"출항하기",23);depart.interactable=false;Ref(so,"depart",depart);
             Text("Failure hint",panel,0,-304,316,17,9,"실패 시 마지막 통과 지점으로 복귀",Ink);
-            string[] names={"고대 유적","무역선 정박지","동쪽 구름 항로","서쪽 구름 항로","구름 쉼터","수정섬","남서쪽 구름 항로","시작 정박지","풍차섬"};
+            string[] names={"고대 유적","무역선 정박지","하늘나무 상선","작은 부유섬","구름 쉼터","수정섬","남서쪽 구름 항로","시작 정박지","풍차섬"};
             var info=so.FindProperty("destinations");info.arraySize=9;
             for(int i=0;i<9;i++)
             {
@@ -108,7 +109,7 @@ namespace SkyTree.Editor
             string atlasPath=ArtFolder+"RouteMap.spriteatlas";
             var atlas=AssetDatabase.LoadAssetAtPath<UnityEngine.U2D.SpriteAtlas>(atlasPath);
             if(!atlas){atlas=new UnityEngine.U2D.SpriteAtlas();AssetDatabase.CreateAsset(atlas,atlasPath);}
-            UnityEditor.U2D.SpriteAtlasExtensions.Add(atlas,new Object[]{AssetDatabase.LoadAssetAtPath<Texture2D>(ArtFolder+"CloudChart.png"),AssetDatabase.LoadAssetAtPath<Texture2D>(ArtFolder+"TreeShipMarker.png")});
+            UnityEditor.U2D.SpriteAtlasExtensions.Add(atlas,new Object[]{AssetDatabase.LoadAssetAtPath<Texture2D>(ArtFolder+MapArtwork),AssetDatabase.LoadAssetAtPath<Texture2D>(ArtFolder+"TreeShipMarker.png")});
             var packing=UnityEditor.U2D.SpriteAtlasExtensions.GetPackingSettings(atlas);packing.enableRotation=false;packing.enableTightPacking=false;UnityEditor.U2D.SpriteAtlasExtensions.SetPackingSettings(atlas,packing);
             AssetDatabase.SaveAssets();
         }

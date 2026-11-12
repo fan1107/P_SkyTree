@@ -1,0 +1,10 @@
+World 1, region 1: LobbyView
+World 1, region 2: LobbyView
+World 1, region 3: LobbyView_SkyMerchant
+World 1, region 4: LobbyView_LoneSkyTreeIsland
+World 1, region 5: LobbyView
+World 1, region 6: LobbyView
+World 1, region 7: LobbyView
+World 1, region 8: LobbyView
+World 1, region 9: LobbyView
+All 81 lookups PASS.

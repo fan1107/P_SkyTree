@@ -1,0 +1,4 @@
+Route selection verification: PASS
+81 pairs: 72 valid, 9 current-point rejections; 16 bent pairs with two distinct options.
+All steps adjacent; shortest distance, waypoint order, wave/boss counts and invalid inputs verified.
+Prefab button events: 8->5->3, 8->6->3, wrap, destination change, straight routes, current point, reopen reset and one-shot departure PASS.

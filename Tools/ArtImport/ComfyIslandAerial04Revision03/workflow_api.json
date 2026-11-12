@@ -1,0 +1,353 @@
+{
+  "3": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "10",
+        0
+      ],
+      "positive": [
+        "6",
+        0
+      ],
+      "negative": [
+        "13",
+        0
+      ],
+      "latent_image": [
+        "21",
+        0
+      ],
+      "seed": 2026111243,
+      "steps": 8,
+      "cfg": 1,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "denoise": 0.48
+    }
+  },
+  "6": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "Edit this fantasy game lobby background while STRICTLY PRESERVING the supplied shifted composition. The entire close floating island and its great green tree are moved to the FAR RIGHT. The tree continues beyond the top and right image edges. The near grassy shelf, pale stones, flowers, roots and rocky rim are clearly visible in the rightmost quarter of the image between roughly one third and one half of the image height. Keep the bright grassy near edge at x=70 to 100 percent of the frame, beside the separate player's ship that will occupy the center-left. The rightmost portion of the island is cropped outside the frame. Do not recenter the island and do not add another island. Maintain its large nearby scale and steep elevated top-down camera angle.\n\nKeep the broad lush yellow-green and emerald tree crown viewed FROM ABOVE, with a mostly hidden short trunk. Refined warm painterly fantasy game art, warm upper-left sunlight on leaves and sunny ground, visible pale stones and tiny flowers on the near grassy rim, clearly readable earth and rock edge. Preserve this island's species, shape, palette, lighting and recognizable details.\n\nCHANGE THE CLOUDS into a soft DISTANT aerial cloud layer FAR BELOW the floating island. Gently diffuse, misty, softly blended cumulus cloud tops, small hazy cloud banks seen from very high above, pale blue atmospheric haze, muted low contrast, edges softly dissolving into blue distance. Smooth sky gradients and broad clear airy blue gaps. Creamy white highlights are subdued; shadows are pale blue and subtle lavender with no dark patches. Distant background painting with a gentle soft-focus feel, less busy small detail and no hard outlines, no sharp brush-dab circles, no large foreground clouds coming toward the camera. The whole sky feels far below and quiet, while the nearby island remains crisp and readable. Continuously painted sky across the full frame, no seams or vertical strip edges.\n\nPortrait 9:16 background only. Keep the center-left and bottom broadly open for the existing foreground ship and UI. No ships, no characters, no buildings, no bridges, no ocean, no horizon, no additional islands, no letters, no interface, no frame.",
+      "clip": [
+        "11",
+        0
+      ]
+    }
+  },
+  "8": {
+    "class_type": "VAEDecodeTiled",
+    "inputs": {
+      "samples": [
+        "3",
+        0
+      ],
+      "vae": [
+        "12",
+        0
+      ],
+      "tile_size": 512,
+      "overlap": 64,
+      "temporal_size": 64,
+      "temporal_overlap": 8
+    }
+  },
+  "10": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "krea2_turbo_int8_convrot.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "11": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
+      "type": "krea2",
+      "device": "default"
+    }
+  },
+  "12": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "qwen_image_vae.safetensors"
+    }
+  },
+  "13": {
+    "class_type": "ConditioningZeroOut",
+    "inputs": {
+      "conditioning": [
+        "6",
+        0
+      ]
+    }
+  },
+  "20": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "SkyTreeReferences/IslandRevision03/Before.png"
+    }
+  },
+  "21": {
+    "class_type": "VAEEncodeTiled",
+    "inputs": {
+      "tile_size": 512,
+      "vae": [
+        "12",
+        0
+      ],
+      "temporal_overlap": 8,
+      "overlap": 64,
+      "pixels": [
+        "43",
+        0
+      ],
+      "temporal_size": 64
+    }
+  },
+  "22": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "20",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 720,
+      "height": 1280,
+      "crop": "disabled"
+    }
+  },
+  "29": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "90",
+        0
+      ],
+      "filename_prefix": "SkyTree/Lobby/IslandAerial04Revision03/Final_864x1536"
+    }
+  },
+  "30": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "59",
+        0
+      ],
+      "filename_prefix": "SkyTree/Lobby/IslandAerial04Revision03/Native_720x1280"
+    }
+  },
+  "31": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "43",
+        0
+      ],
+      "filename_prefix": "SkyTree/Lobby/IslandAerial04Revision03/CompositionGuide"
+    }
+  },
+  "32": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ],
+      "filename_prefix": "SkyTree/Lobby/IslandAerial04Revision03/BeforeSkySoftening"
+    }
+  },
+  "40": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 720,
+      "height": 1280,
+      "batch_size": 1,
+      "color": 6925001
+    }
+  },
+  "41": {
+    "class_type": "SolidMask",
+    "inputs": {
+      "value": 1,
+      "width": 720,
+      "height": 1280
+    }
+  },
+  "42": {
+    "class_type": "FeatherMask",
+    "inputs": {
+      "mask": [
+        "41",
+        0
+      ],
+      "left": 96,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    }
+  },
+  "43": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "40",
+        0
+      ],
+      "source": [
+        "22",
+        0
+      ],
+      "x": 176,
+      "y": 0,
+      "resize_source": false,
+      "mask": [
+        "42",
+        0
+      ]
+    }
+  },
+  "50": {
+    "class_type": "ImageBlur",
+    "inputs": {
+      "image": [
+        "8",
+        0
+      ],
+      "blur_radius": 9,
+      "sigma": 3.2
+    }
+  },
+  "51": {
+    "class_type": "ImageBlend",
+    "inputs": {
+      "image1": [
+        "50",
+        0
+      ],
+      "image2": [
+        "40",
+        0
+      ],
+      "blend_factor": 0.17,
+      "blend_mode": "normal"
+    }
+  },
+  "52": {
+    "class_type": "SolidMask",
+    "inputs": {
+      "value": 0,
+      "width": 720,
+      "height": 1280
+    }
+  },
+  "53": {
+    "class_type": "SolidMask",
+    "inputs": {
+      "value": 1,
+      "width": 440,
+      "height": 480
+    }
+  },
+  "54": {
+    "class_type": "FeatherMask",
+    "inputs": {
+      "mask": [
+        "53",
+        0
+      ],
+      "left": 56,
+      "top": 0,
+      "right": 0,
+      "bottom": 64
+    }
+  },
+  "55": {
+    "class_type": "MaskComposite",
+    "inputs": {
+      "destination": [
+        "52",
+        0
+      ],
+      "source": [
+        "54",
+        0
+      ],
+      "x": 280,
+      "y": 0,
+      "operation": "add"
+    }
+  },
+  "56": {
+    "class_type": "SolidMask",
+    "inputs": {
+      "value": 1,
+      "width": 312,
+      "height": 320
+    }
+  },
+  "57": {
+    "class_type": "FeatherMask",
+    "inputs": {
+      "mask": [
+        "56",
+        0
+      ],
+      "left": 72,
+      "top": 48,
+      "right": 0,
+      "bottom": 64
+    }
+  },
+  "58": {
+    "class_type": "MaskComposite",
+    "inputs": {
+      "destination": [
+        "55",
+        0
+      ],
+      "source": [
+        "57",
+        0
+      ],
+      "x": 408,
+      "y": 350,
+      "operation": "add"
+    }
+  },
+  "59": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "51",
+        0
+      ],
+      "source": [
+        "8",
+        0
+      ],
+      "x": 0,
+      "y": 0,
+      "resize_source": false,
+      "mask": [
+        "58",
+        0
+      ]
+    }
+  },
+  "90": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "59",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 864,
+      "height": 1536,
+      "crop": "disabled"
+    }
+  }
+}

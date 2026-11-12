@@ -9,7 +9,7 @@ namespace SkyTree.EditorTools
         public static void Apply()
         {
             var navigator = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/Coworker/FemaleNavigator.prefab");
-            string battlePath = "Assets/Prefabs/MainShip/BattleShip.prefab";
+            string battlePath = "Assets/Prefabs/MainShip/MainShip_Step01_Adventure.prefab";
             var battle = PrefabUtility.LoadPrefabContents(battlePath);
             try
             {
@@ -34,7 +34,7 @@ namespace SkyTree.EditorTools
             }
             finally { PrefabUtility.UnloadPrefabContents(battle); }
 
-            string lobbyPath = "Assets/SkyTree/Prefabs/LobbyView.prefab";
+            string lobbyPath = "Assets/Prefabs/MainShip/MainShip_Step01_Lobby.prefab";
             var lobby = PrefabUtility.LoadPrefabContents(lobbyPath);
             try
             {

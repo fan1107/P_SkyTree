@@ -1,0 +1,28 @@
+WingsUpPrompt.txt
+Create the WINGS-UP animation frame for the approved magenta mother Skybird in IMAGE 1. IMAGE 1 is the edit target and exact identity/shape/registration reference. IMAGE 2 is ONLY a wing-joint pose guide showing the raised/upstroke position of the smaller blue species; do NOT transfer its blue color, head, body, two-legged anatomy, or body placement.
+
+Change ONLY the TWO WINGS of image 1 into the UPSTROKE / WINGS RAISED pose, matching the raised wing articulation shown in image 2. The wings rotate upward naturally from their existing shoulder roots, creating an elevated V above the back; their projected span is visibly narrower than image 1. The far wing is raised more vertically above the left shoulder and the near wing lifted toward the back. Keep the cream feather bands and magenta/plum feather arrangement consistent.
+
+CRITICAL ANIMATION REGISTRATION: preserve the EXACT pixel position, scale, orientation and silhouette of the head, hooked beak, eye, neck, torso/back, feathered tail, BOTH forward eagle forelegs/talons and BOTH lion hind legs/paws from IMAGE 1. Do not center, shift, shrink or rotate the body to fit a different bounding box. The head and tail landmarks must stay at the same canvas positions across frames. Only the two wings move. FOUR legs remain, plus TWO wings. Do not redesign anatomy or introduce extra feathers that change the torso silhouette. Keep the same square canvas framing as image 1, with transparent unused space where wings moved away. Tail remains pointing upper-right, head lower-left, same oblique TOP-DOWN camera.
+
+One complete assembled mother creature, not isolated wing parts, not a sprite sheet, no duplicate characters. Match image 1's high-quality textured hand-painted style, magenta palette, cream markings, warm brown outlines, golden beak and raptor feet, furry lion hindquarters, lighting and sharpness. Genuine transparent background and clean alpha. No text, no shadow, no environment, no motion blur. All wing tips fit within the canvas.
+
+
+WingsUpCorrectionPrompt.txt
+Correct this animation frame with ONE precise edit: DELETE the extra old spread wing that extends from the creature's lower-right side all the way to the BOTTOM RIGHT corner. This lower-right fan of magenta/plum primary feathers with a cream stripe is an accidental THIRD wing and must be completely removed, leaving transparent empty space there.
+
+KEEP the TWO correctly raised wings: (1) the upright narrow wing rising toward the upper left, and (2) the large wing raised diagonally upward over the back toward the upper right. KEEP the feathered TAIL at the far upper right. A tail is not a wing. The final animal has exactly TWO raised wings plus ONE tail, not three wings.
+
+Where the deleted lower-right wing overlapped the body, reveal only the naturally rounded magenta feathered torso flank and underside, seamlessly connected to the existing back and hips. Do not invent another wing there. KEEP both forward gold eagle feet, both furry lion hind legs, neck, face, beak, tail, body proportions, lighting, texture and all their exact positions unchanged. The new empty lower-right area should be genuinely transparent. Same square canvas, no recentering, resizing or rotating the character. Preserve all other pixels and design as closely as possible. No text, no shadow, no added objects.
+
+
+WingsDownPrompt.txt
+Create the WINGS-DOWN animation frame for the approved magenta mother Skybird in IMAGE 1. IMAGE 1 is the edit target: exact character identity, four-legged anatomy, body placement, scale and style. IMAGE 2 is ONLY a guide to the DOWNSTROKE wing pose of the blue bird; ignore its blue color, head, proportions, two-legged body and placement.
+
+REPLACE the TWO spread wings of image 1 with the SAME TWO wings driven DOWN through the stroke, as the wing joints articulate in image 2. The far wing rotates down and forward beside the far shoulder, with its tips dipping toward the lower left beside the head. The near wing is lowered and swept down beside the body toward the lower right. Their roots stay at the same shoulders. Projected span should be narrower than the fully spread original and visibly different from raised wings.
+
+There are exactly TWO wings. Remove the old wing silhouettes before painting their new positions: the original upper-left spread fan must not remain in the empty upper-left background, and do not add an extra third wing. There is also ONE feathered tail at the upper right, which remains unchanged.
+
+CRITICAL FRAME REGISTRATION: do not move, rotate, scale or redesign the head, neck, torso, pelvis, tail, either forward eagle leg/talon or either lion hind leg/paw from image 1. Their exact canvas positions must stay fixed for sprite animation. Only the two wings change their joint angles. Preserve magenta feather pattern and cream bands. The back stays visible in the same steep oblique TOP-DOWN camera, head lower-left and tail upper-right. Keep the original square canvas, no recentering or shrinking the body, transparent empty space where wings have moved away.
+
+One complete assembled creature with TWO wings and FOUR legs, exact mature head and approved proportions. High quality textured hand-painted fantasy game rendering matching image 1. Genuine transparent background, all wing tips within the canvas. No text, ground, shadows, effects, motion blur or duplicate characters.

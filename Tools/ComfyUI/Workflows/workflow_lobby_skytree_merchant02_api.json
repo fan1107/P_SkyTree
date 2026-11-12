@@ -1,0 +1,104 @@
+{
+  "10": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "krea2_turbo_int8_convrot.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "11": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
+      "type": "krea2",
+      "device": "default"
+    }
+  },
+  "12": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "qwen_image_vae.safetensors"
+    }
+  },
+  "6": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "Portrait 9:16 hand-painted fantasy game BACKGROUND with a gigantic SKY TREE MERCHANT GALLEON parked across the TOP HALF of the frame, and a large EMPTY CLOUD-FILLED SPACE across the BOTTOM HALF. Composition is the main priority. The huge ornate trading ship replaces a mountaintop port, functioning as a merchant destination behind a separate player ship that is NOT drawn. This is an environment layout, not a centered ship portrait.\n\nBIRD'S-EYE VIEW: look steeply DOWN at 65 degrees, near-orthographic isometric angle, clearly see all deck floors, roof tops and tops of wooden barrels. The merchant vessel's long axis runs mostly LEFT TO RIGHT on a shallow diagonal: stern at the far UPPER LEFT, pointed bow at the RIGHT EDGE near the vertical middle of the image. The broad long hull lies across the TOP 55 PERCENT, from left edge to right edge, with its bow pointing to the RIGHT, NOT toward the bottom. The tops of the tree and flags stay inside the upper edge. The visible gold-trimmed side of the ship forms a shallow diagonal separating the richly detailed upper scene from the quiet lower sky. The hull may extend just past the upper-left side to imply enormous size, but the bow is clearly visible on the right. Leave the ENTIRE LOWER 40 PERCENT completely free of ships or structures: just airy blue depth and white cloud layers far below, ready for a foreground player vessel. No horizon. No ocean.\n\nThe ship is an immensely long, broad, multi-level amber wooden floating merchant galleon, a wealthy traveling sky market. A two-story cozy stern cabin has tiny orange tiled roofs and warm gold scrollwork. One huge lush ancient tree with a thick twisting trunk grows from the rear deck, broad glowing lime and yellow-green leafy canopy concentrated in the UPPER LEFT. The wide open forward cargo deck at upper center and right is FULL OF DOZENS OF WOODEN BARREL CASKS AND WOODEN TRADE CRATES, stacked neatly in dense groups two or three high, with narrow paths between. Dark iron barrel hoops, diagonal crate braces, rope-tied boxes, bundles of colorful cloth, baskets and coiled ropes, little red and teal market awnings, a small wooden cargo crane. Clearly draw lots of barrel tops and crate tops. Keep tree foliage from covering the cargo area.\n\nMagnificent CRIMSON, ROYAL BLUE and TEAL flags with gold borders and golden leaf emblems flutter from short poles around the rails; festive pennant strings above the deck. Show a huge DARK IRON ANCHOR WITH GOLD FITTINGS suspended on a thick chain from the visible RIGHT SIDE near the bow, against the blue air in the upper-middle of the frame. Anchor must have a clear traditional curved-fluke silhouette. Elaborate golden leaf carvings along the sturdy wooden hull, brass portholes, heavy timber ribs, warm plank textures, tiny side propellers, many rich merchant details. No large sails. No people.\n\nPolished premium 2D mobile fantasy RPG art, painterly brushwork, softly sculpted dimensional forms, crisp readable details, warm honey wood, lush green leaves, rich brass gold highlights, orange-red rooftops, beautiful saturated flags. Sunshine from upper-left. Blue atmosphere and many fluffy white cumulus clouds far beneath the flying ship; faint distant mountain tips only at the extreme edges. Friendly adventure mood. The scene is steeply viewed from above and the vessel is arranged HORIZONTALLY ACROSS THE UPPER HALF, while the LOWER HALF is empty cloudy sky. One merchant ship only, no second vessel, no dock, no port buildings on land, no text, no UI, no labels, no title, no border, no watermark.",
+      "clip": [
+        "11",
+        0
+      ]
+    }
+  },
+  "13": {
+    "class_type": "ConditioningZeroOut",
+    "inputs": {
+      "conditioning": [
+        "6",
+        0
+      ]
+    }
+  },
+  "5": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 864,
+      "height": 1536,
+      "batch_size": 1
+    }
+  },
+  "3": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "10",
+        0
+      ],
+      "positive": [
+        "6",
+        0
+      ],
+      "negative": [
+        "13",
+        0
+      ],
+      "latent_image": [
+        "5",
+        0
+      ],
+      "seed": 2026111204,
+      "steps": 8,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "denoise": 1.0
+    }
+  },
+  "8": {
+    "class_type": "VAEDecodeTiled",
+    "inputs": {
+      "samples": [
+        "3",
+        0
+      ],
+      "vae": [
+        "12",
+        0
+      ],
+      "tile_size": 512,
+      "overlap": 64,
+      "temporal_size": 64,
+      "temporal_overlap": 8
+    }
+  },
+  "29": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ],
+      "filename_prefix": "SkyTree/Lobby/SkyTreeMerchant02"
+    }
+  }
+}

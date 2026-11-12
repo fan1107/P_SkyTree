@@ -1,0 +1,178 @@
+{
+  "3": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "10",
+        0
+      ],
+      "positive": [
+        "6",
+        0
+      ],
+      "negative": [
+        "13",
+        0
+      ],
+      "latent_image": [
+        "21",
+        0
+      ],
+      "seed": 2026111242,
+      "steps": 8,
+      "cfg": 1,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "denoise": 0.59
+    }
+  },
+  "6": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "A single coherent high-quality painted fantasy mobile game background, portrait 9:16, viewed from a STEEP BIRD'S-EYE CAMERA looking almost straight down at 70 degrees. Strictly preserve the camera angle and close island placement in the input composition guide. A large floating island with one enormous lush old tree lies to the upper-right beside the player's unseen foreground airship. The right edge and upper part of the tree are cropped beyond the frame, the grassy near edge reaches 44 percent down the frame. Its near edge slopes diagonally down toward the right, compatible with an isometric wooden ship alongside.\n\nTHE CAMERA SEES THE TOP OF THE TREE: an abundantly full broad dome of leafy canopy, numerous rounded crowns overlapping into a thick carpet of golden yellow-green, vivid leaf green, and deep emerald foliage. Most branches and the short trunk are hidden under the great overhead canopy. Do not draw a tall upright exposed trunk or a tall tree in side elevation. The sunny grassy shelf is visibly seen from above as a crescent along the lower-left and lower-right near edges of the canopy; pale stones, delicate tiny white flowers and a few great roots gripping the rim. A narrow broken rim of floating earth and rock under the grass, foreshortened by the overhead perspective; no long dangling rock cone. One tree and one island, the same species and charming painterly art style as the input.\n\nThe open blue space is at extreme altitude ABOVE the clouds. Beneath the island and across the entire left and bottom image, the camera looks DOWN onto the rounded luminous TOP SURFACES of soft fluffy white cumulus cloud clusters, floating at many different depths FAR BELOW. Rich clear azure blue atmosphere between the cloud banks, subtle cyan haze and small blue distant clouds. The sunny cloud tops are warm ivory white with softly blended blue-lavender shadow, gently sculpted rounded forms and smooth painted shading. This is a lofty airy sky vista viewed downward, with no horizon, no sea, no upward-facing view, no wall of clouds or swirling cloud tunnel. Use the soft luminous cloud depth of a classic fantasy illustration; avoid angular white mosaic patterns or flat patchy brush dabs.\n\nWarm sunshine from upper left. Cohesive refined hand-painted 2D fantasy adventure art, detailed individual leaf clusters with clear shapes, naturally blended atmospheric gradients. Keep generous open cloudy blue air across the center-left and lower half for the foreground player ship. Draw only the island and sky background: no ship, no boat, no character, no house, no harbor, no extra islands, no text, no logo, no border, no UI.",
+      "clip": [
+        "11",
+        0
+      ]
+    }
+  },
+  "8": {
+    "class_type": "VAEDecodeTiled",
+    "inputs": {
+      "samples": [
+        "3",
+        0
+      ],
+      "vae": [
+        "12",
+        0
+      ],
+      "tile_size": 512,
+      "overlap": 64,
+      "temporal_size": 64,
+      "temporal_overlap": 8
+    }
+  },
+  "10": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "krea2_turbo_int8_convrot.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "11": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
+      "type": "krea2",
+      "device": "default"
+    }
+  },
+  "12": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "qwen_image_vae.safetensors"
+    }
+  },
+  "13": {
+    "class_type": "ConditioningZeroOut",
+    "inputs": {
+      "conditioning": [
+        "6",
+        0
+      ]
+    }
+  },
+  "20": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "SkyTreeReferences/IslandRevision01/Before.png"
+    }
+  },
+  "21": {
+    "class_type": "VAEEncodeTiled",
+    "inputs": {
+      "tile_size": 512,
+      "vae": [
+        "12",
+        0
+      ],
+      "temporal_overlap": 8,
+      "overlap": 64,
+      "pixels": [
+        "23",
+        0
+      ],
+      "temporal_size": 64
+    }
+  },
+  "22": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "20",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 1152,
+      "height": 2048,
+      "crop": "disabled"
+    }
+  },
+  "23": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "22",
+        0
+      ],
+      "width": 720,
+      "height": 1280,
+      "x": 432,
+      "y": 0
+    }
+  },
+  "29": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "90",
+        0
+      ],
+      "filename_prefix": "SkyTree/Lobby/IslandAerial04Revision02/Final_864x1536"
+    }
+  },
+  "30": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ],
+      "filename_prefix": "SkyTree/Lobby/IslandAerial04Revision02/Native_720x1280"
+    }
+  },
+  "31": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "23",
+        0
+      ],
+      "filename_prefix": "SkyTree/Lobby/IslandAerial04Revision02/CompositionGuide"
+    }
+  },
+  "90": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "8",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 864,
+      "height": 1536,
+      "crop": "disabled"
+    }
+  }
+}

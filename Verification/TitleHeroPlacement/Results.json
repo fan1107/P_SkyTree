@@ -1,0 +1,9 @@
+{
+  "split": "PASS: exactly two transparent PNGs; all 1156313 visible source pixels preserved without regeneration",
+  "female": "Assets/SkyTree/Resources/SkyTree/Title/TitleFemaleNavigator_ComfyUI01.png (946x1546)",
+  "male": "Assets/SkyTree/Resources/SkyTree/Title/TitleMaleCaptain_ComfyUI01.png (990x1857)",
+  "implementation": "TitleScreenView.AddHeroes creates separate non-raycast RawImages before title text and controls",
+  "layout": "Original pair spacing preserved at 0.18 scale; highest extent y=215, lowest extent y=549.26; heading starts y=571",
+  "preview": "TitleLayoutPreview.png is a composited layout preview, not a new runtime capture",
+  "runtimeVerification": "Unavailable: Unity MCP instance disconnected; Windows capture failed with FrameArrived timeout"
+}

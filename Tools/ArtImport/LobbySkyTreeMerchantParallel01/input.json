@@ -1,0 +1,17 @@
+{
+  "name": "LobbySkyTreeMerchant02.png",
+  "subfolder": "SkyTreeReferences",
+  "type": "input",
+  "asset": {
+    "id": "b4daf1af-b19d-4acc-9871-256b599ed590",
+    "name": "LobbySkyTreeMerchant02.png",
+    "asset_hash": "blake3:4bf6c8f66638a8895a07d87cf965d5759cb338103d7833232ad3e314bdfe9751",
+    "size": 1683683,
+    "mime_type": "image/png",
+    "tags": [
+      "input",
+      "uploaded"
+    ],
+    "preview_url": "/api/view?type=input&filename=LobbySkyTreeMerchant02.png&subfolder=SkyTreeReferences"
+  }
+}

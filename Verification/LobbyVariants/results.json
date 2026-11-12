@@ -1,0 +1,29 @@
+{
+  "basePrefab": "Assets/UIPrefabs/Lobby/LobbyView.prefab",
+  "creation": "Two inherited lobby prefab variants; no runtime scene or world-map mapping changes.",
+  "validation": [
+    {
+      "prefab": "Assets/UIPrefabs/Lobby/LobbyView_SkyMerchant.prefab",
+      "variant": "Variant",
+      "render": "C:\\Users\\eicke\\Documents\\P_SkyTree\\Verification\\LobbyVariants\\LobbyView_SkyMerchant.png",
+      "adventureCallbacks": 1,
+      "menuTabsPassed": 4,
+      "missingScripts": 0,
+      "crew": 2,
+      "location": "하늘나무 상선",
+      "size": "(400.00, 720.00)"
+    },
+    {
+      "prefab": "Assets/UIPrefabs/Lobby/LobbyView_LoneSkyTreeIsland.prefab",
+      "variant": "Variant",
+      "render": "C:\\Users\\eicke\\Documents\\P_SkyTree\\Verification\\LobbyVariants\\LobbyView_LoneSkyTreeIsland.png",
+      "adventureCallbacks": 1,
+      "menuTabsPassed": 4,
+      "missingScripts": 0,
+      "crew": 2,
+      "location": "외딴 하늘나무 섬",
+      "size": "(400.00, 720.00)"
+    }
+  ],
+  "baseAndSceneHashesUnchanged": true
+}

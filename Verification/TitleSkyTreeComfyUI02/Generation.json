@@ -1,0 +1,15 @@
+{
+  "generator": "Local ComfyUI",
+  "model": "krea2_turbo_int8_convrot.safetensors",
+  "prompt_id": "030fd428-775d-48a3-961e-1d1a43733f1b",
+  "status": "success",
+  "seed": 2026111208,
+  "denoise": 0.7,
+  "reference": "Verification/TitleSkyTreeComfyUI01/Native_720x1280.png",
+  "reference_lighting": "ComfyUI screen blend with pale mint at 0.28",
+  "native_resolution": "720x1280",
+  "output_resolution": "1080x1920",
+  "upscale": "Lanczos in ComfyUI",
+  "workflow": "Tools/ComfyUI/Workflows/workflow_title_skytree_golden_canopy02_api.json",
+  "output": "Assets/ArtResources/Backgrounds/TitleSkyTreeGoldenCanopy_ComfyUI02.png"
+}

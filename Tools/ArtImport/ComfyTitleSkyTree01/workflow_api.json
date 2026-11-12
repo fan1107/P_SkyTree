@@ -1,0 +1,215 @@
+{
+  "10": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "krea2_turbo_int8_convrot.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "11": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
+      "type": "krea2",
+      "device": "default"
+    }
+  },
+  "12": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "qwen_image_vae.safetensors"
+    }
+  },
+  "6": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "A magnificent ancient golden sky tree growing directly from a huge flying wooden galleon, one complete tree and one ship forming a single integrated fantasy vessel, soaring through a deep dark petrol-blue and teal sky above a diagonal luminous turquoise atmospheric horizon and warm pearl-gold clouds. Majestic view from far below at a three-quarter angle, the richly shadowed curved wooden hull is clearly visible. Preserve the reference composition and its monumental tree, massive twisting trunk, broad crown of warm ochre and golden autumn leaves, intricate wooden balconies and rounded stern cabins. The living roots embrace and merge into the ship's timber decks, beautiful handcrafted wooden planks, aged brass accents, a few tiny warm amber windows. No fabric sails; the enormous tree canopy is the ship's visual sail. Elegant readable coherent ship architecture, not a futuristic spacecraft or a building on a flat platform. Grand, dreamlike, inviting fantasy adventure mood. The entire ship is suspended in open air, not floating on water.\n\nVertical 9:16 mobile game title background illustration. Center the complete tree-ship in the middle of the picture, with its canopy around the upper middle and its hull below the center. The top fifth is calm deep teal atmospheric sky, spacious and uncluttered, ready for a game title added later. The bottom fifth is soft dark teal mist and subtle cloud layers, quiet space for a start button added later. These are naturally continuous painted sky areas, never blank bars or rectangular panels. Warm golden light from upper left softly illuminates leaves and wood, cool turquoise reflected light reveals the hull. Tiny sparse drifting gold leaves and one very small distant pale bird convey scale. Painterly premium fantasy RPG key art, rich finely brushed foliage, expressive ancient bark, meticulous wooden ship details, atmospheric perspective, warm gold against cool deep teal, cinematic luminosity, restrained texture, strong silhouette. Seamless continuous composition, finished artwork from edge to edge. Background only: absolutely no text, no letters, no logo, no UI, no buttons, no border, no watermark, no humans. No duplicated trees or extra ships.",
+      "clip": [
+        "11",
+        0
+      ]
+    }
+  },
+  "13": {
+    "class_type": "ConditioningZeroOut",
+    "inputs": {
+      "conditioning": [
+        "6",
+        0
+      ]
+    }
+  },
+  "3": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "10",
+        0
+      ],
+      "positive": [
+        "6",
+        0
+      ],
+      "negative": [
+        "13",
+        0
+      ],
+      "latent_image": [
+        "26",
+        0
+      ],
+      "seed": 2026111207,
+      "steps": 8,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "denoise": 0.75
+    }
+  },
+  "8": {
+    "class_type": "VAEDecodeTiled",
+    "inputs": {
+      "samples": [
+        "3",
+        0
+      ],
+      "vae": [
+        "12",
+        0
+      ],
+      "tile_size": 512,
+      "overlap": 64,
+      "temporal_size": 64,
+      "temporal_overlap": 8
+    }
+  },
+  "29": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "90",
+        0
+      ],
+      "filename_prefix": "SkyTree/TitleGoldenCanopy_ComfyUI01/Title_1080x1920"
+    }
+  },
+  "20": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "Reference.png"
+    }
+  },
+  "21": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "width": 720,
+      "upscale_method": "lanczos",
+      "crop": "disabled",
+      "height": 720,
+      "image": [
+        "20",
+        0
+      ]
+    }
+  },
+  "22": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "color": 283432,
+      "width": 720,
+      "height": 1280,
+      "batch_size": 1
+    }
+  },
+  "23": {
+    "class_type": "SolidMask",
+    "inputs": {
+      "width": 720,
+      "value": 1.0,
+      "height": 720
+    }
+  },
+  "24": {
+    "class_type": "FeatherMask",
+    "inputs": {
+      "left": 8,
+      "top": 64,
+      "right": 8,
+      "bottom": 80,
+      "mask": [
+        "23",
+        0
+      ]
+    }
+  },
+  "25": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "y": 248,
+      "resize_source": false,
+      "mask": [
+        "24",
+        0
+      ],
+      "x": 0,
+      "source": [
+        "21",
+        0
+      ],
+      "destination": [
+        "22",
+        0
+      ]
+    }
+  },
+  "26": {
+    "class_type": "VAEEncodeTiled",
+    "inputs": {
+      "overlap": 64,
+      "vae": [
+        "12",
+        0
+      ],
+      "pixels": [
+        "25",
+        0
+      ],
+      "temporal_size": 64,
+      "tile_size": 512,
+      "temporal_overlap": 8
+    }
+  },
+  "90": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "width": 1080,
+      "upscale_method": "lanczos",
+      "crop": "disabled",
+      "height": 1920,
+      "image": [
+        "8",
+        0
+      ]
+    }
+  },
+  "30": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ],
+      "filename_prefix": "SkyTree/TitleGoldenCanopy_ComfyUI01/Native_720x1280"
+    }
+  },
+  "31": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "25",
+        0
+      ],
+      "filename_prefix": "SkyTree/TitleGoldenCanopy_ComfyUI01/ReferenceGuide"
+    }
+  }
+}

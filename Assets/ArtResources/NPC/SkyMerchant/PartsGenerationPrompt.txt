@@ -1,0 +1,20 @@
+Edit the supplied APPROVED sky merchant character into a production-ready CUTOUT ANIMATION PARTS ATLAS. Preserve this exact character identity, face, round gold spectacles, short curled moustache, chestnut hair with gray temple strands, dark green beret with gold leaf brooch, emerald gold-trimmed long coat, burgundy waistcoat, cream shirt/cuffs, ochre scarf, brown trousers and boots, ledger, gold coin, and leather satchel. Preserve the original warm painted style and colors, no redesign. The pose is exactly the supplied pose: three-quarter facing screen-right, screen-left arm bent cradling a ledger and screen-right arm bent outward showing a coin.
+
+Make a SQUARE high-resolution atlas of exactly 3 equal columns by 3 equal rows, NINE isolated sprite parts. One part centered within each equal cell, fully contained in its own cell with generous transparent margins. No overlaps between cells. No labels, no lettering, no grid, no borders, no background and NO shadow. GENUINE TRANSPARENT BACKGROUND.
+
+Row 1 left to right:
+(1) HEAD: exact face, spectacles, moustache, all brown hair and short neck. WITHOUT hat, scarf or clothing. Reconstruct natural top of hair under hat. Face expression and angle identical to reference.
+(2) TORSO: sleeveless full long dark green coat including both coat tails, burgundy vest, cream shirt, belt with large brass buckle, and a small upper-pelvis area underneath the belt. Reconstruct surfaces formerly hidden behind arms, book, satchel and scarf. No head, arms, scarf, satchel, legs or boots. Keep coat front open as reference.
+(3) COIN ARM, the arm on SCREEN RIGHT: complete arm from rounded shoulder cap to fingers, green upper sleeve, cream rolled cuff, forearm, hand holding the SAME small gold coin in the original bent-outward gesture. Coin remains attached to the hand. No torso, no extra limbs.
+
+Row 2 left to right:
+(4) LEDGER ARM, the arm on SCREEN LEFT: complete shoulder-to-fingers bent arm in the original book-cradling pose, green sleeve and cream cuff, forearm and hand PLUS the brown leather ledger held in the arm, as one connected piece. Reconstruct shoulder overlap. No torso or bag.
+(5) SCREEN-LEFT LEG: complete brown trouser leg from upper thigh with rounded hidden hip overlap down to the brown buckled boot. Exact original leg and boot orientation.
+(6) SCREEN-RIGHT LEG: complete brown trouser leg from upper thigh with rounded hidden hip overlap down to the brown buckled boot. Exact original orientation.
+
+Row 3 left to right:
+(7) SCARF: the ochre scarf collar, central knot and both short hanging tails together as one piece, exact original design and view.
+(8) SATCHEL: the brown leather merchant satchel and its attached small drawstring coin pouch and belt hanging loops, exact original design, isolated, no belt, no hand or book.
+(9) HAT: the complete dark green merchant beret with gold leaf brooch and gold band, exact original angle and width. No head or hair.
+
+Each is a usable puppet sprite with clean edge alpha, solid reconstructed hidden joint surfaces and enough rounded overlap to avoid gaps during very subtle breathing movement. The nine pieces should reassemble to the approved original silhouette and pose. This is NOT a contact sheet of full characters. ONLY the requested nine separated parts.

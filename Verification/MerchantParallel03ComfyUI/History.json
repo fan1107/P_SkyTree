@@ -1,0 +1,247 @@
+{
+  "prompt": [
+    19,
+    "4244ffb1-276d-49c5-92d2-b75fc140e0ee",
+    {
+      "10": {
+        "class_type": "UNETLoader",
+        "inputs": {
+          "unet_name": "krea2_turbo_int8_convrot.safetensors",
+          "weight_dtype": "default"
+        }
+      },
+      "11": {
+        "class_type": "CLIPLoader",
+        "inputs": {
+          "clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
+          "type": "krea2",
+          "device": "default"
+        }
+      },
+      "12": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "qwen_image_vae.safetensors"
+        }
+      },
+      "6": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "text": "Repaint the supplied fantasy sky-tree merchant ship background as polished hand-painted 2D mobile RPG environment art, preserving its exact composition and camera. Portrait 9:16. A close-up PARTIAL VIEW of a colossal ornate wooden merchant vessel, cropped beyond the top and right edges. The long near-side deck rail slopes diagonally DOWN from upper-left to lower-right, with the cargo deck on the upper-right side of the diagonal, the broad near hull hanging underneath, and abundant clear blue cloud-filled air occupying the lower-left and bottom forty percent. Preserve this descending diagonal and open space for a separate foreground vessel. Do not draw a whole centered boat and do not turn the bow upward. Steep elevated three-quarter isometric view showing the cargo deck, not a low-angle title-screen view.\n\nPreserve the large green sky tree and twisting roots at the cropped upper-left rear deck, warm amber wooden plank hull, heavy dark wooden ribs, deep royal-blue inset panels with graceful gold scrollwork, round brass-rimmed portholes, and the large dark iron anchor with gold fittings hanging from a thick chain near center-right. The anchor must be complete and clearly readable against the clouds. Rich and believable merchant cargo: neatly arranged wooden trade crates, casks with metal hoops, rope-tied parcels, tiny cabins with orange-red tiled roofs and gold trim, red and teal market awnings, vertical royal-blue and crimson banners decorated with GOLDEN LEAF EMBLEMS, and cheerful strings of pennants. Keep every item on the deck, coherent architecture, readable wood joinery, and upright flagpoles.\n\nBright welcoming sky adventure atmosphere, luminous azure and turquoise sky, soft ivory-white layered clouds with faint lavender shade far below. Warm sunlight from upper left, lovely soft painted shading, lively green foliage, saturated but tasteful banners, detailed honey-brown wood, crisp silhouettes with painterly surface texture. Refine the craftsmanship while keeping the reference design and spatial arrangement intact. No characters, no other ships, no land or cliffs, no sea or water surface, no horizon, no large sails. No words or writing, no logo, no interface, no frame, no watermark. The bottom and lower-left area stay clear and airy for gameplay UI and the foreground ship.\n",
+          "clip": [
+            "11",
+            0
+          ]
+        }
+      },
+      "13": {
+        "class_type": "ConditioningZeroOut",
+        "inputs": {
+          "conditioning": [
+            "6",
+            0
+          ]
+        }
+      },
+      "3": {
+        "class_type": "KSampler",
+        "inputs": {
+          "model": [
+            "10",
+            0
+          ],
+          "positive": [
+            "6",
+            0
+          ],
+          "negative": [
+            "13",
+            0
+          ],
+          "latent_image": [
+            "21",
+            0
+          ],
+          "seed": 2026111210,
+          "steps": 8,
+          "cfg": 1.0,
+          "sampler_name": "euler",
+          "scheduler": "simple",
+          "denoise": 0.48
+        }
+      },
+      "8": {
+        "class_type": "VAEDecodeTiled",
+        "inputs": {
+          "samples": [
+            "3",
+            0
+          ],
+          "vae": [
+            "12",
+            0
+          ],
+          "tile_size": 512,
+          "overlap": 64,
+          "temporal_size": 64,
+          "temporal_overlap": 8
+        }
+      },
+      "29": {
+        "class_type": "SaveImage",
+        "inputs": {
+          "images": [
+            "90",
+            0
+          ],
+          "filename_prefix": "SkyTree/Lobby/MerchantParallel03ComfyUI/Final_1080x1920"
+        }
+      },
+      "20": {
+        "inputs": {
+          "image": "LobbySkyTreeMerchantParallel03.png"
+        },
+        "class_type": "LoadImage"
+      },
+      "21": {
+        "inputs": {
+          "tile_size": 512,
+          "pixels": [
+            "22",
+            0
+          ],
+          "overlap": 64,
+          "temporal_size": 64,
+          "vae": [
+            "12",
+            0
+          ],
+          "temporal_overlap": 8
+        },
+        "class_type": "VAEEncodeTiled"
+      },
+      "22": {
+        "class_type": "ImageScale",
+        "inputs": {
+          "image": [
+            "20",
+            0
+          ],
+          "height": 1280,
+          "width": 720,
+          "crop": "disabled",
+          "upscale_method": "lanczos"
+        }
+      },
+      "90": {
+        "class_type": "ImageScale",
+        "inputs": {
+          "image": [
+            "8",
+            0
+          ],
+          "height": 1920,
+          "width": 1080,
+          "crop": "disabled",
+          "upscale_method": "lanczos"
+        }
+      },
+      "30": {
+        "class_type": "SaveImage",
+        "inputs": {
+          "images": [
+            "8",
+            0
+          ],
+          "filename_prefix": "SkyTree/Lobby/MerchantParallel03ComfyUI/Native_720x1280"
+        }
+      }
+    },
+    {
+      "client_id": "skytree-merchant-d3e7c3cd9b7141caaf21b04b0397c566",
+      "create_time": 1794452783969
+    },
+    [
+      "29",
+      "30"
+    ]
+  ],
+  "outputs": {
+    "30": {
+      "images": [
+        {
+          "filename": "Native_720x1280_00001_.png",
+          "subfolder": "SkyTree\\Lobby\\MerchantParallel03ComfyUI",
+          "type": "output",
+          "metadata": {
+            "kind": "image",
+            "width": 720,
+            "height": 1280
+          },
+          "id": "01520fed-5894-4269-a9e5-2ce96d8ba44d"
+        }
+      ]
+    },
+    "29": {
+      "images": [
+        {
+          "filename": "Final_1080x1920_00001_.png",
+          "subfolder": "SkyTree\\Lobby\\MerchantParallel03ComfyUI",
+          "type": "output",
+          "metadata": {
+            "kind": "image",
+            "width": 1080,
+            "height": 1920
+          },
+          "id": "8d284ad9-40f8-41d7-8abd-bd73299d1d4b"
+        }
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "4244ffb1-276d-49c5-92d2-b75fc140e0ee",
+          "timestamp": 1794452783971
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "10",
+            "11",
+            "12"
+          ],
+          "prompt_id": "4244ffb1-276d-49c5-92d2-b75fc140e0ee",
+          "timestamp": 1794452783980
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "4244ffb1-276d-49c5-92d2-b75fc140e0ee",
+          "timestamp": 1794452809816
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "30": {
+      "node_id": "30",
+      "display_node": "30",
+      "parent_node": null,
+      "real_node_id": "30"
+    },
+    "29": {
+      "node_id": "29",
+      "display_node": "29",
+      "parent_node": null,
+      "real_node_id": "29"
+    }
+  }
+}

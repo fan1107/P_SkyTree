@@ -1,0 +1,33 @@
+Sky Merchant - separated character and breathing prefab
+
+Prefab: Assets/Prefabs/NPC/SkyMerchant.prefab
+Controller: Assets/Animations/NPC/SkyMerchant/SkyMerchant.controller
+Animation: Assets/Animations/NPC/SkyMerchant/Idle_Breathe.anim
+Preview: Verification/SkyMerchantRig/SkyMerchant-Idle.gif
+
+Nine transparent PNG parts in Parts/: Head, Torso, ArmCoin, ArmLedger,
+LegLeft, LegRight, Scarf, Satchel, Hat. The coin stays attached to its hand;
+the ledger stays attached to the supporting arm. Shoulder, neck and hip
+surfaces include overlap. Hat and head are separate connected transforms.
+
+The prefab uses SpriteRenderers and the existing CaptainSprite material,
+with a SortingGroup and an Animator. Its only state is Idle_Breathe,
+which starts automatically and loops every 3.2 seconds. There are no
+animation parameters or transitions. Feet stay planted; the upper body
+rises slightly, the torso expands vertically, and the head, arms, scarf
+and satchel have small secondary breathing motions. Root motion is off.
+The sole origin is near y=0 and the character is about 3.4 Unity units tall.
+
+Original concept: ComfyUI / Krea2, SkyMerchant-Concept01.png, preserved.
+Part reconstruction and transparent atlas: built-in image_gen edit tool,
+using the original concept as its reference. Prompt: PartsGenerationPrompt.txt.
+Atlas extraction and rig assembly: Unity Editor. No background color keying.
+
+Rebuild with Tools > Sky Merchant > Build Breathing Prefab.
+Builder: Assets/SkyTree/Editor/SkyMerchantRigBuilder.cs
+This recreates only the merchant's derived parts, animation and prefab.
+
+Verified: 9 sprite parts, no missing scripts, one default looping state,
+continuous loop endpoints, fixed feet, and real Animator advancement.
+Runtime chest rise: 0.018 units; loop endpoint position error: 0.
+The visual preview contains 48 frames at 15 fps, one complete 3.2-second cycle.

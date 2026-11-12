@@ -1,0 +1,7 @@
+{
+  "purpose": "Wide aerial island framing with clear separation from foreground canopy",
+  "server": "http://127.0.0.1:8188",
+  "model": "krea2_turbo_int8_convrot.safetensors",
+  "workflow": "Tools/ComfyUI/Workflows/workflow_lobby_lone_skytree_island_aerial05_api.json",
+  "prompt_id": "447b626b-16ee-4435-b8f0-b60635ab7f70"
+}

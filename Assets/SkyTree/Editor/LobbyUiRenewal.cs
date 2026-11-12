@@ -8,7 +8,9 @@ namespace SkyTree.Editor
     // Re-run safely after adjusting the shared art or layout.
     public static class LobbyUiRenewal
     {
-        const string Folder = "Assets/SkyTree/Prefabs/";
+        const string CommonFolder = "Assets/UIPrefabs/Common/";
+        const string HudFolder = "Assets/UIPrefabs/HUD/";
+        const string LobbyPath = "Assets/UIPrefabs/Lobby/LobbyView.prefab";
         static Sprite[] sprites;
         static readonly Color Cream = new Color32(255, 243, 208, 255);
         static Sprite Art(string name) => sprites.First(s => s.name == name);
@@ -48,8 +50,8 @@ namespace SkyTree.Editor
             if(sprites.Length!=4) throw new System.InvalidOperationException("Expected four sliced UI sprites.");
             var common=new GameObject("MainTabCommon",typeof(RectTransform));
             Rect(common.transform,0,0,86,34); Skin(common.transform,"MainTabCommon");
-            PrefabUtility.SaveAsPrefabAsset(common,Folder+"MainTabCommon.prefab"); Object.DestroyImmediate(common);
-            var hud=PrefabUtility.LoadPrefabContents(Folder+"LobbyCurrencyHud.prefab");
+            PrefabUtility.SaveAsPrefabAsset(common,CommonFolder+"MainTabCommon.prefab"); Object.DestroyImmediate(common);
+            var hud=PrefabUtility.LoadPrefabContents(HudFolder+"LobbyCurrencyHud.prefab");
             try
             {
                 string[] names={"Energy","Gold","Gem"};
@@ -64,10 +66,10 @@ namespace SkyTree.Editor
                     var label=Child(plus.transform,"Plus"); Rect(label.transform,0,1,20,20);
                     var text=label.GetComponent<Text>()??label.AddComponent<Text>(); text.font=value.font;text.text="+";Style(text,16,Cream);
                 }
-                PrefabUtility.SaveAsPrefabAsset(hud,Folder+"LobbyCurrencyHud.prefab");
+                PrefabUtility.SaveAsPrefabAsset(hud,HudFolder+"LobbyCurrencyHud.prefab");
             }
             finally { PrefabUtility.UnloadPrefabContents(hud); }
-            var root=PrefabUtility.LoadPrefabContents(Folder+"LobbyView.prefab");
+            var root=PrefabUtility.LoadPrefabContents(LobbyPath);
             try
             {
                 Rect(root.transform.Find("LobbyCurrencyHud"),48,330,288,36);
@@ -87,7 +89,7 @@ namespace SkyTree.Editor
                     var r=(RectTransform)button.transform; Rect(r,r.anchoredPosition.x,-4,88,80);
                     var old=button.GetComponent<Image>();old.color=Color.clear;old.raycastTarget=true;
                     var plate=button.transform.Find("Shared plate");if(plate)Object.DestroyImmediate(plate.gameObject);
-                    var visual=(GameObject)PrefabUtility.InstantiatePrefab(AssetDatabase.LoadAssetAtPath<GameObject>(Folder+"MainTabCommon.prefab"),button.transform);
+                    var visual=(GameObject)PrefabUtility.InstantiatePrefab(AssetDatabase.LoadAssetAtPath<GameObject>(CommonFolder+"MainTabCommon.prefab"),button.transform);
                     visual.name="Shared plate";Rect(visual.transform,0,-24,88,34);visual.transform.SetAsFirstSibling();
                     button.targetGraphic=visual.GetComponent<Image>();
                     var icon=button.GetComponentsInChildren<Image>().First(im=>im.transform!=button.transform && im.transform!=visual.transform);
@@ -97,7 +99,7 @@ namespace SkyTree.Editor
                 }
                 Skin(root.transform.Find("Menu details"),"MainTabCommon",4);
                 Skin(root.transform.Find("Menu details/Close"),"MainTabCommon",8).raycastTarget=true;
-                PrefabUtility.SaveAsPrefabAsset(root,Folder+"LobbyView.prefab");
+                PrefabUtility.SaveAsPrefabAsset(root,LobbyPath);
             }
             finally { PrefabUtility.UnloadPrefabContents(root); }
             AssetDatabase.SaveAssets();

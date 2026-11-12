@@ -1,0 +1,191 @@
+{
+  "ea1b2aac-8051-4513-84b2-22169d9444e9": {
+    "prompt": [
+      6,
+      "ea1b2aac-8051-4513-84b2-22169d9444e9",
+      {
+        "10": {
+          "class_type": "UNETLoader",
+          "inputs": {
+            "unet_name": "krea2_turbo_int8_convrot.safetensors",
+            "weight_dtype": "default"
+          }
+        },
+        "11": {
+          "class_type": "CLIPLoader",
+          "inputs": {
+            "clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
+            "type": "krea2",
+            "device": "default"
+          }
+        },
+        "12": {
+          "class_type": "VAELoader",
+          "inputs": {
+            "vae_name": "qwen_image_vae.safetensors"
+          }
+        },
+        "6": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "text": "Edit the composition of this existing lavish SKY TREE MERCHANT SHIP background. Keep the same richly painted art quality, the same merchant vessel design, giant leafy tree, golden hull scrollwork, wooden barrels and trade crates, orange tiled cabins, colorful gold-edged leaf-emblem flags and large iron anchor. CHANGE THE SHIP'S DIRECTION AND POSITION to form a parallel side-by-side berth with a foreground player ship that is NOT drawn. Preserve the 9:16 portrait format and warm sunshine.\n\nCRITICAL ORIENTATION: the ship must face DOWN AND RIGHT toward the BOTTOM-RIGHT corner. Its stern is farther away at the UPPER-LEFT, its pointed bow is closer at the LOWER-RIGHT. The long central axis is a clear descending diagonal from upper-left to lower-right, about 30 degrees clockwise from horizontal. The bow is LOWER ON THE PAGE than the stern. Both long deck rails descend from LEFT to RIGHT. This is the same direction as an isometric foreground wooden ship pointing southeast. Not a horizontal left-to-right broadside, not a bow pointing up-right. Re-render the ship in this correct 3D viewing direction, not a tilted flat picture: tree trunk, flagpoles and hanging anchor still follow natural vertical gravity.\n\nVIEW AND PLACEMENT: steep high bird's-eye three-quarter camera, looking DOWN at about 55 degrees, seeing the tops of cargo barrels, crates and the broad wooden deck, and the near port side of the hull. Position this massive merchant ship entirely toward the UPPER-RIGHT of the canvas. It is so huge that most of the stern, tree canopy and far starboard side can be cropped by the TOP and RIGHT edges. Show a broad PARTIAL SECTION of its near-side hull and densely laden deck. The visible near rail should trace a straight diagonal from the left edge about one-fifth down the canvas toward the right edge just below the middle. The pointed bow points toward the LOWER-RIGHT and may run out of the RIGHT edge; the front must never point up or left. Keep the LOWER-LEFT and LOWER HALF as open blue air and soft distant clouds, a spacious empty parallel docking lane for a player ship to be overlaid. Do NOT draw that player ship. The merchant's near-side deck is along the UPPER-RIGHT boundary of this clear open lane. The two vessel positions would be parallel like neighboring lanes, never crossing nose-to-nose.\n\nRETAIN ALL RECOGNIZABLE DESIGN DETAILS: enormous mature tree with twisted brown trunk and glowing lime-green crown at the cropped aft end, broad amber timber cargo decks crammed with dozens of wooden barrels with dark hoops and wooden crates with diagonal braces and rope ties, teal and red small market awnings, tiny orange-red tiled merchant cabin roofs, deep blue side panels with ornate golden leaf scrolls, brass-rimmed portholes, thick warmly shaded hull planks. Many crimson, royal-blue and teal fluttering silk banners with gold borders and golden leaf emblems, no text. A very large iron anchor with gold fittings hangs from a thick chain from the visible near side of the hull into the air, clearly readable and gravity-aligned. Cargo remains on the deck and flags remain upright.\n\nThe image is ONLY this partial giant merchant ship and high-altitude cloud background, viewed from above. No ground, no cliff attached to the hull, no dock, no second ship, no people, no ocean, no horizontal water surface, no text, no interface. Preserve rich premium 2D fantasy mobile-game painterly finish, softly modeled forms, warm detailed wood, saturated beautiful colors and soft white clouds. Main correction: turn the merchant's heading to DOWN-RIGHT on a descending diagonal and place it beyond the upper-right side of the empty player docking lane.",
+            "clip": [
+              "11",
+              0
+            ]
+          }
+        },
+        "13": {
+          "class_type": "ConditioningZeroOut",
+          "inputs": {
+            "conditioning": [
+              "6",
+              0
+            ]
+          }
+        },
+        "3": {
+          "class_type": "KSampler",
+          "inputs": {
+            "model": [
+              "10",
+              0
+            ],
+            "positive": [
+              "6",
+              0
+            ],
+            "negative": [
+              "13",
+              0
+            ],
+            "latent_image": [
+              "21",
+              0
+            ],
+            "seed": 2026111204,
+            "steps": 8,
+            "cfg": 1.0,
+            "sampler_name": "euler",
+            "scheduler": "simple",
+            "denoise": 0.8
+          }
+        },
+        "8": {
+          "class_type": "VAEDecodeTiled",
+          "inputs": {
+            "samples": [
+              "3",
+              0
+            ],
+            "vae": [
+              "12",
+              0
+            ],
+            "tile_size": 512,
+            "overlap": 64,
+            "temporal_size": 64,
+            "temporal_overlap": 8
+          }
+        },
+        "29": {
+          "class_type": "SaveImage",
+          "inputs": {
+            "images": [
+              "8",
+              0
+            ],
+            "filename_prefix": "SkyTree/Lobby/SkyTreeMerchantParallel01"
+          }
+        },
+        "20": {
+          "inputs": {
+            "image": "SkyTreeReferences/LobbySkyTreeMerchant02.png"
+          },
+          "class_type": "LoadImage"
+        },
+        "21": {
+          "inputs": {
+            "tile_size": 512,
+            "pixels": [
+              "20",
+              0
+            ],
+            "overlap": 64,
+            "temporal_size": 64,
+            "vae": [
+              "12",
+              0
+            ],
+            "temporal_overlap": 8
+          },
+          "class_type": "VAEEncodeTiled"
+        }
+      },
+      {
+        "client_id": "codex-skytree-merchant-parallel01",
+        "create_time": 1794444978094
+      },
+      [
+        "29"
+      ]
+    ],
+    "outputs": {
+      "29": {
+        "images": [
+          {
+            "filename": "SkyTreeMerchantParallel01_00001_.png",
+            "subfolder": "SkyTree\\Lobby",
+            "type": "output",
+            "metadata": {
+              "kind": "image",
+              "width": 864,
+              "height": 1536
+            },
+            "id": "dc982ae4-9b77-4ea0-a50e-e8fe8ad5021e"
+          }
+        ]
+      }
+    },
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "ea1b2aac-8051-4513-84b2-22169d9444e9",
+            "timestamp": 1794444978095
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "10",
+              "11",
+              "12"
+            ],
+            "prompt_id": "ea1b2aac-8051-4513-84b2-22169d9444e9",
+            "timestamp": 1794444978106
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "ea1b2aac-8051-4513-84b2-22169d9444e9",
+            "timestamp": 1794445014311
+          }
+        ]
+      ]
+    },
+    "meta": {
+      "29": {
+        "node_id": "29",
+        "display_node": "29",
+        "parent_node": null,
+        "real_node_id": "29"
+      }
+    }
+  }
+}
